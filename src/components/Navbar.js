@@ -1,4 +1,8 @@
 import React, {Component} from 'react'
+import BlogMain from './BlogMain';
+import Hero from './Hero';
+import Services from './Services';
+import Subscribe from './Subscribe';
 export class Navbar extends Component {
 
 
@@ -26,15 +30,19 @@ export class Navbar extends Component {
   }
   render() {
     return (
-      <div className="bg-gray-100">
-            <div className="relative">
+      <div className="bg-gray-50">
+      
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+
+
+            <div className="relative border-green-100 border-b">
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 ">
+          <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10 ">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              <a href="/" className="text-2xl font-medium text-pink-600">
+              <a href="/" className="text-3xl font-bold text-green-600">
                 <span className="sr-only">Logo</span>
-                .edusolve
+                lolgoal
               </a>
             </div>
             <div className="-mr-2 -my-2 lg:hidden">
@@ -48,30 +56,30 @@ export class Navbar extends Component {
             </div>
             <nav className="hidden lg:flex space-x-10">
               <div className="relative">
-                <button type="button" className="group  text-gray-900 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none " onClick={()=>this.setListOpen1()}>
-                  <span>Products</span>
+                <button type="button" className="group  text-gray-800 inline-flex items-center text-base font-bold hover:text-gray-900 focus:outline-none " onClick={()=>this.setListOpen1()}>
+                  <span>Programming</span>
             <svg className="ml-2 h-5 w-5 text-gray-900 group-hover:text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
                 </button>
               </div>
               <div className="relative">
-                <button type="button" className="group  text-gray-900 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none " onClick={()=>this.setListOpen1()}>
+                <button type="button" className="group  text-gray-800 inline-flex items-center text-base font-bold hover:text-gray-900 focus:outline-none " onClick={()=>this.setListOpen1()}>
                   <span>
-                    Enterprise
+                   Projects
                   </span>
             <svg className="ml-2 h-5 w-5 text-gray-900 group-hover:text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
                 </button>
               </div>
-              <a href="/pricing" className="text-base font-medium text-gray-900 hover:text-gray-900">
-                Pricing
+              <a href="/pricing" className="text-base font-bold text-gray-900 hover:text-gray-900">
+            Services
               </a>
               <div className="relative">
 
-                <button type="button" className="group text-gray-900 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none" onClick={()=>this.setListOpen2()}>
-                  <span>More</span>
+                <button type="button" className="group text-gray-800 inline-flex items-center text-base font-bold hover:text-gray-900 focus:outline-none" onClick={()=>this.setListOpen2()}>
+                  <span>Events</span>
               
                   <svg className="ml-2 h-5 w-5 text-gray-900 group-hover:text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -81,14 +89,7 @@ export class Navbar extends Component {
             
               </div>
             </nav>
-            <div className="hidden lg:flex items-center justify-end md:flex-1 lg:w-0">
-            <a href="signin" className="space-nowrap text-base  text-gray-900 hover:text-gray-200 px-8 py-2 border-l-2 border-transparent rounded-full shadow-sm text-lg">
-                Sign in
-          </a>
-              <a href="signup" className="ml-4 space-nowrap inline-flex items-center justify-center px-8 py-2 border-l-2 border-transparent rounded-full shadow-sm text-lg text-gray-900 bg-blue-700 hover:bg-blue-800">
-                Sign up
-          </a>
-            </div>
+       
           </div>
         </div>
  
@@ -156,7 +157,7 @@ export class Navbar extends Component {
       
       <section className={"text-indigo-200 body-font py-12"+( this.state.openList1 ? "" : " hidden")} onMouseLeave={()=>this.setListOpen1()}>
         <div className="container flex flex-wrap px-5 mx-auto items-center jobcard rounded-lg">
-          <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-900">
+          <div className="md:w-1/2 md:pr-12 md:py-8 md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-900">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-">Pitchfork Kickstarter Taxidermy</h1>
             <p className="leading-relaxed text-base">Locavore cardigan small batch roof party blue bottle blog meggings sartorial jean shorts kickstarter migas sriracha church-key synth succulents. Actually taiyaki neutra, distillery gastropub pok pok ugh.</p>
             <a className="text-indigo-500 inline-flex items-center mt-4" href="/">Learn More
@@ -220,7 +221,7 @@ export class Navbar extends Component {
       <div className="container px-5 py-2 pb-10  mx-auto">
    
         <div className="flex flex-wrap jobcard rounded-lg">
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-900 border-opacity-60">
+          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6  border-gray-900 border-opacity-60">
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
             <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
             <a className="text-indigo-500 inline-flex items-center" href="/">Learn More
@@ -229,7 +230,7 @@ export class Navbar extends Component {
               </svg>
             </a>
           </div>
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-900 border-opacity-60">
+          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6  border-gray-900 border-opacity-60">
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">The Catalyzer</h2>
             <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
             <a className="text-indigo-500 inline-flex items-center" href="/">Learn More
@@ -238,7 +239,7 @@ export class Navbar extends Component {
               </svg>
             </a>
           </div>
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-900 border-opacity-60">
+          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6  border-gray-900 border-opacity-60">
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Neptune</h2>
             <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
             <a href="/" className="text-indigo-500 inline-flex items-center">Learn More
@@ -247,7 +248,7 @@ export class Navbar extends Component {
               </svg>
             </a>
           </div>
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-900 border-opacity-60">
+          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6  border-gray-900 border-opacity-60">
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Melanchole</h2>
             <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
             <a  href="/" className="text-indigo-500 inline-flex items-center">Learn More
@@ -260,8 +261,10 @@ export class Navbar extends Component {
       </div>
       </section>
      
-    
-    
+    <Hero/>
+    <Services/>
+    <BlogMain/>
+    <Subscribe/>
       </div>
     )
   }

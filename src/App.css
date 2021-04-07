@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400&display=swap');
 body{
-  font-family: 'Imprima', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
 .App-logo {
