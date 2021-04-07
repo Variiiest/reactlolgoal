@@ -32,7 +32,7 @@ export class Navbar extends Component {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              <a to="/" className="text-2xl font-medium text-pink-600">
+              <a href="/" className="text-2xl font-medium text-pink-600">
                 <span className="sr-only">Logo</span>
                 .edusolve
               </a>
@@ -65,7 +65,7 @@ export class Navbar extends Component {
                   </svg>
                 </button>
               </div>
-              <a to="/pricing" className="text-base font-medium text-gray-900 hover:text-gray-900">
+              <a href="/pricing" className="text-base font-medium text-gray-900 hover:text-gray-900">
                 Pricing
               </a>
               <div className="relative">
@@ -82,10 +82,10 @@ export class Navbar extends Component {
               </div>
             </nav>
             <div className="hidden lg:flex items-center justify-end md:flex-1 lg:w-0">
-            <a to="signin" className="space-nowrap text-base  text-gray-900 hover:text-gray-200 px-8 py-2 border-l-2 border-transparent rounded-full shadow-sm text-lg">
+            <a href="signin" className="space-nowrap text-base  text-gray-900 hover:text-gray-200 px-8 py-2 border-l-2 border-transparent rounded-full shadow-sm text-lg">
                 Sign in
           </a>
-              <a to="signup" className="ml-4 space-nowrap inline-flex items-center justify-center px-8 py-2 border-l-2 border-transparent rounded-full shadow-sm text-lg text-gray-900 bg-blue-700 hover:bg-blue-800">
+              <a href="signup" className="ml-4 space-nowrap inline-flex items-center justify-center px-8 py-2 border-l-2 border-transparent rounded-full shadow-sm text-lg text-gray-900 bg-blue-700 hover:bg-blue-800">
                 Sign up
           </a>
             </div>
@@ -172,7 +172,7 @@ export class Navbar extends Component {
               <div className="p-6   ">
                 
                 <h2 className="text-3xl text-pink-500 tracking-wider font-semibold title-font mb-2 acadfont">
-                  <a to="/academy"><span className="text-pink-300"> A</span>
+                  <a href="/academy"><span className="text-pink-300"> A</span>
                 
                 cademy </a> </h2>
               </div>
@@ -181,7 +181,7 @@ export class Navbar extends Component {
               <div className="p-6   ">
             
                 <h2 className="text-3xl text-yellow-500 font-semibold title-font mb-2 jobfont">
-                 <a to="jobsearch">findjob</a> 
+                 <a href="jobsearch">findjob</a> 
                   </h2>
               </div>
             </div>
@@ -189,7 +189,7 @@ export class Navbar extends Component {
               <div className="p-6   ">
                
                 <h2 className="text-3xl text-indigo-500 font-medium title-font mb-2">
-                <a to="allforums">  forumQ</a>
+                <a href="allforums">  forumQ</a>
                
                 </h2>
             
