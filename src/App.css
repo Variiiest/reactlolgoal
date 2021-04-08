@@ -3,37 +3,37 @@ body{
   font-family: 'Noto Sans TC', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bghero{
+  background-image: url('./bg1.svg');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg2{
+  background-image: url('./bg2.svg');
+  background-repeat: none;
+  background-clip: content-box;
+}
+.bg3{
+  background-image: url('./bg3.svg');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.bg4{
+  background-image: url('./bg4.svg');
 }
 
-.App-link {
-  color: #61dafb;
+.firstcolr{
+  background-color: #221046;
+  
+}
+.firstcolor{
+  color: #221046;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.secondcolr{
+  background-color: #E92F2F;
+  
+ 
+}
+.secondcolor{
+  color:#E92F2F;
 }
