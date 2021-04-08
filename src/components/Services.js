@@ -6,7 +6,7 @@ export class Services extends Component {
            
                 <>
 {/* This example requires Tailwind CSS v2.0+ */}
-<div className="py-12 bg-gray-50">
+<div className="py-12">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="lg:text-center">
       <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Transactions</h2>

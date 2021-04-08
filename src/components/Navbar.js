@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import BlogMain from './BlogMain';
+import Footer from './Footer';
 import Hero from './Hero';
 import Services from './Services';
 import Subscribe from './Subscribe';
@@ -30,19 +31,19 @@ export class Navbar extends Component {
   }
   render() {
     return (
-      <div className="bg-gray-50">
+      <div className="">
       
 
 
 
-            <div className="relative border-green-100 border-b">
+            <div className="relative">
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 ">
           <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10 ">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              <a href="/" className="text-3xl font-bold text-green-600">
+              <a href="/" className="text-3xl font-bold text-indigo-600">
                 <span className="sr-only">Logo</span>
-                lolgoal
+                Lolgoal
               </a>
             </div>
             <div className="-mr-2 -my-2 lg:hidden">
@@ -94,14 +95,14 @@ export class Navbar extends Component {
         </div>
  
         <div className={"absolute top-0 inset-x-0 p-2 transition transform origin-top-right"+ ( this.state.openList3 ? "" : " hidden")}>
-          <div className="rounded-lg ring-1 ring-gray-200 ring-opacity-5 bg-gray-200 divide-y-2 divide-gray-50">
+          <div className="rounded-lg ring-1 ring-gray-200 ring-opacity-5 bg-gray-200">
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
                 <div>
-                  <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow" />
+
                 </div>
                 <div className="-mr-2">
-                  <button type="button" className="bg-gray-200 rounded-md p-2 inline-flex items-center justify-center text-gray-900 hover:text-gray-900 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" onClick={()=>this.setListOpen3()}>
+                  <button type="button" className="bg-gray-100 rounded-md p-2 inline-flex items-center justify-center text-gray-900 hover:text-gray-900 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" onClick={()=>this.setListOpen3()}>
                     <span className="sr-only">Close menu</span>
                     
                     <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -115,47 +116,25 @@ export class Navbar extends Component {
             <div className="py-6 px-5 space-y-6">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                 <a href="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Pricing
+                  Services
                 </a>
                 <a href="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Docs
+                  Projects
                 </a>
                 <a href="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Enterprise
-                </a>
-                <a href="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Blog
-                </a>
-                <a href="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Help Center
-                </a>
-                <a href="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Guides
-                </a>
-                <a href="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Security
+                  Programming
                 </a>
                 <a href="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Events
                 </a>
-              </div>
-              <div>
-                <a href="/" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-gray-900 bg-blue-600 hover:bg-blue-700">
-                  Sign up
-                </a>
-                <p className="mt-6 text-center text-base font-medium text-gray-900">
-                  Existing customer?
-                  <a href="/" className="text-indigo-600 hover:text-indigo-500">
-                    Sign in
-                  </a>
-                </p>
+               
               </div>
             </div>
           </div>
         </div>
       </div>
       
-      <section className={"text-indigo-200 body-font py-12"+( this.state.openList1 ? "" : " hidden")} onMouseLeave={()=>this.setListOpen1()}>
+      <section className={"text-gray-800 body-font py-12"+( this.state.openList1 ? "" : " hidden")} onMouseLeave={()=>this.setListOpen1()}>
         <div className="container flex flex-wrap px-5 mx-auto items-center jobcard rounded-lg">
           <div className="md:w-1/2 md:pr-12 md:py-8 md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-900">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-">Pitchfork Kickstarter Taxidermy</h1>
@@ -217,7 +196,7 @@ export class Navbar extends Component {
       </section>
 
 
-      <section className={"text-indigo-200 body-font"+( this.state.openList2 ? "" : " hidden")} onMouseLeave={()=>this.setListOpen2()}>
+      <section className={"text-gray-800 body-font"+( this.state.openList2 ? "" : " hidden")} onMouseLeave={()=>this.setListOpen2()}>
       <div className="container px-5 py-2 pb-10  mx-auto">
    
         <div className="flex flex-wrap jobcard rounded-lg">
@@ -265,6 +244,7 @@ export class Navbar extends Component {
     <Services/>
     <BlogMain/>
     <Subscribe/>
+    <Footer/>
       </div>
     )
   }
