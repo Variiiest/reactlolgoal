@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import BlogMain from './BlogMain';
-import Footer from './Footer';
 import Hero from './Hero';
 import Services from './Services';
 import Subscribe from './Subscribe';
@@ -230,7 +229,7 @@ export class Navbar extends Component {
     <Services/>
     <BlogMain/>
     <Subscribe/>
-    <Footer/>
+ 
       </div>
     )
   }
