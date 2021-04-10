@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import BlogHeader from '../components/BlogHeader'
-import BlogSecond from '../components/BlogSecond'
+import BlogThird from '../components/BlogThird'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
 export class BlogMainpage extends Component {
@@ -9,10 +10,8 @@ export class BlogMainpage extends Component {
             <div>
                 <Navbar/>
                  <BlogHeader/>
-           
-                <BlogSecond/>
-                <BlogSecond/>
-                <BlogSecond/>
+           <BlogThird/>
+                <Footer/>
             </div>
         )
     }

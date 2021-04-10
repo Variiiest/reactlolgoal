@@ -4,8 +4,8 @@ export class Footer extends Component {
     render() {
         return (
             <div>
-                  <footer className="bg-green-200">
-        <div className="container px-5 py-24 mx-auto">
+                  <footer className="bg-green-200 mt-4">
+        <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap md:text-left text-center order-first">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
