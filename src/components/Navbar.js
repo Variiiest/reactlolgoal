@@ -1,8 +1,4 @@
 import React, {Component} from 'react'
-import BlogMain from './BlogMain';
-import Hero from './Hero';
-import Services from './Services';
-import Subscribe from './Subscribe';
 export class Navbar extends Component {
 
 
@@ -57,7 +53,7 @@ export class Navbar extends Component {
             <nav className="hidden lg:flex space-x-10">
               <div className="relative">
                 <button type="button" className="group  text-gray-800 inline-flex items-center text-base font-bold hover:text-gray-900 focus:outline-none " >
-                  <span>Services</span>
+                  <span>Courses</span>
                 </button>
               </div>
               <div className="relative">
@@ -113,7 +109,7 @@ export class Navbar extends Component {
             <div className="py-6 px-5 space-y-6">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                 <a href="/" className="text-base font-medium text-gray-200 hover:text-gray-100">
-                  Services
+                  Courses
                 </a>
                 <a href="/" className="text-base font-medium text-gray-200 hover:text-gray-100">
                   Projects
@@ -225,10 +221,7 @@ export class Navbar extends Component {
 
 
      
-    <Hero/>
-    <Services/>
-    <BlogMain/>
-    <Subscribe/>
+  
  
       </div>
     )

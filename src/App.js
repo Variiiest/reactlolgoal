@@ -1,9 +1,9 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import BlogMainpage from './pages/BlogMainpage';
 function App() {
   return (
     <div className="App">
-<Navbar/>
+<BlogMainpage/>
     </div>
   );
 }
