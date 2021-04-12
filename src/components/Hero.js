@@ -24,8 +24,8 @@ export class Hero extends Component {
                 Learn the code for free. Our beginner-friendly tracks will help you to be elevete your skills..
           </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  <a href="/" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white firstcolr hover:bg-indigo-900 md:py-4 md:text-lg md:px-10">
+                <div className="shadow-lg rounded-md">
+                  <a href="/" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium  text-white secondcolr hover:bg-green-400 md:py-4 md:text-lg md:px-10 rounded-md">
                     Get started
               </a>
                 </div>
