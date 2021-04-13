@@ -54,9 +54,10 @@ export class Navbar extends Component {
               </div>
               <nav className="hidden lg:flex space-x-10">
                 <div className="relative">
+                  <Link to="/courses">
                   <button type="button" className="group  text-gray-800 inline-flex items-center text-base font-bold hover:text-gray-900 focus:outline-none " >
                     <span>Courses</span>
-                  </button>
+                  </button></Link>
                 </div>
                 <div className="relative">
                   <button type="button" className="group  text-gray-800 inline-flex items-center text-base font-bold hover:text-gray-900 focus:outline-none " onClick={() => this.setListOpen1()}>
@@ -81,7 +82,7 @@ export class Navbar extends Component {
 
 
                 </div>
-                <Link to="/pricing" className="text-base font-bold text-gray-900 hover:text-gray-900">
+                <Link to="/story" className="text-base font-bold text-gray-900 hover:text-gray-900">
                   Stories
             </Link>
               </nav>
@@ -176,7 +177,7 @@ export class Navbar extends Component {
         </section>
 
 
-        <section className={"text-gray-300 body-font border-b-2 border-gray-200 bg-gray-900 shadow-lg" + (this.state.openList2 ? "" : " hidden")} onMouseLeave={() => this.setListOpen2()}>
+        <section className={"text-gray-300 body-font firstcolr shadow-lg" + (this.state.openList2 ? "" : " hidden")} onMouseLeave={() => this.setListOpen2()}>
           <div className="container px-5 py-2 pb-10  mx-auto">
 
             <div className="flex flex-wrap jobcard rounded-lg">

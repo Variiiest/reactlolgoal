@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import {Link} from 'react-router-dom'
 export class BlogHeader extends Component {
     render() {
         return (
@@ -19,7 +19,7 @@ export class BlogHeader extends Component {
             <h2 className="text-2xl font-bold text-gray-800 dark:text-white md:text-3xl">Build Your New <span className="text-indigo-600 dark:text-indigo-400">Idea</span></h2>
             <p className="mt-4 text-gray-600 dark:text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
             <div className="mt-8">
-              <a href="/" className="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">Start Now</a>
+              <Link to="/blogdet" className="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">Start Now</Link>
             </div>
           </div>
 
@@ -31,23 +31,23 @@ export class BlogHeader extends Component {
       <div className="md:flex-grow bg-white px-2 py-2 shadow-lg rounded">
         <h2 className="text-2xl font-medium text-gray-900 title-font">Bitters hashtag waistcoat fashion axe chia unicorn</h2>
      
-        <a href="/" className="secondcolor inline-flex items-center mt-2">Learn More
+        <Link to="/blogdet" className="secondcolor inline-flex items-center mt-2">Learn More
           <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
             <path d="M5 12h14" />
             <path d="M12 5l7 7-7 7" />
           </svg>
-        </a>
+        </Link>
       </div>
 
       <div className="md:flex-grow mt-4 bg-white px-2 py-2 shadow-lg rounded">
         <h2 className="text-2xl font-medium text-gray-900 title-font">Bitters hashtag waistcoat fashion axe chia unicorn</h2>
      
-        <a href="/" className="secondcolor inline-flex items-center mt-2">Learn More
+        <Link to="/blogdet" className="secondcolor inline-flex items-center mt-2">Learn More
           <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
             <path d="M5 12h14" />
             <path d="M12 5l7 7-7 7" />
           </svg>
-        </a>
+        </Link>
       </div>
       
       </div>
