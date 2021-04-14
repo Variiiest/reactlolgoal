@@ -17,6 +17,7 @@ import Frontend from './pages/Blog/Frontend';
 import Backend from './pages/Blog/Backend';
 import DataStructure from './pages/Blog/DataStructure';
 import FrontendAll from './pages/Projects/FrontendAll';
+import TailwindComponents from './uicomp1/TailwindComponents';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
 <Route path='/backendsystems' component={BackendProjects}></Route>
 <Route path='/backend' component={Backend}></Route>
 <Route path='/datastructure' component={DataStructure}></Route>
+<Route path='/components/tailwind' component={TailwindComponents}></Route>
 <Footer/>
 
            </div>

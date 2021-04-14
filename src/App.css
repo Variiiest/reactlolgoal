@@ -108,3 +108,9 @@ body{
   50%{background-position:100% 23%}
   100%{background-position:0% 78%}
 }
+
+.theme-button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
