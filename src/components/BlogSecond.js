@@ -4,7 +4,7 @@ export class BlogSecond extends Component {
     render() {
         return (
             <div>
-                 <section className="text-gray-600 body-font bg-gray-100">
+                 <section className="text-gray-600 body-font bg-gray-800">
         <div className="container py-10 mx-auto">
           <div className="flex flex-col">
          

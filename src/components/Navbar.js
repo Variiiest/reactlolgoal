@@ -33,18 +33,18 @@ export class Navbar extends Component {
   }
   render() {
     return (
-      <div className="bg-white">
+      <div className="bg-black sm:border-b border-green-200">
         <div className="relative">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10 ">
               <div className="flex justify-start lg:w-0 lg:flex-1">
-                <Link to="/" className="text-3xl font-bold  secondcolor">
+                <Link to="/" className="text-3xl font-bold text-pink-800">
                   <span className="sr-only">Logo</span>
-                  <span className="firstcolor">lol</span>goal
+                  <span className="text-green-700">LOL</span>GOAL
               </Link>
               </div>
               <div className="-mr-2 -my-2 lg:hidden">
-                <button className="p-2 inline-flex items-center justify-end text-gray-900 hover:text-gray-900  focus:outline-none " onClick={() => this.setListOpen3()}>
+                <button className="p-2 inline-flex items-center justify-end text-gray-100 hover:text-gray-100  focus:outline-none " onClick={() => this.setListOpen3()}>
                   <span className="sr-only">Open menu</span>
 
                   <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -55,16 +55,16 @@ export class Navbar extends Component {
               <nav className="hidden lg:flex space-x-10">
                 <div className="relative">
                   <Link to="/courses">
-                  <button type="button" className="group  text-gray-800 inline-flex items-center text-base font-bold hover:text-gray-900 focus:outline-none " >
+                  <button type="button" className="group  text-gray-100 inline-flex items-center text-base font-bold hover:text-gray-100 focus:outline-none " >
                     <span>Courses</span>
                   </button></Link>
                 </div>
                 <div className="relative">
-                  <button type="button" className="group  text-gray-800 inline-flex items-center text-base font-bold hover:text-gray-900 focus:outline-none " onClick={() => this.setListOpen1()}>
+                  <button type="button" className="group  text-gray-100 inline-flex items-center text-base font-bold hover:text-gray-100 focus:outline-none " onClick={() => this.setListOpen1()}>
                     <span>
                       Projects
                   </span>
-                    <svg className="ml-2 h-5 w-5 text-gray-900 group-hover:text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <svg className="ml-2 h-5 w-5 text-gray-100 group-hover:text-gray-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                     </svg>
                   </button>
@@ -72,17 +72,17 @@ export class Navbar extends Component {
 
                 <div className="relative">
 
-                  <button type="button" className="group text-gray-800 inline-flex items-center text-base font-bold hover:text-gray-900 focus:outline-none" onClick={() => this.setListOpen2()}>
+                  <button type="button" className="group text-gray-100 inline-flex items-center text-base font-bold hover:text-gray-100 focus:outline-none" onClick={() => this.setListOpen2()}>
                     <span>Resources</span>
 
-                    <svg className="ml-2 h-5 w-5 text-gray-900 group-hover:text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <svg className="ml-2 h-5 w-5 text-gray-100 group-hover:text-gray-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                     </svg>
                   </button>
 
 
                 </div>
-                <Link to="/story" className="text-base font-bold text-gray-900 hover:text-gray-900">
+                <Link to="/story" className="text-base font-bold text-gray-100 hover:text-gray-100">
                   Stories
             </Link>
               </nav>
@@ -148,14 +148,14 @@ export class Navbar extends Component {
                   <div className="p-6   ">
 
                     <h2 className="text-3xl text-green-200 tracking-wider font-semibold title-font mb-2 acadfont">
-                      <Link to="/">Designs</Link> </h2>
+                      <Link to="/designsystems">Designs</Link> </h2>
                   </div>
                 </div>
                 <div className="xl:w-1/3 md:w-1/2 p-2 text-center">
                   <div className="p-6 ">
 
                     <h2 className="text-3xl text-yellow-800 font-semibold title-font mb-2 jobfont">
-                      <Link to="jobsearch">Frontend</Link>
+                      <Link to="/frontendsystems">Frontend</Link>
                     </h2>
                   </div>
                 </div>
@@ -163,8 +163,8 @@ export class Navbar extends Component {
                   <div className="p-6">
 
                     <h2 className="text-3xl secondcolor font-medium title-font mb-2">
-                      <Link to="allforums">Full Stack</Link>
-
+                      <Link to="/backendsystems">Full Stack</Link>
+  
                     </h2>
 
                   </div>

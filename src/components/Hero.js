@@ -6,7 +6,7 @@ export class Hero extends Component {
   render() {
     return (
       <div>
-        <section className="text-gray-100 body-font bg-gray-900 bg3">
+        <section className="text-gray-100 body-font bg-black bg3">
           <div className="container flex sm:px-12 px-5 sm:py-24 py-12 md:flex-row flex-col items-center">
 
             <div className="sm:text-center lg:text-left">
@@ -25,7 +25,7 @@ export class Hero extends Component {
           </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="shadow-lg rounded-md">
-                  <a href="/" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium  text-white secondcolr hover:bg-green-400 md:py-4 md:text-lg md:px-10 rounded-md">
+                  <a href="/" className="w-full flex items-center justify-center px-8 py-3 text-base font-medium  text-white bg-gray-800 hover:bg-gray-700 md:py-4 md:text-lg md:px-10 rounded-md">
                     Get started
               </a>
                 </div>

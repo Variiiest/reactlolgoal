@@ -5,6 +5,7 @@ export class Footer extends Component {
         return (
             <div>
                   <footer className="firstcolr mt-4">
+                    
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap md:text-left text-center order-first">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">

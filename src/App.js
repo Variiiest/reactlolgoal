@@ -7,10 +7,15 @@ import {
 } from 'react-router-dom';
 import Footer from './components/Footer';
 import mainPage from './pages/mainPage';
-import BlogMainpage from './pages/Blog/BlogMainpage';
 import BlogPage from './pages/Blog/BlogPage';
 import StoryMain from './pages/Stories/StoryMain';
 import CoursePage from './pages/Course/CoursePage';
+import DesignProjects from './pages/Projects/DesignProjects';
+import FrontendProjects from './pages/Projects/FrontendProjects';
+import BackendProjects from './pages/Projects/BackendProjects';
+import Frontend from './pages/Blog/Frontend';
+import Backend from './pages/Blog/Backend';
+import DataStructure from './pages/Blog/DataStructure';
 
 
 function App() {
@@ -19,10 +24,15 @@ function App() {
       <Navbar/>
            <div className="App">
            <Route exact path='/' component={mainPage}></Route>
-<Route path='/frontend' component={BlogMainpage}></Route>
+<Route path='/frontend' component={Frontend}></Route>
 <Route path='/blogdet' component={BlogPage}></Route>
 <Route path='/story' component={StoryMain}></Route>
 <Route path='/courses' component={CoursePage}></Route>
+<Route path='/designsystems' component={DesignProjects}></Route>
+<Route path='/frontendsystems' component={FrontendProjects}></Route>
+<Route path='/backendsystems' component={BackendProjects}></Route>
+<Route path='/backend' component={Backend}></Route>
+<Route path='/datastructure' component={DataStructure}></Route>
 <Footer/>
 
            </div>

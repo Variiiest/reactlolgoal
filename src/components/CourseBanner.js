@@ -7,7 +7,7 @@ export class CourseBanner extends Component {
                       <section className="text-gray-200 body-font px-2">
         <div className="container flex flex-col items-center px-5 py-8 mt-8 mx-auto md:flex-row lg:px-8 bg-gradient-to-r from-gray-900 to-black rounded-md">
           <div className="flex flex-col w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:items-start md:mb-0 ">
-            <h2 className="mb-1 text-xs font-medium tracking-widest text-blue-500 px-4 py-2 bg-gradient-to-r from-gray-600 to-gray-700 shadow-lg rounded-full">Your tagline</h2>
+            <h2 className="mb-1 text-xs font-medium tracking-widest text-blue-500 px-4 py-2 bg-gradient-to-r from-gray-800 to-gray-800 shadow-lg rounded-full">Your tagline</h2>
             <h1 className="mb-8 text-2xl font-bold tracking-tighter text-left text-white lg:text-5xl title-font">
               Medium length display headline to convert.
             </h1>
