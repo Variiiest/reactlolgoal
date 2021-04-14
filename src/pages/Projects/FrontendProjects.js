@@ -5,9 +5,19 @@ export class FrontendProjects extends Component {
     render() {
         return (
             <div>
-                 <FrontendBanner industry="Automative" isRed='true'/>
-                 <FrontendBanner/>
-                 <FrontendBanner/>
+                <FrontendBanner industry="All Purpose" link='/frontendsys/allpurpose'/>
+                 <FrontendBanner industry="Automative"/>
+                 <FrontendBanner industry="Finance"/>
+                 <FrontendBanner industry="Education"/>
+                 <FrontendBanner industry="Food and Beverages"/>
+                 <FrontendBanner industry="HealthCare"/>
+                 <FrontendBanner industry="Technology"/>
+                 <FrontendBanner industry="Travelling"/>
+                 <FrontendBanner industry="Goverment"/>
+                 <FrontendBanner industry="Entertainment"/>
+                 <FrontendBanner industry="Real State"/>
+
+
             </div>
         )
     }

@@ -16,6 +16,7 @@ import BackendProjects from './pages/Projects/BackendProjects';
 import Frontend from './pages/Blog/Frontend';
 import Backend from './pages/Blog/Backend';
 import DataStructure from './pages/Blog/DataStructure';
+import FrontendAll from './pages/Projects/FrontendAll';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
 <Route path='/courses' component={CoursePage}></Route>
 <Route path='/designsystems' component={DesignProjects}></Route>
 <Route path='/frontendsystems' component={FrontendProjects}></Route>
+<Route path='/frontendsys/allpurpose' component={FrontendAll}></Route>
 <Route path='/backendsystems' component={BackendProjects}></Route>
 <Route path='/backend' component={Backend}></Route>
 <Route path='/datastructure' component={DataStructure}></Route>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Card2 extends Component {
+export class Card extends Component {
     render() {
         return (
             <>
@@ -28,4 +28,4 @@ export class Card2 extends Component {
     }
 }
 
-export default Card2
+export default Card

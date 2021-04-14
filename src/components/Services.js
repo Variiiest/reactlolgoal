@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import CardTwo from './cards/CardTwo'
 
 export class Services extends Component {
     render() {
         return (
            
                 <>
+                <CardTwo/>
 {/* This example requires Tailwind CSS v2.0+ */}
 <div className="py-12 bg-gradient-to-r from-pink-800 via-gray-900 to-gray-900">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
