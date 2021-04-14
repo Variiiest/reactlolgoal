@@ -90,15 +90,16 @@ export class Navbar extends Component {
             </div>
           </div>
 
-          <div className={"absolute top-0 inset-x-0 p-2 transition transform origin-top-right" + (this.state.openList3 ? "" : " hidden")}>
-            <div className="rounded-lg ring-1 ring-gray-200 ring-opacity-5 firstcolr">
-              <div className="pt-5 pb-6 px-5">
-                <div className="flex items-center justify-between">
-                  <div>
+          <div className={"absolute top-0 inset-x-0 transition transform origin-top-right" + (this.state.openList3 ? "" : " hidden")}>
+            <div className="ring-1 ring-gray-200 ring-opacity-5 bg-black">
+              <div className="pt-5 pb-6 p-3">
+                <div className="flex items-center justify-between ">
+                 <div>
+                   LolGoal
+                 </div>
 
-                  </div>
                   <div className="-mr-2">
-                    <button type="button" className="secondcolr rounded-md p-2 inline-flex items-center justify-center text-gray-100 hover:text-gray-200 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" onClick={() => this.setListOpen3()}>
+                    <button type="button" className="secondcolr rounded-full p-2 inline-flex items-center justify-center text-gray-100 hover:text-gray-200 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" onClick={() => this.setListOpen3()}>
                       <span className="sr-only">Close menu</span>
 
                       <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -109,19 +110,32 @@ export class Navbar extends Component {
                 </div>
 
               </div>
+       
+     
               <div className="py-6 px-5 space-y-6">
+
+
                 <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                  <Link to="/" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                  <Link to="/course" className="text-base font-medium text-gray-200 hover:text-gray-100">
                     Courses
                 </Link>
-                  <Link to="/" className="text-base font-medium text-gray-200 hover:text-gray-100">
-                    Projects
+                  <Link to="/designsystems" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                    Designs
                 </Link>
-                  <Link to="/" className="text-base font-medium text-gray-200 hover:text-gray-100">
-                    Resources
+                  <Link to="/frontend" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                    Frontend Resources
                 </Link>
-                  <Link to="/" className="text-base font-medium text-gray-200 hover:text-gray-100">
-                    Events
+                  <Link to="/backend" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                    Backend Resources
+                </Link>
+                <Link to="/story" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                    Stories
+                </Link>
+                  <Link to="/frontendsystems" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                    Frontend Projects
+                </Link>
+                  <Link to="/backendsystems" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                    Backend Projects
                 </Link>
 
                 </div>

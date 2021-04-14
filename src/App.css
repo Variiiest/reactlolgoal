@@ -44,3 +44,67 @@ body{
   height: 0px;
   background: transparent; /* make scrollbar transparent */
 }
+
+
+
+.gradient1{
+  background-color: #212224;
+  background-image: linear-gradient(315deg, #212224 0%, #121212 54%);
+}
+
+
+.element {
+  background: 
+    radial-gradient(
+      circle at top left,
+      rgba(0, 3, 14, 0.5), 
+      transparent 800px
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(75, 15, 214, 0.5), 
+      transparent 800px
+    ),
+    radial-gradient(
+      at bottom left,
+      rgba(255, 0, 255, 0.5), 
+      transparent 400px
+    ),
+    radial-gradient(
+      at bottom right,
+      rgba(255, 100, 100, 0.5), 
+      transparent 400px
+    );
+}
+
+
+.gradient2{
+  background: linear-gradient(227deg, #000000, #1d2224, #121312);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 5s ease infinite;
+  -moz-animation: AnimationName 5s ease infinite;
+  -o-animation: AnimationName 5s ease infinite;
+  animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 78%}
+  50%{background-position:100% 23%}
+  100%{background-position:0% 78%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 78%}
+  50%{background-position:100% 23%}
+  100%{background-position:0% 78%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:0% 78%}
+  50%{background-position:100% 23%}
+  100%{background-position:0% 78%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 78%}
+  50%{background-position:100% 23%}
+  100%{background-position:0% 78%}
+}

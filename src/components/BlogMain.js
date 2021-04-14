@@ -4,7 +4,7 @@ export class BlogMain extends Component {
     render() {
         return (
             <div>
-  <section className="text-gray-300 bg-gray-800 body-font">
+  <section className="text-gray-300 bg-black body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col w-full text-center lg:mb-20">
             <h1 className="mb-4 text-4xl font-bold leading-none text-white lg:text-5xl">
@@ -20,7 +20,7 @@ export class BlogMain extends Component {
           </div>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
-              <div className="h-full bg-gradient-to-tr from-gray-700 to-gray-900 items-left rounded-2xl shadow-lg overflow-hidden">
+              <div className="h-full bg-gradient-to-r from-gray-900 to-black items-left rounded-2xl shadow-lg overflow-hidden">
                 <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog" />
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
@@ -49,7 +49,7 @@ export class BlogMain extends Component {
               </div>
             </div>
             <div className="p-4 md:w-1/3">
-              <div className="h-full bg-gradient-to-tr from-gray-700 to-gray-900 items-left rounded-2xl shadow-lg overflow-hidden">
+              <div className="h-full bg-gradient-to-r from-gray-900 to-black items-left rounded-2xl shadow-lg overflow-hidden">
                 <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog" />
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
@@ -78,7 +78,7 @@ export class BlogMain extends Component {
               </div>
             </div>
             <div className="p-4 md:w-1/3">
-              <div className="h-full bg-gradient-to-tr from-gray-700 to-gray-900 items-left rounded-2xl shadow-lg overflow-hidden">
+              <div className="h-full bg-gradient-to-r from-gray-900 to-black items-left rounded-2xl shadow-lg overflow-hidden">
                 <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog" />
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
