@@ -5,7 +5,7 @@ export class FrontendProjects extends Component {
     render() {
         return (
             <div>
-                 <FrontendBanner/>
+                 <FrontendBanner industry="Automative" isRed='true'/>
                  <FrontendBanner/>
                  <FrontendBanner/>
             </div>

@@ -2,10 +2,27 @@ import React, { Component } from 'react'
 
 export class FrontendBanner extends Component {
     render() {
+        let classone = 'container flex flex-col px-5 py-8 mt-8 mx-auto md:flex-row lg:px-8  rounded-md';
+        let classtwo = 'w-12 h-12 inline-flex items-center justify-center mb-4 flex-shrink-0';
+        let classthree = 'w-12 h-12 inline-flex items-center justify-center mb-4 flex-shrink-0';
+        let classfour = 'w-12 h-12 inline-flex items-center justify-center mb-4 flex-shrink-0';
+        let classfive = 'w-12 h-12 inline-flex items-center justify-center mb-4 flex-shrink-0';
+        let classsix = 'w-12 h-12 inline-flex items-center justify-center mb-4 flex-shrink-0';
+        if (this.props.isRed) {
+          classone += 'bg-gradient-to-r from-green-800 to-blue-600';
+          classtwo='bg-red-400';
+          classthree='bg-red-500';
+          classfour='bg-red-800';
+          classfive="bg-gray-200";
+          classsix="bg-black";
+        }
+
+
+
         return (
             <div>
                 <section className="text-gray-200 body-font px-2">
-                    <div className="container flex flex-col px-5 py-8 mt-8 mx-auto md:flex-row lg:px-8 bg-gradient-to-r from-green-800 to-blue-600 rounded-md">
+                    <div className={classone}>
                         <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
                             <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600/F3F4F7/8693ac" />
                         </div>
@@ -13,31 +30,31 @@ export class FrontendBanner extends Component {
                             <div className="py-2">
                                 <div className="grid text-center grid-cols-6">
                                     <div className="flex items-center justify-center ">
-                                        <div class="w-12 h-12 inline-flex items-center justify-center bg-blue-900 mb-4 flex-shrink-0">
+                                        <div className={classtwo}>
 
                                         </div>
 
                                     </div>
                                     <div className="flex items-center justify-center ">
-                                        <div class="w-12 h-12 inline-flex items-center justify-center bg-blue-400 text-indigo-500 mb-4 flex-shrink-0">
+                                        <div className={classthree}>
 
                                         </div>
 
                                     </div>
                                     <div className="flex items-center justify-center ">
-                                        <div class="w-12 h-12 inline-flex items-center justify-center bg-indigo-700 text-indigo-500 mb-4 flex-shrink-0">
+                                        <div className={classfour}>
 
                                         </div>
 
                                     </div>
                                     <div className="flex items-center justify-center ">
-                                        <div class="w-12 h-12 inline-flex items-center justify-center bg-blue-700 text-indigo-500 mb-4 flex-shrink-0">
+                                        <div className={classfive}>
 
                                         </div>
 
                                     </div>
                                     <div className="flex items-center justify-center ">
-                                        <div class="w-12 h-12 inline-flex items-center justify-center bg-gray-900 text-indigo-500 mb-4 flex-shrink-0">
+                                        <div className={classsix}>
 
                                         </div>
 
@@ -45,7 +62,7 @@ export class FrontendBanner extends Component {
                                 </div>
                             </div>
                             <h1 className="mb-8 text-2xl font-bold tracking-tighter text-left text-white lg:text-5xl title-font">
-                                Medium length display headline.</h1>
+                               {this.props.industry} Industry</h1>
                             <p className="mb-8 text-base leading-relaxed text-left text-gray-200 ">Deploy
                             your mvp in
               minutes, not days. WT offers you a a wide selection swapable sections for your landing page.</p>

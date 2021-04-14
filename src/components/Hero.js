@@ -6,7 +6,7 @@ export class Hero extends Component {
   render() {
     return (
       <div>
-        <section className="text-gray-100 body-font bg-black bg3">
+        <section className="text-gray-100 body-font bg-gray-900 bg3">
           <div className="container flex sm:px-12 px-5 sm:py-24 py-12 md:flex-row flex-col items-center">
 
             <div className="sm:text-center lg:text-left">

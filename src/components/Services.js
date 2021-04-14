@@ -21,7 +21,7 @@ export class Services extends Component {
     </div>
     <div className="mt-10">
       <dl className="space-y-5 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-        <div className="relative  bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg py-2 px-2 rounded-2xl">
+        <div className="relative  bg-gradient-to-r from-gray-600 to-gray-800 shadow-lg py-2 px-2 rounded-2xl">
           <dt>
             <div className="absolute flex items-center justify-center h-12 w-12 bg-gray-700 rounded-lg shadow-2xl text-white">
             <div className="absolute flex items-center justify-center h-4 w-4 bg-pink-800 shadow-2xl text-white">
@@ -34,7 +34,7 @@ export class Services extends Component {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
           </dd>
         </div>
-        <div className="relative  bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg py-2 px-2 rounded-2xl">
+        <div className="relative  bg-gradient-to-r from-gray-600 to-gray-800 shadow-lg py-2 px-2 rounded-2xl">
           <dt>
           <div className="absolute flex items-center justify-center h-12 w-12 bg-gray-700 rounded-lg shadow-2xl text-white">
             <div className="absolute flex items-center justify-center h-4 w-4 bg-pink-800 shadow-2xl text-white">
@@ -47,7 +47,7 @@ export class Services extends Component {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
           </dd>
         </div>
-        <div className="relative  bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg py-2 px-2 rounded-2xl">
+        <div className="relative  bg-gradient-to-r from-gray-600 to-gray-800 shadow-lg py-2 px-2 rounded-2xl">
           <dt>
           <div className="absolute flex items-center justify-center h-12 w-12 bg-gray-700 rounded-lg shadow-2xl text-white">
             <div className="absolute flex items-center justify-center h-4 w-4 bg-pink-800 shadow-2xl text-white">
@@ -60,7 +60,7 @@ export class Services extends Component {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
           </dd>
         </div>
-        <div className="relative  bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg py-2 px-2 rounded-2xl">
+        <div className="relative  bg-gradient-to-r from-gray-600 to-gray-800 shadow-lg py-2 px-2 rounded-2xl">
           <dt>
           <div className="absolute flex items-center justify-center h-12 w-12 bg-gray-700 rounded-lg shadow-2xl text-white">
             <div className="absolute flex items-center justify-center h-4 w-4 bg-pink-800 shadow-2xl text-white">
