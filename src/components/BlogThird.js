@@ -5,7 +5,7 @@ export class BlogThird extends Component {
     render() {
         return (
             <div>
-<section className="text-gray-600 body-font bg-gray-00">
+<section className="text-gray-600 body-font mt-4">
   <div className="container px-5 mx-auto">
 
     <div className="flex flex-wrap sm:-m-8 -mx-4 -mb-10 -mt-4">

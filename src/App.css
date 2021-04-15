@@ -24,20 +24,20 @@ body{
 }
 
 .firstcolr{
-  background-color: #221046;
+  background-color: #0052CC;
   
 }
 .firstcolor{
-  color: #221046;
+  color: #0052CC;
 }
 
 .secondcolr{
-  background-color: #10c4ca;
+  background-color: #172B4D;
   
  
 }
 .secondcolor{
-  color:#109fca;
+  color:#172B4D;
 }
 
 .scroll-hidden::-webkit-scrollbar {

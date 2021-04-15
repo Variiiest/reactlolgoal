@@ -18,6 +18,10 @@ import Backend from './pages/Blog/Backend';
 import DataStructure from './pages/Blog/DataStructure';
 import FrontendAll from './pages/Projects/FrontendAll';
 import TailwindComponents from './uicomp1/TailwindComponents';
+import authentication from './Uipages/authentication';
+import CardComp from './Uipages/CardComp';
+import BlogComp from './Uipages/BlogComp';
+import contact from './Uipages/contact';
 
 
 function App() {
@@ -36,7 +40,14 @@ function App() {
 <Route path='/backendsystems' component={BackendProjects}></Route>
 <Route path='/backend' component={Backend}></Route>
 <Route path='/datastructure' component={DataStructure}></Route>
+
+
 <Route path='/components/tailwind' component={TailwindComponents}></Route>
+<Route path='/components/authentication' component={authentication}></Route>
+<Route path='/components/card' component={CardComp}></Route>
+<Route path='/components/blog' component={BlogComp}></Route>
+
+<Route path='/components/contact' component={contact}></Route>
 <Footer/>
 
            </div>

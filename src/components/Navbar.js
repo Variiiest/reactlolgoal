@@ -33,18 +33,20 @@ export class Navbar extends Component {
   }
   render() {
     return (
-      <div className="bg-black sm:border-b border-green-200">
+      <div className="text-gray-700 font-bold shadow">
+
+
         <div className="relative">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10 ">
+            <div className="flex justify-between items-center pt-2 pb-2 md:justify-start md:space-x-10 ">
               <div className="flex justify-start lg:w-0 lg:flex-1">
-                <Link to="/" className="text-3xl font-bold text-pink-800">
+                <Link to="/" className="text-3xl font-bold text-blue-700 hover:border-green-300 border-b-2">
                   <span className="sr-only">Logo</span>
-                  <span className="text-green-700">LOL</span>GOAL
+                  <span className="text-blue-700 font-bold">lol</span>goal.com
               </Link>
               </div>
               <div className="-mr-2 -my-2 lg:hidden">
-                <button className="p-2 inline-flex items-center justify-end text-gray-100 hover:text-gray-100  focus:outline-none " onClick={() => this.setListOpen3()}>
+                <button className="p-2 inline-flex items-center justify-end  hover:  focus:outline-none " onClick={() => this.setListOpen3()}>
                   <span className="sr-only">Open menu</span>
 
                   <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -55,16 +57,16 @@ export class Navbar extends Component {
               <nav className="hidden lg:flex space-x-10">
                 <div className="relative">
                   <Link to="/courses">
-                  <button type="button" className="group  text-gray-100 inline-flex items-center text-base font-bold hover:text-gray-100 focus:outline-none " >
+                  <button type="button" className="group   inline-flex items-center text-base font-bold hover: focus:outline-none " >
                     <span>Courses</span>
                   </button></Link>
                 </div>
                 <div className="relative">
-                  <button type="button" className="group  text-gray-100 inline-flex items-center text-base font-bold hover:text-gray-100 focus:outline-none " onClick={() => this.setListOpen1()}>
+                  <button type="button" className="group   inline-flex items-center text-base font-bold hover: focus:outline-none " onClick={() => this.setListOpen1()}>
                     <span>
                       Projects
                   </span>
-                    <svg className="ml-2 h-5 w-5 text-gray-100 group-hover:text-gray-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <svg className="ml-2 h-5 w-5  group-hover:" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                     </svg>
                   </button>
@@ -72,17 +74,17 @@ export class Navbar extends Component {
 
                 <div className="relative">
 
-                  <button type="button" className="group text-gray-100 inline-flex items-center text-base font-bold hover:text-gray-100 focus:outline-none" onClick={() => this.setListOpen2()}>
+                  <button type="button" className="group  inline-flex items-center text-base font-bold hover: focus:outline-none" onClick={() => this.setListOpen2()}>
                     <span>Resources</span>
 
-                    <svg className="ml-2 h-5 w-5 text-gray-100 group-hover:text-gray-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <svg className="ml-2 h-5 w-5  group-hover:" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                     </svg>
                   </button>
 
 
                 </div>
-                <Link to="/story" className="text-base font-bold text-gray-100 hover:text-gray-100">
+                <Link to="/story" className="text-base font-bold  hover:">
                   Stories
             </Link>
               </nav>
@@ -99,7 +101,7 @@ export class Navbar extends Component {
                  </div>
 
                   <div className="-mr-2">
-                    <button type="button" className="secondcolr rounded-full p-2 inline-flex items-center justify-center text-gray-100 hover:text-gray-200 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" onClick={() => this.setListOpen3()}>
+                    <button type="button" className="secondcolr rounded p-2 inline-flex items-center justify-center  hover:text-gray-900 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" onClick={() => this.setListOpen3()}>
                       <span className="sr-only">Close menu</span>
 
                       <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -116,25 +118,25 @@ export class Navbar extends Component {
 
 
                 <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                  <Link to="/course" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                  <Link to="/course" className="text-base font-medium text-gray-900 hover:">
                     Courses
                 </Link>
-                  <Link to="/designsystems" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                  <Link to="/designsystems" className="text-base font-medium text-gray-900 hover:">
                     Designs
                 </Link>
-                  <Link to="/frontend" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                  <Link to="/frontend" className="text-base font-medium text-gray-900 hover:">
                     Frontend Resources
                 </Link>
-                  <Link to="/backend" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                  <Link to="/backend" className="text-base font-medium text-gray-900 hover:">
                     Backend Resources
                 </Link>
-                <Link to="/story" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                <Link to="/story" className="text-base font-medium text-gray-900 hover:">
                     Stories
                 </Link>
-                  <Link to="/frontendsystems" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                  <Link to="/frontendsystems" className="text-base font-medium text-gray-900 hover:">
                     Frontend Projects
                 </Link>
-                  <Link to="/backendsystems" className="text-base font-medium text-gray-200 hover:text-gray-100">
+                  <Link to="/backendsystems" className="text-base font-medium text-gray-900 hover:">
                     Backend Projects
                 </Link>
 
@@ -144,59 +146,285 @@ export class Navbar extends Component {
           </div>
         </div>
 
-        <section className={"text-gray-100 body-font py-6 border-t firstcolr" + (this.state.openList1 ? "" : " hidden")} onMouseLeave={() => this.setListOpen1()}>
-          <div className="container flex flex-wrap px-5 mx-auto items-center jobcard rounded-lg">
-            <div className="md:w-1/2 md:pr-12 md:py-8 md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
-              <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-">Creating minimum cost applications</h1>
-              <p className="leading-relaxed text-base">How we are helping enterprenuers to design and develop the Ideas with technology ?</p>
-              <Link className="secondcolor inline-flex items-center mt-4" to="/">Learn More
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
-              </Link>
+        <section className={" body-font bg-opacity-100" + (this.state.openList1 ? "" : " hidden")} onMouseLeave={() => this.setListOpen1()}>
+        <div className="container shadow px-5 py-5 mx-auto bg-gray-200 rounded shadow">
+          <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+             <div className="p-4 md:w-1/6 flex flex-col">
+               <p className="ml-4 text-blue-700  mb-5"> 
+                  Frontend
+               </p>
+            <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
             </div>
-            <div className="flex flex-col md:w-1/2 md:pl-12">
-
-              <div className="flex flex-wrap -m-4 mb-4">
-                <div className="xl:w-1/3 md:w-1/2 p-2 text-center">
-                  <div className="p-6   ">
-
-                    <h2 className="text-3xl text-green-200 tracking-wider font-semibold title-font mb-2 acadfont">
-                      <Link to="/designsystems">Designs</Link> </h2>
-                  </div>
-                </div>
-                <div className="xl:w-1/3 md:w-1/2 p-2 text-center">
-                  <div className="p-6 ">
-
-                    <h2 className="text-3xl text-yellow-800 font-semibold title-font mb-2 jobfont">
-                      <Link to="/frontendsystems">Frontend</Link>
-                    </h2>
-                  </div>
-                </div>
-                <div className="xl:w-1/3 md:w-1/2 p-2 text-center">
-                  <div className="p-6">
-
-                    <h2 className="text-3xl secondcolor font-medium title-font mb-2">
-                      <Link to="/backendsystems">Full Stack</Link>
-  
-                    </h2>
-
-                  </div>
-                </div>
-
-              </div>
-
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>  <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>  <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>
+            <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>
+          
+            </div>
+             <div className="p-4 md:w-1/6 flex flex-col border-l">
+               <p className="ml-4 text-blue-700  mb-5"> 
+                  Frontend
+               </p>
+            <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>  <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>  <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>
+            <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>
+          
+            </div>
+             <div className="p-4 md:w-1/6 flex flex-col border-l">
+               <p className="ml-4 text-blue-700  mb-5"> 
+                  Frontend
+               </p>
+            <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>  <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>  <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>
+            <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>
+          
+            </div>
+                   <div className="p-4 md:w-1/6 flex flex-col border-l">
+               <p className="ml-4 text-blue-700  mb-5"> 
+                  Frontend
+               </p>
+            <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>  <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>  <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>
+            <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>
+          
+            </div>
+             <div className="p-4 md:w-1/6 flex flex-col border-l">
+               <p className="ml-4 text-blue-700  mb-5"> 
+                  Frontend
+               </p>
+             
+            <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>  <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>  <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>
+            <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>
+          
+            </div>
+             <div className="p-4 md:w-1/6 flex flex-col border-l">
+               <p className="ml-4 text-blue-700  mb-5"> 
+                  Frontend
+               </p>
+            <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>  <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>  <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>
+            <div id="header" className="flex items-center mb-4 px-4 py-4 bg-gray-50 shadow rounded">
+            <div className="absolute flex items-center justify-center h-12 w-12 bg-blue-700  shadow-2xl ">
+            <div className="absolute flex items-center justify-center h-4 w-4 bg-green-300 shadow-2xl ">
+           
+            </div>
+            </div>
+              <div id="header-text" className="leading-5 ml-16"><h4 id="name" className="text-base text-gray-900">John Doe</h4>
+            <h5 id="job" className="text-sm ">Designer</h5>
+            </div>
+            </div>
+          
             </div>
           </div>
+        </div>
         </section>
 
 
-        <section className={"text-gray-300 body-font firstcolr shadow-lg" + (this.state.openList2 ? "" : " hidden")} onMouseLeave={() => this.setListOpen2()}>
-          <div className="container px-5 py-2 pb-10  mx-auto">
+        <section className={"body-font" + (this.state.openList2 ? "" : " hidden")} onMouseLeave={() => this.setListOpen2()}>
+          <div className="container px-5 py-2 pb-10 shadow mx-auto bg-gray-50">
 
             <div className="flex flex-wrap jobcard rounded-lg">
-              <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6  border-gray-200 border-opacity-60">
-                <h2 className="text-lg sm:text-xl text-gray-200 font-bold title-font mb-2">Frontend Development</h2>
+              <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-gray-200 border-opacity-60">
+                <h2 className="text-lg sm:text-xl text-gray-900 font-bold title-font mb-2">Frontend Development</h2>
                 <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
                 <Link className="secondcolor inline-flex items-center" to="/frontend">Learn More
               <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -205,7 +433,7 @@ export class Navbar extends Component {
                 </Link>
               </div>
               <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6  border-gray-200 border-opacity-60">
-                <h2 className="text-lg sm:text-xl text-gray-200 font-bold title-font mb-2">Backend Development</h2>
+                <h2 className="text-lg sm:text-xl text-gray-900 font-bold title-font mb-2">Backend Development</h2>
                 <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
                 <Link className="secondcolor inline-flex items-center" to="/">Learn More
               <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -214,7 +442,7 @@ export class Navbar extends Component {
                 </Link>
               </div>
               <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6  border-gray-200 border-opacity-60">
-                <h2 className="text-lg sm:text-xl text-gray-200 font-bold title-font mb-2">Data Structures</h2>
+                <h2 className="text-lg sm:text-xl text-gray-900 font-bold title-font mb-2">Data Structures</h2>
                 <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
                 <Link to="/" className="secondcolor inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -223,7 +451,7 @@ export class Navbar extends Component {
                 </Link>
               </div>
               <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6  border-gray-200 border-opacity-60">
-                <h2 className="text-lg sm:text-xl text-gray-200 font-bold title-font mb-2">Algo Revive </h2>
+                <h2 className="text-lg sm:text-xl text-gray-900 font-bold title-font mb-2">Algo Revive </h2>
                 <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
                 <Link to="/" className="secondcolor inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">

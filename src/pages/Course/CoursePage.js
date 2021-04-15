@@ -6,8 +6,7 @@ export class CoursePage extends Component {
         return (
             <div>
           <CourseBanner/>
-          <CourseBanner/>
-          <CourseBanner/>
+        
             </div>
         )
     }
