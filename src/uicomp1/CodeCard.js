@@ -5,15 +5,15 @@ const CodeCard = props => {
   
   return (
 
-    <div className="text-gray-200 font-bold mt-4 mb-2">
+    <div className="text-gray-800 font-bold mt-4 mb-2">
       <div className="container mx-auto rounded-xl shadow-2xl">
-        <div className="shadow rounded-xl">
-          <div className="flex w-full p-4 bg-gray-900 border border-gray-700 rounded-t-xl">
+        <div className="shadow rounded">
+          <div className="flex py-2 px-2 w-full bg-gray-50 border border-gray-200 rounded">
             <button className={
-              "text-white border-0 py-2 px-6 focus:outline-none rounded text-lg" +
+              "border-0 py-2 px-6 focus:outline-none rounded font-bold" +
               (openTab === 1
-                ? "text-white bg-gray-800"
-                : "text-gray-200 bg-gray-900")
+                ? "text-gray-900 bg-gray-100"
+                : "text-gray-800 bg-gray-50")
             }
               onClick={e => {
                 e.preventDefault();
@@ -22,10 +22,10 @@ const CodeCard = props => {
               Preview
               </button>
             <button className={
-              "text-white border-0 py-2 px-6 focus:outline-none rounded text-lg" +
+              "border-0 py-2 px-6 focus:outline-none rounded font-bold" +
               (openTab === 2
-                ? "text-white bg-gray-800"
-                : "text-gray-200 bg-gray-900")
+                ? "text-gray-900 bg-gray-100"
+                : "text-gray-800 bg-gray-50")
             }
               onClick={e => {
                 e.preventDefault();

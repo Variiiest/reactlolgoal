@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import CourseBanner from '../../components/CourseBanner'
+import BlogSecond from '../../components/BlogSecond'
 
 export class CoursePage extends Component {
     render() {
         return (
             <div>
-          <CourseBanner/>
-        
+          <BlogSecond/>
             </div>
         )
     }

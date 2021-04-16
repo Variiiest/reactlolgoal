@@ -22,6 +22,7 @@ import authentication from './Uipages/authentication';
 import CardComp from './Uipages/CardComp';
 import BlogComp from './Uipages/BlogComp';
 import contact from './Uipages/contact';
+import AllComp from './uicomp1/AllComp';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
 <Route path='/story' component={StoryMain}></Route>
 <Route path='/courses' component={CoursePage}></Route>
 <Route path='/designsystems' component={DesignProjects}></Route>
+<Route path='/tailcomp' component={AllComp}></Route>
 <Route path='/frontendsystems' component={FrontendProjects}></Route>
 <Route path='/frontendsys/allpurpose' component={FrontendAll}></Route>
 <Route path='/backendsystems' component={BackendProjects}></Route>
@@ -42,12 +44,18 @@ function App() {
 <Route path='/datastructure' component={DataStructure}></Route>
 
 
-<Route path='/components/tailwind' component={TailwindComponents}></Route>
+
+
+
+<Route path='/comp/lefthero' component={TailwindComponents}></Route>
 <Route path='/components/authentication' component={authentication}></Route>
 <Route path='/components/card' component={CardComp}></Route>
 <Route path='/components/blog' component={BlogComp}></Route>
 
 <Route path='/components/contact' component={contact}></Route>
+
+
+
 <Footer/>
 
            </div>
