@@ -17,12 +17,12 @@ import Frontend from './pages/Blog/Frontend';
 import Backend from './pages/Blog/Backend';
 import DataStructure from './pages/Blog/DataStructure';
 import FrontendAll from './pages/Projects/FrontendAll';
-import TailwindComponents from './uicomp1/TailwindComponents';
 import authentication from './Uipages/authentication';
 import CardComp from './Uipages/CardComp';
 import BlogComp from './Uipages/BlogComp';
 import contact from './Uipages/contact';
 import AllComp from './uicomp1/AllComp';
+import heroleft from './Uipages/heroleft';
 
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
 
 
 
-<Route path='/comp/lefthero' component={TailwindComponents}></Route>
+<Route path='/comp/lefthero' component={heroleft}></Route>
 <Route path='/components/authentication' component={authentication}></Route>
 <Route path='/components/card' component={CardComp}></Route>
 <Route path='/components/blog' component={BlogComp}></Route>

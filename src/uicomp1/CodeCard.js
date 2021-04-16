@@ -6,7 +6,7 @@ const CodeCard = props => {
   return (
 
     <div className="text-gray-800 font-bold mt-4 mb-2">
-      <div className="container mx-auto rounded-xl shadow-2xl">
+      <div className="container mx-auto rounded-xl shadow">
         <div className="shadow rounded">
           <div className="flex py-2 px-2 w-full bg-gray-50 border border-gray-200 rounded">
             <button className={
@@ -35,7 +35,7 @@ const CodeCard = props => {
               </button>
 
           </div>
-          <div className>
+          <div className="bg-gray-50">
             <div className={openTab === 1 ? "block" : "hidden"}>
 
 
@@ -48,7 +48,7 @@ const CodeCard = props => {
 
             </div>
             <div className={openTab === 2 ? "block" : "hidden"}>
-              <div className="h-screen overflow-auto overflow-y-scroll scroll-hidden   rounded-b-xl code-tab bg-gray-900">
+              <div className="h-screen overflow-auto overflow-y-scroll scroll-hidden rounded-b-xl">
                 <div className="rounded-b-xl">
                  
                  {props.code}
