@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import image1 from './images/1.JPG'
 
 export class Tailcompcard extends Component {
     render() {
@@ -18,7 +19,7 @@ export class Tailcompcard extends Component {
             <div className="xl:w-1/4 md:w-1/2 p-4 ">
                 <Link to={this.props.firstl}> 
               <div className="p-2 bg-gray-50 shadow rounded">
-                <img className="h-40 rounded w-full object-cover object-center mb-2" src="https://dummyimage.com/720x400" alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-2" src={image1} alt="content" />
                 
                 <h2 className="text-base text-blue-700 font-bold title-font">{this.props.first}</h2>
                 

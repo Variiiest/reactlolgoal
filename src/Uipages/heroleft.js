@@ -14,15 +14,16 @@ export class heroleft extends Component {
 <CodeCard>
 <HeroL5/>
                 </CodeCard>
+                <CodeCard>
+<HeroL2/>
+                </CodeCard>
 <CodeCard>
 <HeroL4/>
                 </CodeCard>
 <CodeCard>
 <HeroL3/>
                 </CodeCard>
-                              <CodeCard>
-<HeroL2/>
-                </CodeCard>
+
                 <CodeCard>
 <HeroL1/>
                 </CodeCard>
