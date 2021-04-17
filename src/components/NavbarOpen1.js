@@ -33,14 +33,14 @@ export class NavbarOpen1 extends Component {
             <div className="xl:w-1/3 md:w-1/2 p-4">
               <div className="secondcolr p-6 rounded">
             
-                <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">The Catalyzer</h2>
+                <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">Django CodeBlocks</h2>
                 <p className="leading-relaxed text-base text-gray-200">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
-                <a href="/" className="text-blue-400 inline-flex items-center mt-4">Learn More
+                <Link to="/django" className="text-blue-400 inline-flex items-center mt-4">Learn More
                   <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M5 12h14" />
                     <path d="M12 5l7 7-7 7" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">

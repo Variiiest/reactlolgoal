@@ -5,7 +5,7 @@ const CodeCard = props => {
   
   return (
 
-    <div className="text-gray-800 font-bold mt-4 mb-2">
+    <div className="text-gray-800 font-bold mt-4 mb-2 p-2">
       <div className="container mx-auto rounded-xl shadow">
         <div className="shadow rounded">
           <div className="flex py-2 px-2 w-full bg-gray-50 border border-gray-200 rounded">
@@ -35,7 +35,7 @@ const CodeCard = props => {
               </button>
 
           </div>
-          <div className="bg-gray-50">
+          <div className="bg-white">
             <div className={openTab === 1 ? "block" : "hidden"}>
 
 

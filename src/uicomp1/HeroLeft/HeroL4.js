@@ -8,7 +8,7 @@ export class HeroL4 extends Component {
         <div className="container flex flex-col items-center px-5 py-8 mx-auto md:flex-row lg:px-8 rounded-md">
           <div className="flex flex-col w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:items-start md:mb-0 ">
         
-            <h1 className="mb-8 text-2xl font-bold tracking-tighter text-left text-gray-900 lg:text-5xl title-font">
+            <h1 className="mb-8 text-4xl font-bold tracking-tighter text-left text-gray-900 lg:text-5xl title-font">
             Lorem ipsum dolor sit amet
             </h1>
             <div className="flex flex-wrap -mx-4 -mt-4 -mb-10 sm:-m-4">

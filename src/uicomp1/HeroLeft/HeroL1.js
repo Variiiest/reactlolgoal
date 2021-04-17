@@ -11,7 +11,7 @@ export class HeroL1 extends Component {
                       <h2 className="mb-2 text-xs font-bold text-gray-100 title-font">
                         <span className="px-4 py-2 bg-gray-800 rounded-full">We are hiring now</span>
                         </h2>
-                      <h1 className="mb-8 text-2xl font-bold tracking-tighter text-left text-gray-900 lg:text-5xl title-font">
+                      <h1 className="mb-8 mt-4 text-4xl font-bold tracking-tighter text-left text-gray-900 lg:text-5xl title-font">
                       Lorem ipsum dolor sit amet consectetur
                       </h1>
                       <div className="flex flex-wrap -mx-4 -mt-4 -mb-10 sm:-m-4 ">
@@ -25,7 +25,7 @@ export class HeroL1 extends Component {
                             </h2>
                             <p className="text-base leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit
                             </p>
-                            <Link className="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-800 ">
+                            <Link to="#_" className="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-800 ">
                               Learn More
                               <svg className="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={20} height={20} fill="currentColor">
                                 <path fill="none" d="M0 0h24v24H0z" />

@@ -4,14 +4,11 @@ import Hero12 from './HeroRight/Hero12'
 import HeroEight from './HeroRight/Hero8'
 import HeroEleven from './HeroRight/Hero11'
 import HeroFive from './HeroRight/Hero5'
-import HeroFour from './HeroRight/Hero4'
 import HeroNine from './HeroRight/Hero9'
-import HeroOne from './HeroRight/Hero1'
 import HeroSeven from './HeroRight/Hero7'
 import HeroSix from './HeroRight/Hero6'
 import HeroTen from './HeroRight/Hero10'
-import HeroThree from './HeroRight/Hero3'
-import HeroTwo from './HeroRight/Hero2'
+
 import Hero13 from './HeroRight/Hero13'
 import Hero14 from './HeroRight/Hero14'
 import Hero15 from './HeroRight/Hero15'
@@ -25,18 +22,7 @@ export class TailwindComponents extends Component {
   render() {
     return (
       <div>
-        <CodeCard>
-          <HeroOne />
-        </CodeCard>
-        <CodeCard>
-        <HeroTwo/>
-        </CodeCard>
-        <CodeCard>
-          <HeroThree />
-        </CodeCard>
-        <CodeCard>
-          <HeroFour />
-        </CodeCard>
+      
         <CodeCard>
           <HeroFive />
         </CodeCard>

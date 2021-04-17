@@ -9,7 +9,7 @@ export class HeroL5 extends Component {
           <div className="flex flex-wrap items-center sm:-mx-3">
             <div className="w-full md:w-1/2 md:px-3">
               <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
-                <h1 className="text-2xl font-bold tracking-tighter text-left text-gray-900 lg:text-5xl title-font">
+                <h1 className="text-4xl font-bold tracking-tighter text-left text-gray-900 lg:text-5xl title-font">
                   <span className="block xl:inline">Lorem ipsum dol </span>
                   <span className="block text-blue-700 xl:inline">Lorem ipsum dolor</span>
                 </h1>

@@ -8,7 +8,7 @@ export class HeroL3 extends Component {
                <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
         <div className="w-full md:w-1/2">
           <div className="max-w-lg">
-            <h1 className="text-2xl font-bold tracking-tighter text-left text-gray-900 lg:text-5xl title-font">Lorem ipsum dolor sit amet, consectetur</h1>
+            <h1 className="text-4xl font-bold tracking-tighter text-left text-gray-900 lg:text-5xl title-font">Lorem ipsum dolor sit amet, consectetur</h1>
             <p className="mt-2 text-gray-900 dark:text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             <div className="grid gap-6 mt-8 sm:grid-cols-2">
               <div className="flex items-center space-x-6 text-blue-700 dark:text-gray-200">
