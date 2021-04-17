@@ -24,9 +24,9 @@ import contact from './Uipages/contact';
 import AllComp from './uicomp1/AllComp';
 import heroleft from './Uipages/heroleft';
 import DjangoBlocks from './Django/DjangoBlocks';
-import TailwindComponents from './uicomp1/TailwindComponents';
 import heroCenter from './Uipages/heroCenter';
 import HeroSpe from './Uipages/HeroSpe';
+import HeroRight from './Uipages/HeroRight';
 
 
 function App() {
@@ -54,7 +54,7 @@ function App() {
 <Route path='/comp/lefthero' component={heroleft}></Route>
 <Route path='/comp/centeredhero' component={heroCenter}></Route>
 <Route path='/comp/specialhero' component={HeroSpe}></Route>
-<Route path='/comp/righthero' component={TailwindComponents}></Route>
+<Route path='/comp/righthero' component={HeroRight}></Route>
 <Route path='/components/authentication' component={authentication}></Route>
 <Route path='/components/card' component={CardComp}></Route>
 <Route path='/components/blog' component={BlogComp}></Route>

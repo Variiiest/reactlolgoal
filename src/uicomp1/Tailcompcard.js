@@ -29,7 +29,7 @@ export class Tailcompcard extends Component {
             <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link to={this.props.secondl}>
               <div className="p-2 bg-white shadow rounded">
-                <img className="h-40 rounded w-full object-cover object-center mb-2 border" src={this.props.image2} alt="content" />
+                <img className="h-40 rounded w-full object-contain object-center mb-2 border" src={this.props.image2} alt="content" />
                 
                 <h2 className="text-base text-blue-700 font-bold title-font">{this.props.second}</h2>
                 
