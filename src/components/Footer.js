@@ -15,74 +15,74 @@ export class Footer extends Component {
                   <span className="sr-only">Logo</span>
                   <span className="text-blue-700 font-bold">lol</span>goal.com
               </Link>
-            <p className="mt-2 text-sm text-gray-900">Air plant banjo lyft occupy retro adaptogen indego</p>
+            
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-extrabold text-gray-900 text-base mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-extrabold text-gray-900 text-xl mb-3">Categories</h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a href="." >First Link</a>
+                  <a href="." className="font-bold"> First Link</a>
                 </li>
                 <li>
-                  <a href="." >Second Link</a>
+                  <a href="." className="font-bold"> Second Link</a>
                 </li>
                 <li>
-                  <a href="." >Third Link</a>
+                  <a href="." className="font-bold"> Third Link</a>
                 </li>
                 <li>
-                  <a href="." >Fourth Link</a>
+                  <a href="." className="font-bold"> Fourth Link</a>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-extrabold text-gray-900 text-base mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-extrabold text-gray-900 text-xl mb-3">CATEGORIES</h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a href="." >First Link</a>
+                  <a href="." className="font-bold"> First Link</a>
                 </li>
                 <li>
-                  <a href="." >Second Link</a>
+                  <a href="." className="font-bold"> Second Link</a>
                 </li>
                 <li>
-                  <a href="." >Third Link</a>
+                  <a href="." className="font-bold"> Third Link</a>
                 </li>
                 <li>
-                  <a href="." >Fourth Link</a>
+                  <a href="." className="font-bold"> Fourth Link</a>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-extrabold text-gray-900 text-base mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-extrabold text-gray-900 text-xl mb-3">CATEGORIES</h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a href="." >First Link</a>
+                  <a href="." className="font-bold"> First Link</a>
                 </li>
                 <li>
-                  <a href="." >Second Link</a>
+                  <a href="." className="font-bold"> Second Link</a>
                 </li>
                 <li>
-                  <a href="." >Third Link</a>
+                  <a href="." className="font-bold"> Third Link</a>
                 </li>
                 <li>
-                  <a href="." >Fourth Link</a>
+                  <a href="." className="font-bold"> Fourth Link</a>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-extrabold text-gray-900 text-base mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-extrabold text-gray-900 text-xl mb-3">CATEGORIES</h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a href="." >First Link</a>
+                  <a href="." className="font-bold"> First Link</a>
                 </li>
                 <li>
-                  <a href="." >Second Link</a>
+                  <a href="." className="font-bold"> Second Link</a>
                 </li>
                 <li>
-                  <a href="." >Third Link</a>
+                  <a href="." className="font-bold"> Third Link</a>
                 </li>
                 <li>
-                  <a href="." >Fourth Link</a>
+                  <a href="." className="font-bold"> Fourth Link</a>
                 </li>
               </nav>
             </div>

@@ -8,15 +8,12 @@ export class BlogMain extends Component {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col w-full text-center lg:mb-20">
             <h1 className="mb-4 text-4xl font-bold leading-none lg:text-5xl text-gray-900">
-              A quick process that allows
+             Launch Your Business 
               <br className="hidden lg:block" />
-              same day deployment.
+             The Quickest Possible Way
             </h1>
             <p className="w-full mx-auto mb-8 text-xl text-center lg:text-center">
-              Tailwind
-              CSS
-              templates
-              with a wicked design. </p>
+              Check our resources</p>
           </div>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">

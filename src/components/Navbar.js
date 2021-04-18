@@ -57,15 +57,12 @@ export class Navbar extends Component {
               </div>
               <nav className="hidden lg:flex space-x-10">
                 <div className="relative">
-                  <Link to="/courses">
-                  <button type="button" className="group   inline-flex items-center text-base font-bold hover: focus:outline-none " >
-                    <span>Courses</span>
-                  </button></Link>
+               
                 </div>
                 <div className="relative">
                   <button type="button" className="group   inline-flex items-center text-base font-bold hover: focus:outline-none " onClick={() => this.setListOpen1()}>
                     <span>
-                      Projects
+                      Resources
                   </span>
                     <svg className="ml-2 h-5 w-5  group-hover:" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -76,7 +73,7 @@ export class Navbar extends Component {
                 <div className="relative">
 
                   <button type="button" className="group  inline-flex items-center text-base font-bold hover: focus:outline-none" onClick={() => this.setListOpen2()}>
-                    <span>Resources</span>
+                    <span>Blog</span>
 
                     <svg className="ml-2 h-5 w-5  group-hover:" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -85,9 +82,7 @@ export class Navbar extends Component {
 
 
                 </div>
-                <Link to="/story" className="text-base font-bold  hover:">
-                  Stories
-            </Link>
+        
               </nav>
 
             </div>
@@ -131,9 +126,7 @@ export class Navbar extends Component {
                   <Link to="/backend" className="text-base font-medium text-gray-900 hover:">
                     Backend Resources
                 </Link>
-                <Link to="/story" className="text-base font-medium text-gray-900 hover:">
-                    Stories
-                </Link>
+              
                   <Link to="/frontendsystems" className="text-base font-medium text-gray-900 hover:">
                     Frontend Projects
                 </Link>
