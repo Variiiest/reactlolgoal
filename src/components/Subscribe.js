@@ -13,16 +13,12 @@ export class Subscribe extends Component {
       <span className="block text-blue-400">Start Building</span>
     </h2>
     <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-      <div className="inline-flex rounded-md shadow">
+      <div className="inline-flex">
         <Link to="tailcomp" className="inline-flex items-center justify-center btn1">
           Get started
         </Link>
       </div>
-      <div className="ml-3 inline-flex rounded-md shadow">
-        <Link to="/contact" className="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-white bg-gray-600 hover:bg-gray-700 md:text-lg rounded">
-          Contact
-        </Link>
-      </div>
+  
     </div>
   </div>
 </div>

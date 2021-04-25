@@ -8,7 +8,7 @@ export class BlogMain extends Component {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col w-full text-center lg:mb-20">
             <h1 className="mb-4 text-4xl font-bold leading-none lg:text-5xl text-gray-100">
-             Launch Your Business 
+             Launch Your Website
               <br className="hidden lg:block" />
              The Quickest Possible Way
             </h1>
