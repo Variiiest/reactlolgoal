@@ -6,16 +6,18 @@ export class FrontendBanner extends Component {
     render() {
         return (
             <div>
-                <section className="text-gray-200 body-font px-2">
-                    <div className="container flex flex-col px-5 py-8 mt-8 mx-auto md:flex-row lg:px-8 bg-gradient-to-r from-gray-900 to-black rounded-md">
-                        <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
-                            <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600/F3F4F7/8693ac" />
+                <section className="text-gray-900 body-font px-2">
+                    <div className="container flex flex-col px-5 py-4 mt-8 mx-auto md:flex-row lg:px-4 bg-white rounded-md shadow">
+                        <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/3">
+                            <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/450x300/F3F4F7/8693ac" />
                         </div>
-                        <div className="flex flex-col items-start text-left lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 mt-2 sm:mt-12">
-                          <BadgeFive/>
-                            <h1 className="mb-8 text-2xl font-bold tracking-tighter text-left text-white lg:text-5xl title-font">
+                        <div className="flex flex-col items-start text-left lg:flex-grow md:w-2/3 md:pl-16 mt-2">
+                        <h1 className="text-lg font-bold tracking-tighter text-left text-black lg:text-xl title-font firstcolr">
                                {this.props.industry} Industry</h1>
-                            <p className="mb-8 text-base leading-relaxed text-left text-gray-200 ">Deploy
+                          <BadgeFive/>
+                            <h1 className="mb-4 text-2xl font-bold tracking-tighter text-left text-black lg:text-5xl title-font">
+                               {this.props.industry} Industry</h1>
+                            <p className="mb-8 text-base leading-relaxed text-left text-gray-800 font-bold">Deploy
                             your mvp in
               minutes, not days. WT offers you a a wide selection swapable sections for your landing page.</p>
                             <div className="flex flex-col justify-left lg:flex-row">

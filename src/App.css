@@ -68,30 +68,12 @@ body{
 }
 
 
-.element {
-  background: 
-    radial-gradient(
-      circle at top left,
-      rgba(0, 3, 14, 0.5), 
-      transparent 800px
-    ),
-    radial-gradient(
-      circle at top right,
-      rgba(75, 15, 214, 0.5), 
-      transparent 800px
-    ),
-    radial-gradient(
-      at bottom left,
-      rgba(255, 0, 255, 0.5), 
-      transparent 400px
-    ),
-    radial-gradient(
-      at bottom right,
-      rgba(255, 100, 100, 0.5), 
-      transparent 400px
-    );
+.bg {
+ 
+  background: radial-gradient(ellipse at center, rgba(17, 8, 2, 0.849) 0%, rgba(32, 51, 6, 0.801) 100%), radial-gradient(ellipse at 70% 60%, rgb(6, 15, 98) 0%, rgba(195, 224, 96, 0) 30%), radial-gradient(ellipse at bottom left, rgb(3, 32, 39) 0%, rgba(0, 163, 203, 0) 70%), linear-gradient(135deg, rgba(18, 46, 119, 0) 0%, rgba(18, 46, 119, 0) 75%, rgba(18, 46, 119, 1) 100%), linear-gradient(to right, rgba(98, 87, 147, 1) 0%, rgb(10, 3, 70) 17%, rgb(47, 2, 36) 74%, rgb(88, 53, 24) 100%);
+  background-blend-mode: screen, hue, color, overlay, normal;
+  
 }
-
 
 .gradient2{
   background: linear-gradient(227deg, #000000, #1d2224, #121312);

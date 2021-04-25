@@ -10,7 +10,6 @@ import mainPage from './pages/mainPage';
 import BlogPage from './pages/Blog/BlogPage';
 import StoryMain from './pages/Stories/StoryMain';
 import CoursePage from './pages/Course/CoursePage';
-import DesignProjects from './pages/Projects/DesignProjects';
 import FrontendProjects from './pages/Projects/FrontendProjects';
 import BackendProjects from './pages/Projects/BackendProjects';
 import Frontend from './pages/Blog/Frontend';
@@ -41,9 +40,8 @@ function App() {
 <Route path='/blogdet' component={BlogPage}></Route>
 <Route path='/story' component={StoryMain}></Route>
 <Route path='/courses' component={CoursePage}></Route>
-<Route path='/designsystems' component={DesignProjects}></Route>
 <Route path='/tailcomp' component={AllComp}></Route>
-<Route path='/frontendsystems' component={FrontendProjects}></Route>
+<Route path='/templates' component={FrontendProjects}></Route>
 <Route path='/frontendsys/allpurpose' component={FrontendAll}></Route>
 <Route path='/backendsystems' component={BackendProjects}></Route>
 <Route path='/backend' component={Backend}></Route>

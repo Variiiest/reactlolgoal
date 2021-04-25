@@ -1,84 +1,111 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+
 
 export class Services extends Component {
     render() {
         return (
            
                 <>
-{/* This example requires Tailwind CSS v2.0+ */}
-<div className="py-12 bg-gray-100 text-gray-700">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="lg:text-center">
-      <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight  text-gray-900 sm:text-4xl">
+
+<section className="text-gray-100 body-font font-bold bg-black">
+        <div className="container mx-auto py-12 px-4">
+        <div className="lg:text-center mb-8">
+      <p className="text-3xl leading-8 font-extrabold tracking-tight  text-gray-100 sm:text-4xl">
         A better way to develop your projects
       </p>
-      <p className="mt-4 max-w-2xl text-xl font-bold lg:mx-auto">
-      
-     Design your project with less time.
+      <p className="mt-4  max-w-2xl text-xl font-bold lg:mx-auto">
 
+     Design your project with less time 
 
       </p>
     </div>
-    <div className="mt-10">
-      <dl className="space-y-5 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-        <div className="relative py-2 px-2 rounded">
-          <dt>
-            <div className="absolute flex items-center justify-center h-12 w-12 bg-green-300 rounded-full shadow-2xl ">
-            <div className="absolute flex items-center justify-center h-4 w-4 bg-blue-700 shadow-2xl ">
-           
+
+
+          <div className="flex flex-wrap -m-4">
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="bg-gray-800 p-6 rounded-md">
+              
+                <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">Web Development</h2>
+                <p className="leading-relaxed text-base text-gray-200">We develop web applications that engaging, and are developed with the latest technologies.And If you are programming person use our code snippets for free.</p>
+                <Link to="/tailcomp" className="text-blue-400 inline-flex items-center mt-4">Learn More
+                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M5 12h14" />
+                    <path d="M12 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              </div>
             </div>
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="secondcolr p-6 rounded-md">
+            
+                <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">Free Landing Pages</h2>
+                <p className="leading-relaxed text-base text-gray-200">We have  developed some landing pages with latest technologies . If you are starting a startup,Landing pages are important.We also matched the color with industry.</p>
+                <Link to="/django" className="text-blue-400 inline-flex items-center mt-4">Learn More
+                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M5 12h14" />
+                    <path d="M12 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              </div>
             </div>
-            <p className="ml-16 text-xl leading-6 font-bold text-blue-800 ">Web Development</p>
-          </dt>
-          <dd className="mt-2 ml-16 text-lg font-bold">
-          We develop web applications that engaging, and are developed with the latest technologies.And If you are programming person use our code snippets for free.
-          </dd>
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="fifthcolr p-6 rounded-md">
+                <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">Frontend Templates Premium </h2>
+                <p className="leading-relaxed text-base">We have  developed some landing pages with latest technologies . If you are starting a startup,Landing pages are important.We also matched the color with industry.</p>
+                <a href="/" className="text-blue-300 inline-flex items-center mt-4">Learn More
+                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M5 12h14" />
+                    <path d="M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="bg-gray-900 p-6 rounded-md">
+                
+                <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">Free FullStack Projects</h2>
+                <p className="leading-relaxed text-base">Our free fullstack projects help you to start business with less cost.Also Get assistant for hosting and choosing right domain.</p>
+                <a href="/" className="text-blue-300 inline-flex items-center mt-4">Learn More
+                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M5 12h14" />
+                    <path d="M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="fifthcolr p-6 rounded-md">
+               
+                <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">Full-Stack Premium</h2>
+                <p className="leading-relaxed text-base text-gray-200">Our free fullstack projects help you to start business with less cost.Also Get assistant for hosting and choosing right domain.</p>
+                <a href="/" className="text-blue-100 inline-flex items-center mt-4">Learn More
+                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M5 12h14" />
+                    <path d="M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="sixcolr p-6 rounded-md">
+                <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">Custom Development</h2>
+                <p className="leading-relaxed text-base text-gray-200">Try our free resources , If not working for your project just contact us. We will work with you and help you to start your business.
+</p>
+                <a href="/" className="text-blue-400 inline-flex items-center mt-4">Learn More
+                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M5 12h14" />
+                    <path d="M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="relative py-2 px-2 rounded">
-          <dt>
-          <div className="absolute flex items-center justify-center h-12 w-12 bg-green-300 rounded-full shadow-2xl ">
-            <div className="absolute flex items-center justify-center h-4 w-4 bg-blue-700 shadow-2xl ">
-           
-            </div>
-            </div>
-            <p className="ml-16 text-xl leading-6 font-bold text-blue-800 ">Free Landing Pages</p>
-          </dt>
-          <dd className="mt-2 ml-16 text-lg font-bold">
-           We have also developed some landing pages with latest technologies . If you are starting a startup,Landing pages are important.
-          </dd>
-        </div>
-        <div className="relative py-2 px-2 rounded">
-          <dt>
-          <div className="absolute flex items-center justify-center h-12 w-12 bg-green-300 rounded-full shadow-2xl ">
-            <div className="absolute flex items-center justify-center h-4 w-4 bg-blue-700 shadow-2xl ">
-           
-            </div>
-            </div>
-            <p className="ml-16 text-xl leading-6 font-bold text-blue-800 ">Free FullStack </p>
-          </dt>
-          <dd className="mt-2 ml-16 text-lg font-bold">
-            Our free fullstack projects help you to start business with less cost.Also Get assistant for hosting and choosing right domain.
-          </dd>
-        </div>
-        <div className="relative py-2 px-2 rounded">
-          <dt>
-          <div className="absolute flex items-center justify-center h-12 w-12 bg-green-300 rounded-full shadow-2xl ">
-            <div className="absolute flex items-center justify-center h-4 w-4 bg-blue-700 shadow-2xl ">
-           
-            </div>
-            </div>
-            <p className="ml-16 text-xl leading-6 font-bold  text-blue-800 ">
-              Custom Development
-            </p>
-          </dt>
-          <dd className="mt-2 ml-16 text-lg font-bold">
-           Try our free resources , If not working for your project just contact us. We will work with you and help you to start your business.
-          </dd>
-        </div>
-      </dl>
-    </div>
-  </div>
-</div>
+      </section>
+
+
+
 </>
         )
     }

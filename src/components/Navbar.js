@@ -1,49 +1,33 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import NavbarOpen1 from './NavbarOpen1';
+
+
+
 export class Navbar extends Component {
 
 
   constructor(props) {
     super(props);
     this.state = {
-      openList1: false,
-      openList2: false,
       openList3: false,
     };
   }
 
-  setListOpen1() {
-    this.setState({
-      openList1: !this.state.openList1, openList2: false,
-      openList3: false,
-    });
-  }
-  setListOpen2() {
-    this.setState({
-      openList2: !this.state.openList2, openList1: false,
-      openList3: false,
-    });
-  }
 
   setListOpen3() {
     this.setState({
-      openList3: !this.state.openList3, openList1: false,
-      openList2: false,
+      openList3: !this.state.openList3,
     });
   }
   render() {
     return (
-      <div className="text-gray-700 font-bold bg-gray-50 shadow">
-
-
+      <div className="text-white bg-black font-bold">
         <div className="relative">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="max-w-7xl mx-auto px-4 py-2 sm:px-6">
             <div className="flex justify-between items-center pt-2 pb-2 md:justify-start md:space-x-10 ">
               <div className="flex justify-start lg:w-0 lg:flex-1">
-                <Link to="/" className="text-3xl font-bold text-blue-700 border-green-300 border-b-2">
-                  <span className="sr-only">Logo</span>
-                  <span className="text-blue-700 font-bold">lol</span>goal.com
+                <Link to="/" className="text-3xl font-bold text-white border-green-300 border-b-2">
+                  <span className="text-white font-bold">lol</span>goal.com
               </Link>
               </div>
               <div className="-mr-2 -my-2 lg:hidden">
@@ -56,35 +40,29 @@ export class Navbar extends Component {
                 </button>
               </div>
               <nav className="hidden lg:flex space-x-10">
+              
                 <div className="relative">
-               
-                </div>
-                <div className="relative">
-                  <button type="button" className="group   inline-flex items-center text-base font-bold  focus:outline-none " onClick={() => this.setListOpen1()}>
-                    <span>
-                      Resources
-                  </span>
-                    <svg className="ml-2 h-5 w-5  group-" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                      <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                    </svg>
-                  </button>
+                  <Link to="/tailcomp" className="group inline-flex items-center text-base font-bold focus:outline-none" >
+                     Tailwind Resources
+                  </Link>
                 </div>
 
                 <div className="relative">
-
-                  <button type="button" className="group  inline-flex items-center text-base font-bold  focus:outline-none" onClick={() => this.setListOpen2()}>
-                    <span>Blog</span>
-
-                    <svg className="ml-2 h-5 w-5  group-" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                      <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                    </svg>
-                  </button>
-
-
+                  <Link to="/django" className="group inline-flex items-center text-base font-bold focus:outline-none">
+                  Django Resources
+                  </Link>
                 </div>
-        
+                <div className="relative">
+                  <Link to="/templates" className="group  inline-flex items-center text-base font-bold focus:outline-none">
+                      Templates Store
+                  </Link>
+                </div>
+                <div className="relative">
+                  <Link to="/blog" className="group inline-flex items-center text-base font-bold focus:outline-none">
+                  Blog
+                  </Link>
+                </div>
               </nav>
-
             </div>
           </div>
 
@@ -139,57 +117,6 @@ export class Navbar extends Component {
             </div>
           </div>
         </div>
-
-        <section className={" body-font bg-opacity-100" + (this.state.openList1 ? "" : " hidden")} onMouseLeave={() => this.setListOpen1()}>
-      <NavbarOpen1/>
-        </section>
-
-
-        <section className={"body-font" + (this.state.openList2 ? "" : " hidden")} onMouseLeave={() => this.setListOpen2()}>
-          <div className="container px-5 py-2 pb-10 shadow mx-auto bg-gray-50">
-
-            <div className="flex flex-wrap jobcard rounded-lg">
-              <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-gray-200 border-opacity-60">
-                <h2 className="text-lg sm:text-xl text-gray-900 font-bold title-font mb-2">Frontend Development</h2>
-                <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                <Link className="secondcolor inline-flex items-center" to="/frontend">Learn More
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              </div>
-              <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6  border-gray-200 border-opacity-60">
-                <h2 className="text-lg sm:text-xl text-gray-900 font-bold title-font mb-2">Backend Development</h2>
-                <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                <Link className="secondcolor inline-flex items-center" to="/">Learn More
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              </div>
-              <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6  border-gray-200 border-opacity-60">
-                <h2 className="text-lg sm:text-xl text-gray-900 font-bold title-font mb-2">Data Structures</h2>
-                <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                <Link to="/" className="secondcolor inline-flex items-center">Learn More
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              </div>
-              <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6  border-gray-200 border-opacity-60">
-                <h2 className="text-lg sm:text-xl text-gray-900 font-bold title-font mb-2">Algo Revive </h2>
-                <p className="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                <Link to="/" className="secondcolor inline-flex items-center">Learn More
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
 
 
 
