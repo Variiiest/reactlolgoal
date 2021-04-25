@@ -26,8 +26,8 @@ export class Hero extends Component {
           </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="shadow-lg rounded">
-                  <Link to="/contact" className="flex items-center justify-center px-6 py-3 text-sm font-bold text-white bg-blue-400 hover:bg-blue-300 md:text-sm rounded">
-                    Get Started
+                  <Link to="/tailcomp" className="flex items-center justify-center px-6 py-3 text-sm font-bold text-white bg-blue-400 hover:bg-blue-300 md:text-sm rounded">
+                    Resources
               </Link>
                 </div>
 

@@ -17,7 +17,7 @@ import Frontend from './pages/Blog/Frontend';
 import Backend from './pages/Blog/Backend';
 import DataStructure from './pages/Blog/DataStructure';
 import FrontendAll from './pages/Projects/FrontendAll';
-import authentication from './Uipages/authentication';
+import Authentication from './Uipages/Authenticate/Authleft';
 import CardComp from './Uipages/CardComp';
 import BlogComp from './Uipages/BlogComp';
 import contact from './Uipages/contact';
@@ -27,6 +27,8 @@ import DjangoBlocks from './Django/DjangoBlocks';
 import heroCenter from './Uipages/heroCenter';
 import HeroSpe from './Uipages/HeroSpe';
 import HeroRight from './Uipages/HeroRight';
+import AuthRight from './Uipages/Authenticate/AuthRight';
+import Authcenter from './Uipages/Authenticate/Authcenter';
 
 
 function App() {
@@ -55,7 +57,9 @@ function App() {
 <Route path='/comp/centeredhero' component={heroCenter}></Route>
 <Route path='/comp/specialhero' component={HeroSpe}></Route>
 <Route path='/comp/righthero' component={HeroRight}></Route>
-<Route path='/components/authentication' component={authentication}></Route>
+<Route path='/comp/authleft' component={Authentication}></Route>
+<Route path='/comp/authright' component={AuthRight}></Route>
+<Route path='/comp/centerauth' component={Authcenter}></Route>
 <Route path='/components/card' component={CardComp}></Route>
 <Route path='/components/blog' component={BlogComp}></Route>
 

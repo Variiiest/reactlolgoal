@@ -7,9 +7,9 @@ export class Footer extends Component {
         return (
             <div>
               <Subscribe/>
-           <footer className="-mt-16 font-medium bg-blue-100 body-font bg-gray-200">
+           <footer className="-mt-32 font-medium bg-blue-100 body-font bg-gray-200">
              
-        <div className="container px-5 py-24  mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div className="container px-5 pt-32 pb-12 mt-8 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <Link to="/" className="text-3xl font-bold text-blue-700 border-green-300 border-b-2">
                   <span className="sr-only">Logo</span>
@@ -18,71 +18,89 @@ export class Footer extends Component {
             
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-extrabold text-gray-900 text-xl mb-3">Categories</h2>
+            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-extrabold text-blue-800 text-xl mb-3">Tailwind</h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a href="." className="font-bold"> First Link</a>
+                  <a href="." className=""> Heroes Components</a>
                 </li>
                 <li>
-                  <a href="." className="font-bold"> Second Link</a>
+                  <a href="." className="">Authentication</a>
                 </li>
                 <li>
-                  <a href="." className="font-bold"> Third Link</a>
+                  <a href="." className="">Pricing Components</a>
                 </li>
                 <li>
-                  <a href="." className="font-bold"> Fourth Link</a>
+                  <a href="." className="">Content Components</a>
+                </li>
+                <li>
+                  <a href="." className="">Footers Components</a>
+                </li>
+                <li>
+                  <a href="." className="">Faq Components</a>
+                </li>
+                <li>
+                  <a href="." className="">Grid Components</a>
+                </li>
+                <li>
+                  <a href="." className="">All Components</a>
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-extrabold text-gray-900 text-xl mb-3">CATEGORIES</h2>
+            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-extrabold text-blue-800 text-xl mb-3">Django Blocks</h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a href="." className="font-bold"> First Link</a>
+                  <a href="." className="">Basics Installation</a>
                 </li>
                 <li>
-                  <a href="." className="font-bold"> Second Link</a>
+                  <a href="." className="">Models</a>
                 </li>
                 <li>
-                  <a href="." className="font-bold"> Third Link</a>
+                  <a href="." className="">Views</a>
                 </li>
                 <li>
-                  <a href="." className="font-bold"> Fourth Link</a>
+                  <a href="." className="">Authentication</a>
+                </li>
+               
+                <li>
+                  <a href="." className="">Authorization</a>
+                </li>
+                <li>
+                  <a href="." className="">Admin</a>
+                </li>
+                <li>
+                  <a href="." className="">Packages</a>
+                </li>
+                <li>
+                  <a href="." className="">Projects</a>
                 </li>
               </nav>
             </div>
+  
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-extrabold text-gray-900 text-xl mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-extrabold text-blue-800 text-xl mb-3">React Codeblocks</h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a href="." className="font-bold"> First Link</a>
+                  <a href="." className="">Basic Installation</a>
                 </li>
                 <li>
-                  <a href="." className="font-bold"> Second Link</a>
+                  <a href="." className="">Styles and Images</a>
                 </li>
                 <li>
-                  <a href="." className="font-bold"> Third Link</a>
+                  <a href="." className="">Dependencies</a>
                 </li>
                 <li>
-                  <a href="." className="font-bold"> Fourth Link</a>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-extrabold text-gray-900 text-xl mb-3">CATEGORIES</h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a href="." className="font-bold"> First Link</a>
+                  <a href="." className="">React-router</a>
                 </li>
                 <li>
-                  <a href="." className="font-bold"> Second Link</a>
+                  <a href="." className="">Enviornment</a>
                 </li>
                 <li>
-                  <a href="." className="font-bold"> Third Link</a>
+                  <a href="." className="">PWA</a>
                 </li>
                 <li>
-                  <a href="." className="font-bold"> Fourth Link</a>
+                  <a href="." className="">Projects</a>
                 </li>
               </nav>
             </div>
