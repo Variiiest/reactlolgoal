@@ -5,53 +5,80 @@ import image2 from './images/4.JPG'
 import image3 from './images/2.JPG'
 import image4 from './images/3.JPG'
 
+import CodeCard from './CodeCard'
+import HeroC1 from './HeroCenter/HeroC1'
 export class AllComp extends Component {
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             code:`<div className="pt-16">
+             <div className="container mx-auto pt-16 bg-gray-100">
+                 <div className="text-center pb-3 md:pb-10 xl:pb-20">
+                     <p className="text-gray-500 text-base lg:text-lg uppercase leading-tight mb-4">start with the basics</p>
+                     <h1 className="px-2 xl:px-0 xl:text-5xl md:text-3xl text-2xl font-extrabold text-gray-800">Frequently Asked Questions</h1>
+                 </div>
+
+
+                 <div className="pt-16">
+             <div className="container mx-auto pt-16 bg-gray-100">
+                 <div className="text-center pb-3 md:pb-10 xl:pb-20">
+                     <p className="text-gray-500 text-base lg:text-lg uppercase leading-tight mb-4">start with the basics</p>
+                     <h1 className="px-2 xl:px-0 xl:text-5xl md:text-3xl text-2xl font-extrabold text-gray-800">Frequently Asked Questions</h1>
+                 </div>
+               `
+        }
+    }
+    
+
+       
+
+  
     render() {
         return (
             <div>
 
 
-<section className="text-gray-100 body-font fifthcolr">
-        <div className="container flex flex-col items-center px-4 py-16 mx-auto md:flex-row lg:px-8">
-          <div className="flex flex-col items-start w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:mb-0 ">
-            <h1 className="mb-8 text-2xl font-bold tracking-tighter text-left text-white lg:text-5xl title-font">
-            How to work with  our tailwind components?
-            </h1>
-            <p className="mb-8 text-base leading-relaxed text-left font-bold">
-            It's too easy to start with components just install some dependencies given below and copy paste according to your need.
-            </p>
-            <p className="flex items-center mb-2 text-green-100 "><span className="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
-                <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24}>
-                  <path fill="none" d="M0 0h24v24H0z" />
-                  <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
-                </svg>
-              </span>
-              Lorem Ipsum is simply dummy text of the printing
-            </p>
-            <p className="flex items-center mb-2 text-green-100 ">
-              <span className="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
-                <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24}>
-                  <path fill="none" d="M0 0h24v24H0z" />
-                  <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
-                </svg>
-              </span>
-              Lorem Ipsum is simply dummy text of the printing
-            </p>
-            <p className="flex items-center mb-6 text-green-100">
-              <span className="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
-                <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24}>
-                  <path fill="none" d="M0 0h24v24H0z" />
-                  <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
-                </svg>
-              </span>
-              Lorem Ipsum is simply dummy text of the printing
-            </p>
-          </div>
-          <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
-            <img className="object-cover object-center rounded-lg " alt="hero" src="https://dummyimage.com/720x600/F3F4F7/8693ac" />
+<div className="btnupcoming md:overflow-hidden">
+        <div className="px-4 py-20 md:py-4">
+          <div className="md:max-w-7xl md:mx-auto">
+            <div className="md:flex md:flex-wrap">
+              <div className="md:w-1/2 text-center md:text-left md:pt-16">
+                <h1 className="font-bold text-white text-2xl md:text-5xl leading-tight mb-4 tracking-wide">
+              How to use our components in web-development?
+
+                </h1>
+                <button className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white bg-blue-800 rounded shadow-2xl focus:outline-none">Also We are coming with a Builder(Drag and Drop)</button>
+              </div>
+              <div className="md:w-1/2 relative">
+
+
+
+                  
+                <div>
+                
+               
+
+
+                <CodeCard code={this.state.code}>
+<HeroC1/>
+ 
+                </CodeCard>   
+        
+    </div>
+
+             </div>
+            </div>
           </div>
         </div>
-      </section>
+        <svg className="fill-current text-black hidden md:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fillOpacity={1} d="M0,224L1440,32L1440,320L0,320Z" />
+        </svg>
+      </div>
+
+
+
+
 
 
 

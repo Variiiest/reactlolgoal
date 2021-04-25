@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import BlogMain from '../components/BlogMain'
-import Hero from '../components/Hero'
-import Services from '../components/Services'
+import BlogMain from '../components/MainPageComp/BlogMain'
+import Hero from '../components/MainPageComp/Hero'
+import Services from '../components/MainPageComp/Services'
 
 export class mainPage extends Component {
     render() {
