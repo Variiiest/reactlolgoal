@@ -48,7 +48,7 @@ export class AllComp extends Component {
               How to use our components in web-development?
 
                 </h1>
-                <button className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white bg-blue-800 rounded shadow-2xl focus:outline-none">Also We are coming with a Builder(Drag and Drop)</button>
+                <button className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white bg-yellow-800 rounded shadow-2xl focus:outline-none">Also We are coming with a Builder(Drag and Drop)</button>
               </div>
               <div className="md:w-1/2 relative">
 
