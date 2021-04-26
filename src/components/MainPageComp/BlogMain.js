@@ -18,7 +18,7 @@ export class BlogMain extends Component {
           </div>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
-              <div className="h-full  items-left rounded shadow overflow-hidden">
+              <div className="h-full bg-gradient-to-tr from-gray-800 to-gray-900 items-left rounded shadow overflow-hidden">
                 <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://images.unsplash.com/photo-1565657255216-90f437a954a9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="blog" />
                 <div className="p-6">
                   

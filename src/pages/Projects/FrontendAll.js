@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CardTwo from '../../components/cards/CardTwo'
+import CardTwo from '../../components/CardTwo'
 
 export class FrontendAll extends Component {
     render() {

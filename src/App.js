@@ -41,8 +41,8 @@ function App() {
 <Route path='/story' component={StoryMain}></Route>
 <Route path='/courses' component={CoursePage}></Route>
 <Route path='/tailcomp' component={AllComp}></Route>
-<Route path='/templates' component={FrontendProjects}></Route>
-<Route path='/frontendsys/allpurpose' component={FrontendAll}></Route>
+<Route path='/templates' component={FrontendAll}></Route>
+<Route path='/frontendsys/allpurpose' component={FrontendProjects}></Route>
 <Route path='/backendsystems' component={BackendProjects}></Route>
 <Route path='/backend' component={Backend}></Route>
 <Route path='/datastructure' component={DataStructure}></Route>

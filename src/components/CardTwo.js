@@ -1,15 +1,19 @@
 import React, { Component } from 'react'
 
-
-export class FrontendBanner extends Component {
+export class CardTwo extends Component {
     render() {
         return (
             <div>
-                        <section className="px-2 pt-12 body-font md:px-5 lg:px-12">
-        <div className="container bg-gradient-to-r from-gray-800 to-black flex flex-col items-center py-2 mx-auto md:px-5  lg:px-10 md:flex-row rounded">
-          <div className="flex flex-col items-center w-full pt-0 text-center lg:text-left lg:flex-grow lg:w-1/2 md:items-start md:mb-0 text-blue-10 md:pr-16">
-            <h2 className="mb-4 text-xs font-semibold tracking-widest text-blue-300 title-font">
-              Category:
+
+<section className="text-gray-900 body-font px-2 ">
+                    <div className="container flex flex-col px-5 py-4 mt-8 mx-auto md:flex-row lg:px-4 rounded-md shadow-2xl bg-gradient-to-tr from-black to-gray-900">
+                        <div className="w-full lg:w-2/6 md:w-1/3">
+                            <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/450x300/F3F4F7/8693ac" />
+                        </div>
+                        <div className="flex flex-col items-start text-left lg:w-4/6 md:w-2/3 md:pl-16 mt-2">
+                 
+                          <h2 className="mb-4 text-xs font-semibold tracking-widest text-blue-300 title-font">
+              Category: {this.props.industry} 
             </h2>
             <h1 className="mb-4 text-4xl font-bold leading-snug text-white lg:text-5xl">
               A fresh and modern blog.
@@ -25,20 +29,23 @@ export class FrontendBanner extends Component {
                   Download
                 </button>
               </a>
-              <a href="/viewports/wt004" target="_blank">
+              <a href="#.">
                 <button className="block w-full px-8 py-4 mb-4 text-lg font-medium leading-none text-center text-blue-200 transition duration-500 ease-in-out transform border-2 rounded lg:w-auto bg-gray-2 border-gray-2 lg:ml-4 hover:bg-gray-1 md:inline-block focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 shadow-thick hover:border-gray-1">
                   Live preview
                 </button>
-              </a>
-            </div>
-          </div>
-          <img alt="img" className="order-first object-cover object-center w-full h-56 mb-4 ml-auto rounded-lg md:order-last lg:mb-0 lg:w-1/2 lg:h-auto" name="App, extension or SAAS" title="App, extension  SAAS" loading="lazy" src="https://d33wubrfki0l68.cloudfront.net/459602c36995f393780d8b3fae96f9a526b5ef51/fc276/thumbnails/wt4.webp" />
-        </div>
-      </section>
+                </a>
+                
 
+                
+                </div>
+                </div>
+                    </div>
+                </section>
+
+       
             </div>
         )
     }
 }
 
-export default FrontendBanner
+export default CardTwo
