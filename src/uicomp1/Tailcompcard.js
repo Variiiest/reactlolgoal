@@ -18,8 +18,8 @@ export class Tailcompcard extends Component {
           <div className="flex flex-wrap -m-4">
             <div className="xl:w-1/4 md:w-1/2 p-4 ">
                 <Link to={this.props.firstl}> 
-              <div className="p-4 bg-gradient-to-tr from-gray-800 to-gray-900 shadow-2xl ">
-                <img className="h-40 w-full object-contain object-center mb-2 " src={this.props.image1} alt="content" />
+              <div className="p-2 bg-gradient-to-tr from-gray-900 to-gray-700 shadow-2xl ">
+                <img className="h-40 w-full object-cover object-center mb-2 " src={this.props.image1} alt="content" />
                 
                 <h2 className="text-base text-blue-100 font-bold title-font">{this.props.first}</h2>
                 
@@ -28,8 +28,8 @@ export class Tailcompcard extends Component {
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link to={this.props.secondl}>
-              <div className="p-4 bg-gradient-to-tr from-gray-800 to-gray-900 shadow-2xl ">
-                <img className="h-40  w-full object-contain object-center mb-2 " src={this.props.image2} alt="content" />
+              <div className="p-2 bg-gradient-to-tr from-gray-900 to-gray-700 shadow-2xl ">
+                <img className="h-40  w-full object-cover object-center mb-2 " src={this.props.image2} alt="content" />
                 
                 <h2 className="text-base text-blue-100 font-bold title-font">{this.props.second}</h2>
                 
@@ -38,7 +38,7 @@ export class Tailcompcard extends Component {
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link to={this.props.thirdl}>
-              <div className="p-4 bg-gradient-to-tr from-gray-800 to-gray-900 shadow-2xl ">
+              <div className="p-2 bg-gradient-to-tr from-gray-900 to-gray-700 shadow-2xl ">
                 <img className="h-40  w-full object-cover object-center mb-2 " src={this.props.image3} alt="content" />
                 
                 <h2 className="text-base text-blue-100 font-bold title-font">{this.props.third}</h2>
@@ -48,8 +48,8 @@ export class Tailcompcard extends Component {
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link to={this.props.fourthl}>
-              <div className="p-4 bg-gradient-to-tr from-gray-800 to-gray-900 shadow-2xl ">
-                <img className="h-40  w-full object-contain object-center mb-2 " src={this.props.image4} alt="content" />
+              <div className="p-2 bg-gradient-to-tr from-gray-900 to-gray-700 shadow-2xl ">
+                <img className="h-40  w-full object-cover object-center mb-2 " src={this.props.image4} alt="content" />
                 
                 <h2 className="text-base text-blue-100 font-bold title-font">{this.props.fourth}</h2>
                 

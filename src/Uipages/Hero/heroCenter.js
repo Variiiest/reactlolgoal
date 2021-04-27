@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import CodeCard from '../uicomp1/CodeCard'
-import HeroC1 from '../uicomp1/HeroCenter/HeroC1'
-import HeroC2 from '../uicomp1/HeroCenter/HeroC2'
-import HeroC3 from '../uicomp1/HeroCenter/HeroC3'
-import HeroC4 from '../uicomp1/HeroCenter/HeroC4'
+import CodeCard from '../../uicomp1/CodeCard'
+import HeroC1 from '../../uicomp1/HeroCenter/HeroC1'
+import HeroC2 from '../../uicomp1/HeroCenter/HeroC2'
+import HeroC3 from '../../uicomp1/HeroCenter/HeroC3'
+import HeroC4 from '../../uicomp1/HeroCenter/HeroC4'
 
 export class HeroCenter extends Component {
     render() {

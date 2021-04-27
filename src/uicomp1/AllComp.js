@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import Tailcompcard from './Tailcompcard'
-import image1 from './images/1.JPG'
-import image2 from './images/4.JPG'
-import image3 from './images/2.JPG'
-import image4 from './images/3.JPG'
+
 
 import CodeCard from './CodeCard'
 import HeroC1 from './HeroCenter/HeroC1'
@@ -83,9 +80,43 @@ export class AllComp extends Component {
 
 
 
-<Tailcompcard name="Hero" image1={image1} image2={image2} image3={image3} image4={image4} first="Left Hero" firstl="comp/lefthero" second="Right Hero" secondl="comp/righthero" third="Centered" thirdl="comp/centeredhero" fourth="Special" fourthl="comp/specialhero"/>
+<Tailcompcard name="Hero" image1={'https://dummyimage.com/600x400/0af5aa&text=Left'} 
+image2={'https://dummyimage.com/600x400/0af5aa&text=Right'} 
+image3={'https://dummyimage.com/600x400/0af5aa&text=Center'} 
+image4={'https://dummyimage.com/600x400/0af5aa&text=Special'
+} first="Left Hero" firstl="comp/lefthero" second="Right Hero" secondl="comp/righthero" third="Centered" thirdl="comp/centeredhero" fourth="Special" fourthl="comp/specialhero"/>
 
-<Tailcompcard name="Authentication" image1={image1} image2={image3} image3={image3} image4={image4} first="Left" firstl="comp/authleft" second="Right" secondl="comp/authright" third="Centered " thirdl="comp/centerauth" fourth="Special " fourthl="comp/specialauth"/>
+<Tailcompcard name="Authentication" image1={'https://dummyimage.com/600x400/0af5aa&text=Left'} image2={'https://dummyimage.com/600x400/0af5aa&text=Right'} image3={'https://dummyimage.com/600x400/0af5aa&text=Center'} 
+image4={'https://dummyimage.com/600x400/0af5aa&text=Special'
+} first="Left" firstl="comp/authleft" second="Right" secondl="comp/authright" third="Centered " thirdl="comp/centerauth" fourth="Special " fourthl="comp/specialauth"/>
+
+
+
+
+<Tailcompcard name="Blog" image1={'https://dummyimage.com/600x400/0af5aa&text=BlogList'} image2={'https://dummyimage.com/600x400/0af5aa&text=Special'} image3={'https://dummyimage.com/600x400/0af5aa&text=SinglePost'} 
+image4={'https://dummyimage.com/600x400/0af5aa&text=Pagination'
+} first="List" firstl="comp/bloglist" second="Special" secondl="comp/blogspec" third="SinglePost " thirdl="comp/singlepost" fourth="Pagination " fourthl="comp/blogpag"/>
+
+
+
+
+
+<Tailcompcard name="Content" image1={'https://dummyimage.com/600x400/0af5aa&text=Left'} image2={'https://dummyimage.com/600x400/0af5aa&text=Right'} image3={'https://dummyimage.com/600x400/0af5aa&text=Center'} 
+image4={'https://dummyimage.com/600x400/0af5aa&text=Special'
+} first="Left" firstl="comp/authleft" second="Right" secondl="comp/authright" third="Centered " thirdl="comp/centerauth" fourth="Special " fourthl="comp/specialauth"/>
+
+
+
+
+<Tailcompcard name="Cards" image1={'https://dummyimage.com/600x400/0af5aa&text=Left'} image2={'https://dummyimage.com/600x400/0af5aa&text=Right'} image3={'https://dummyimage.com/600x400/0af5aa&text=Center'} 
+image4={'https://dummyimage.com/600x400/0af5aa&text=Special'
+} first="Left" firstl="comp/authleft" second="Right" secondl="comp/authright" third="Centered " thirdl="comp/centerauth" fourth="Special " fourthl="comp/specialauth"/>
+
+
+
+
+
+
 
 
 

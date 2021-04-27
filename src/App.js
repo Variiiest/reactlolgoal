@@ -18,16 +18,27 @@ import DataStructure from './pages/Blog/DataStructure';
 import FrontendAll from './pages/Projects/FrontendAll';
 import Authentication from './Uipages/Authenticate/Authleft';
 import CardComp from './Uipages/CardComp';
-import BlogComp from './Uipages/BlogComp';
 import contact from './Uipages/contact';
 import AllComp from './uicomp1/AllComp';
-import heroleft from './Uipages/heroleft';
+
+
+import heroleft from './Uipages/Hero/heroleft';
 import DjangoBlocks from './Django/DjangoBlocks';
-import heroCenter from './Uipages/heroCenter';
-import HeroSpe from './Uipages/HeroSpe';
-import HeroRight from './Uipages/HeroRight';
+import heroCenter from './Uipages/Hero/heroCenter';
+import HeroSpe from './Uipages/Hero/HeroSpe';
+import HeroRight from './Uipages/Hero/HeroRight';
+
+
 import AuthRight from './Uipages/Authenticate/AuthRight';
 import Authcenter from './Uipages/Authenticate/Authcenter';
+import AllBlog from './Uipages/Blog/AllBlog';
+import List from './Uipages/Blog/List';
+import Single from './Uipages/Blog/Single';
+import Special from './Uipages/Blog/Special';
+
+
+
+
 
 
 function App() {
@@ -55,13 +66,19 @@ function App() {
 <Route path='/comp/centeredhero' component={heroCenter}></Route>
 <Route path='/comp/specialhero' component={HeroSpe}></Route>
 <Route path='/comp/righthero' component={HeroRight}></Route>
+
+
 <Route path='/comp/authleft' component={Authentication}></Route>
 <Route path='/comp/authright' component={AuthRight}></Route>
 <Route path='/comp/centerauth' component={Authcenter}></Route>
 <Route path='/components/card' component={CardComp}></Route>
-<Route path='/components/blog' component={BlogComp}></Route>
-
 <Route path='/components/contact' component={contact}></Route>
+
+
+<Route path='/comp/bloglist' component={List}></Route>
+<Route path='/comp/blogspec' component={Special}></Route>
+<Route path='/comp/singlepost' component={Single}></Route>
+<Route path='/comp/blogpag' component={AllBlog}></Route>
 
 
 

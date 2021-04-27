@@ -9,7 +9,6 @@ export class BadgeFive extends Component {
                         <div className="flex items-center justify-center ">
                             <div className="w-12 h-12 inline-flex items-center bg-red-400 rounded-l-full justify-center mb-4 flex-shrink-0">
                             </div>
-
                         </div>
                         <div className="flex items-center justify-center ">
                             <div className="w-12 h-12 inline-flex items-center bg-red-600 justify-center mb-4 flex-shrink-0">

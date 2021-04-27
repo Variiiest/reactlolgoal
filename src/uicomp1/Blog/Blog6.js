@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export class Blog6 extends Component {
     render() {
         return (
-            <div className="bg-gray-900">
-                    <main className="px-4 py-2">
+            <div>
+                    <section className="sm:px-12 px-2 py-6">
         <div className="mb-4 md:mb-0 w-full mx-auto relative">
           <div className="px-4 lg:px-0">
             <h2 className="text-4xl font-semibold text-gray-800 leading-tight">
@@ -18,6 +18,10 @@ export class Blog6 extends Component {
         </div>
         <div className="flex flex-col lg:flex-row lg:space-x-12">
           <div className="px-4 lg:px-0 mt-12 text-gray-700 text-lg leading-relaxed w-full lg:w-3/4">
+            
+          <h2 className="text-4xl font-semibold text-gray-800 leading-tight">
+              Pellentesque a consectetur velit, ac molestie ipsum.
+            </h2>
             <p className="pb-6">Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is
               justice. Six draw
               you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection advantages
@@ -30,6 +34,11 @@ export class Blog6 extends Component {
               expression. But truth being state can she china widow. Occasional preference fat remarkably now projecting
               uncommonly dissimilar. Sentiments projection particular companions interested do at my delightful. Listening
               newspaper in advantage frankness to concluded unwilling.</p>
+
+              <h2 className="text-4xl font-semibold text-gray-800 leading-tight mb-4">
+              Pellentesque a consectetur velie.
+            </h2>
+
             <p className="pb-6">Adieus except say barton put feebly favour him. Entreaties unpleasant sufficient few pianoforte
               discovered
               uncommonly ask. Morning cousins amongst in mr weather do neither. Warmth object matter course active law
@@ -69,7 +78,7 @@ export class Blog6 extends Component {
               to unpleasant in in insensible favourable. Latter remark hunted enough vulgar say man. Sitting hearted on it
               without me.</p>
           </div>
-          <div className="w-full lg:w-1/4 m-auto mt-12 max-w-screen-sm">
+          <div className="w-full lg:w-1/4 m-auto mt-12 max-w-screen-sm sm:-mt-32 relative bg-gray-100">
             <div className="p-4 border-t border-b md:border md:rounded">
               <div className="flex py-2">
                 <img alt="" src="https://randomuser.me/api/portraits/men/97.jpg" className="h-10 w-10 rounded-full mr-2 object-cover" />
@@ -89,7 +98,7 @@ export class Blog6 extends Component {
             </div>
           </div>
         </div>
-      </main>
+      </section>
             </div>
         )
     }
