@@ -4,6 +4,9 @@ export class Blog8 extends Component {
     render() {
         return (
             <div>
+               <section className="text-gray-900 body-font">
+                    <div className="container px-5 py-12 mx-auto">
+                     
             <div className="block lg:flex lg:space-x-2  sm:px-4 px-2 py-12 mb-10">
          
          <div className="w-full lg:w-2/3">
@@ -118,7 +121,8 @@ export class Blog8 extends Component {
            </div>
          </div>
        </div>
-     
+     </div>
+     </section>
             </div>
         )
     }

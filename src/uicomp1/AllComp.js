@@ -101,7 +101,7 @@ image4={'https://dummyimage.com/600x400/0af5aa&text=Pagination'
 
 
 
-<Tailcompcard name="Content" image1={'https://dummyimage.com/600x400/0af5aa&text=Left'} image2={'https://dummyimage.com/600x400/0af5aa&text=Right'} image3={'https://dummyimage.com/600x400/0af5aa&text=Center'} 
+{/* <Tailcompcard name="Content" image1={'https://dummyimage.com/600x400/0af5aa&text=Left'} image2={'https://dummyimage.com/600x400/0af5aa&text=Right'} image3={'https://dummyimage.com/600x400/0af5aa&text=Center'} 
 image4={'https://dummyimage.com/600x400/0af5aa&text=Special'
 } first="Left" firstl="comp/authleft" second="Right" secondl="comp/authright" third="Centered " thirdl="comp/centerauth" fourth="Special " fourthl="comp/specialauth"/>
 
@@ -112,7 +112,7 @@ image4={'https://dummyimage.com/600x400/0af5aa&text=Special'
 image4={'https://dummyimage.com/600x400/0af5aa&text=Special'
 } first="Left" firstl="comp/authleft" second="Right" secondl="comp/authright" third="Centered " thirdl="comp/centerauth" fourth="Special " fourthl="comp/specialauth"/>
 
-
+ */}
 
 
 

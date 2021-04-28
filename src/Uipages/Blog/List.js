@@ -3,6 +3,7 @@ import Blog1 from '../../uicomp1/Blog/Blog1'
 import Blog2 from '../../uicomp1/Blog/Blog2'
 import Blog3 from '../../uicomp1/Blog/Blog3'
 import Blog4 from '../../uicomp1/Blog/Blog4'
+
 import CodeCard from '../../uicomp1/CodeCard'
 
 export class List extends Component {
@@ -270,6 +271,9 @@ export class List extends Component {
                     <Blog4 />
 
                 </CodeCard>
+
+             
+
 
           
 

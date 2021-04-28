@@ -48,7 +48,7 @@ function App() {
            <div className="App">
            <Route exact path='/' component={mainPage}></Route>
 <Route path='/frontend' component={Frontend}></Route>
-<Route path='/blogdet' component={BlogPage}></Route>
+
 <Route path='/story' component={StoryMain}></Route>
 <Route path='/courses' component={CoursePage}></Route>
 <Route path='/tailcomp' component={AllComp}></Route>
@@ -83,9 +83,8 @@ function App() {
 
 
 
-
-
 <Route path='/django' component={DjangoBlocks}></Route>
+<Route path='/blogdet/:url' component={BlogPage}></Route>
 <Footer/>
 
            </div>

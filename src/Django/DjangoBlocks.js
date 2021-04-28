@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CardTwo from '../components/CardTwo'
+import BlogSecond from '../pages/Blog/BlogSecond'
 
 
 
@@ -7,7 +7,7 @@ export class DjangoBlocks extends Component {
     render() {
         return (
             <div>
-<CardTwo/>
+<BlogSecond/>
       </div>
         )
     }
