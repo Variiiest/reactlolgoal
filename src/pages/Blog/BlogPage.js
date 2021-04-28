@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import BlogData from './data'
+import {BlogData} from './data'
 
 
 
@@ -10,11 +10,12 @@ const BlogPage =(props) =>{
          title:"",
          body:"",
       });
-      const [slug,setSlug]= useState('');
+      const [slug,setSlug]= useState("");
 
 
       useEffect(() => {
-        const slug= props.match.params.slug;
+        const slug = props.match.params.slug;
+
         const post= BlogData.find(post=>post.slug=== slug);
         setPost(post);
         setSlug(slug);
