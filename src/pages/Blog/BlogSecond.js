@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { BlogData } from "./data";
 
+
 export default function BlogSecond() {
   return (
     <div>
@@ -14,14 +15,13 @@ export default function BlogSecond() {
           <div className="flex flex-wrap -m-4">
           {BlogData.map((data, key) => {
           return (
-            <div className="xl:w-1/3 md:w-1/2 p-4" key={key}>
-            <Link to={data.slug}>
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+            <Link to={"/blogdet/"+ data.slug} key={data.slug}>
             <div className="firstcolr p-6 rounded">
       
-              <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">{data.title} Basic Installation</h2>
+              <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">{data.title}</h2>
               <p className="leading-relaxed text-base text-gray-200">
 {data.about}
-In this tutorial we are going to discuss about Django and Django rest-framework installation.
       </p>
             </div>
             </Link>

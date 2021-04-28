@@ -1,43 +1,27 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import {BlogData} from './data'
+import { useParams } from "react-router";
+function findPostBySlug(slug) {
+  return BlogData.find(o => o.slug === slug);
+}
 
 
-
-
-const BlogPage =(props) =>{
-      const [post, setPost] = useState({
-         id:"",
-         title:"",
-         body:"",
-      });
-      const [slug,setSlug]= useState("");
-
-
-      useEffect(() => {
-        const slug = props.match.params.slug;
-
-        const post= BlogData.find(post=>post.slug=== slug);
-        setPost(post);
-        setSlug(slug);
-      }, [post, props.match.params.slug]);
-
-
-      return (
-        <div>
-          <section className="text-gray-100 body-font">
+export default function BlogPage() {
+  var { slug } = useParams(),
+  post = findPostBySlug(slug);
+  return (
+    <div>
+      <section className="text-gray-100 body-font">
   <div className="container px-5 mx-auto">
 
     <div className="flex flex-wrap -mx-4 -mb-10">
       <div className="md:w-2/3 sm:mb-0 mb-6">
                   
                    <article className="py-12 px-4">
-        <h1 className="sm:text-4xl text-2xl  mb-4 sm:mx-8 mx-2 font-semibold font-heading font-semibold">{this.props.title}</h1>
-        <p className="mx-8">
-          <span>October 22, by</span>
-          <a className="ml-1 text-indigo-600 hover:underline" href="/">{post.slug}</a>
-        </p>
-        <div className="max-w-3xl sm:mx-8 mx-2">
-        
+        <h1 className="sm:text-4xl text-2xl text-white mb-4 sm:mx-2 mx-2 font-semibold font-heading font-semibold">{post.title}</h1>
+      
+        <div className="max-w-3xl sm:mx-2 mx-2">
+        <div dangerouslySetInnerHTML={{__html:post["body"]}}></div>
         </div>
       </article>
       </div>
@@ -60,12 +44,6 @@ const BlogPage =(props) =>{
     </div>
   </div>
 </section>
-
-
-        </div>
-      )
-
+    </div>
+  )
 }
-
-
-export default BlogPage

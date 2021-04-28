@@ -84,7 +84,7 @@ function App() {
 
 
 <Route path='/django' component={DjangoBlocks}></Route>
-<Route path='/blogdet/:url' component={BlogPage}></Route>
+<Route path='/blogdet/:slug' component={BlogPage}></Route>
 <Footer/>
 
            </div>
