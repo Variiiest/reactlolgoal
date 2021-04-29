@@ -81,8 +81,8 @@ export const BlogData = [
     },
     {
       title: "URL Pattern in Django and DRF",
-      about: "SHOP",
-      slug: "urlpatter-django",
+      about: "",
+      slug: "urlpattern-django",
       body: "3 sec ago",
     },
     {

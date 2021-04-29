@@ -73,10 +73,9 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
  
   background: radial-gradient(ellipse at center, rgba(17, 8, 2, 0.849) 0%, rgba(32, 51, 6, 0.801) 100%), radial-gradient(ellipse at 70% 60%, rgb(6, 15, 98) 0%, rgba(195, 224, 96, 0) 30%), radial-gradient(ellipse at bottom left, rgb(3, 32, 39) 0%, rgba(0, 163, 203, 0) 70%), linear-gradient(135deg, rgba(18, 46, 119, 0) 0%, rgba(18, 46, 119, 0) 75%, rgba(18, 46, 119, 1) 100%), linear-gradient(to right, rgba(98, 87, 147, 1) 0%, rgb(10, 3, 70) 17%, rgb(47, 2, 36) 74%, rgb(88, 53, 24) 100%);
   background-blend-mode: screen, hue, color, overlay, normal;
-  
+  background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
-
-
 
 
 .btnupcoming {
