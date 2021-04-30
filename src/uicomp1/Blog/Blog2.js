@@ -15,7 +15,7 @@ export class Blog2 extends Component {
                   <h1 className="title-font text-2xl font-medium text-gray-900 mb-3">Lorem Ipsum</h1>
                   <p className="leading-relaxed mb-3">Lorem Ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veritatis vel suscipit ex dolore possimus iure.Learn More</p>
                   <div className="flex items-center flex-wrap ">
-                    <a href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                    <a href="#_" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                       <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M5 12h14" />
                         <path d="M12 5l7 7-7 7" />
@@ -39,7 +39,7 @@ export class Blog2 extends Component {
                   <h1 className="title-font text-2xl font-medium text-gray-900 mb-3">Lorem Ipsum</h1>
                   <p className="leading-relaxed mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veritatis vel suscipit ex dolore possimus iure.Learn More</p>
                   <div className="flex items-center flex-wrap ">
-                    <a href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                    <a href="#_" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                       <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M5 12h14" />
                         <path d="M12 5l7 7-7 7" />
@@ -63,7 +63,7 @@ export class Blog2 extends Component {
                   <h1 className="title-font text-2xl font-medium text-gray-900 mb-3">Lorem Ipsum</h1>
                   <p className="leading-relaxed mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veritatis vel suscipit ex dolore possimus iure.Learn More</p>
                   <div className="flex items-center flex-wrap ">
-                    <a href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                    <a href="#_" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                       <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M5 12h14" />
                         <path d="M12 5l7 7-7 7" />
