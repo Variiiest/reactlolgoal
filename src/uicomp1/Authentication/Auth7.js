@@ -4,12 +4,12 @@ export class Auth7 extends Component {
     render() {
         return (
             <div>
-                 <div className="flex items-center lg:justify-center text-gray-900 bg-gray-50">
-        <div className="flex flex-col mt-4 overflow-hidden bg-white rounded-md shadow-lg max md:flex-row md:flex-1 lg:max-w-screen-md">
-          <div className="p-4 py-6 text-white bg-blue-700 md:w-80 md:flex-shrink-0 md:flex md:flex-col md:items-center md:justify-evenly">
+                 <div className="flex items-center lg:justify-center text-gray-900 bg-white">
+        <div className="flex flex-col mt-4 overflow-hidden bg-gray-50 rounded-md shadow-2xl md:flex-row md:flex-1 lg:max-w-screen-md">
+          <div className="p-4 py-6 text-white bg-gray-100 md:w-80 md:flex-shrink-0 md:flex md:flex-col md:items-center md:justify-evenly">
            
           </div>
-          <div className="p-5 bg-white md:flex-1">
+          <div className="p-5 bg-gray-50 md:flex-1">
             <h3 className="my-4 text-2xl font-semibold text-gray-700">LOGIN</h3>
             <form action="/" className="flex flex-col space-y-5">
               <div className="flex flex-col space-y-1">

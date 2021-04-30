@@ -21,8 +21,7 @@ export class Auth2 extends Component {
               </button>
             </div>
             <div className="p-5">
-              <div className="grid grid-cols-3 gap-1">
-                <button type="button" className="transition duration-200 text-white w-full py-3 rounded text-sm shadow-sm hover:shadow-md font-bold text-center bg-blue-400 inline-block">Twitter</button>
+              <div className="grid grid-cols-2 gap-1">
                 <button type="button" className="transition duration-200 border border-gray-200 text-gray-100 bg-red-500 w-full py-3 rounded text-sm shadow-sm hover:shadow-md font-bold text-center inline-block">Google</button>
                 <button type="button" className="transition duration-200 border border-gray-200 text-gray-100 bg-black w-full py-3 rounded text-sm shadow-sm hover:shadow-md font-bold text-center inline-block">Github</button>
               </div>

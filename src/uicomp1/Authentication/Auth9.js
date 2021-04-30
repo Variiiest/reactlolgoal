@@ -4,11 +4,11 @@ export class Auth9 extends Component {
     render() {
         return (
             <div>
-                  <section className="flex flex-col items-center h-screen md:flex-row">
+                  <section className="flex flex-col items-center h-screen md:flex-row text-gray-900">
         <div className="container mx-auto">
           <div className="flex justify-center px-2 py-6 ">
-            <div className="flex w-full rounded-lg xl:w-3/4 lg:w-11/12 lg:shadow">
-              <div className="relative hidden w-full h-auto bg-white bg-cover border-r rounded-l-lg lg:block lg:w-6/12">
+            <div className="flex w-full rounded-lg xl:w-3/4 lg:w-11/12 shadow-2xl">
+              <div className="relative hidden w-full h-auto bg-gray-50 bg-cover border-r rounded-l-lg lg:block lg:w-6/12 ">
                 <div className="relative z-10 m-12 text-left ">
                   <h2 className="mt-12 mb-2 text-2xl font-semibold tracking-tighter text-gray-900 sm:text-3xl title-font">
                     Create an account.
@@ -51,9 +51,9 @@ Get Started Today
                     </div>
                     <button type="submit" className="block w-full px-4 py-3 mt-6 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg bg-blue-800 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ">Log In</button>
                   </form>
-                  <p className="mt-8 text-center">Already have an account? <a href="/" className="font-semibold text-gray-900 ">Sign
+                  <p className="mt-8 text-center text-black">Already have an account? <a href="/" className="font-semibold text-gray-900 ">Sign
                       In</a></p>
-                      <p className="mt-2 text-center">Forgot Password? <a href="/" className="font-semibold text-gray-900 ">Recover</a></p>
+                      <p className="mt-2 text-center text-black">Forgot Password? <a href="/" className="font-semibold text-gray-900 ">Recover</a></p>
                 </div>
               </div>
             </div>
