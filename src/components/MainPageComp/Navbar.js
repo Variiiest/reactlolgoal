@@ -80,51 +80,22 @@ export class Navbar extends Component {
             </div>
           </div>
 
-          <div className={"absolute top-0 inset-x-0 transition transform origin-top-right" + (this.state.openList3 ? "" : " hidden")}>
+          <div className={"top-0" + (this.state.openList3 ? "" : " hidden")}>
             <div className="ring-1 ring-gray-200 ring-opacity-5 secondcolr m-4">
-              <div className="pt-5 pb-6 p-3">
-                <div className="flex items-center justify-between ">
-                <Link to="/" className="text-3xl font-bold  border-green-300 border-b-2 text-blue-100">
-                  <span className="sr-only">Logo</span>
-                  <span className="text-blue-100 font-bold">lol</span>goal.com
-              </Link>
-                  <div className="-mr-2">
-                    <button type="button" className="rounded p-2 inline-flex items-center justify-center text-gray-900 bg-blue-100 focus:outline-none " onClick={() => this.setListOpen3()}>
-                      <span className="sr-only">Close menu</span>
-
-                      <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-
-              </div>
        
      
               <div className="py-6 px-5 space-y-6">
 
 
                 <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                  <Link to="/course" className="text-base font-medium text-gray-100 ">
-                 Tailwind Components
+        
+                  
+                {Nav.map((data,key)=>
+                  <Link to={data.url} className="text-base font-medium text-gray-100 ">
+                 {data.name}
                 </Link>
-                  <Link to="/designsystems" className="text-base font-medium text-gray-100">
-                   Django Blocks
-                </Link>
-                  <Link to="/frontend" className="text-base font-medium text-gray-100">
-                  React Blocks
-                </Link>
-                  <Link to="/backend" className="text-base font-medium text-gray-100 ">
-                   Backend Resources
-                </Link>
+                )}
               
-                  <Link to="/frontendsystems" className="text-base font-medium text-gray-100">
-                    Frontend Projects
-                </Link>
-                  <Link to="/backendsystems" className="text-base font-medium text-gray-100">
-                    Backend Projects
-                </Link>
 
                 </div>
               </div>
