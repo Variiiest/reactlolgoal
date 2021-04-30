@@ -11,6 +11,7 @@ import BlogPage from './Django/BlogPage';
 import AllComp from './uicomp1/AllComp';
 import DjangoBlocks from './Django/DjangoBlocks';
 import Auth from './Uipages/Auth';
+import BlogComp from './Uipages/BlogComp';
 
 
 
@@ -31,7 +32,9 @@ function App() {
         <Route path='/auth'>
          <Auth/>
         </Route>
-
+        <Route path='/blog'>
+         <BlogComp/>
+        </Route>
         
         <Footer />
 

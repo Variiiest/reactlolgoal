@@ -4,7 +4,7 @@ export class Auth9 extends Component {
     render() {
         return (
             <div>
-                  <section className="flex flex-col items-center h-screen md:flex-row text-gray-900">
+                  <section className="flex flex-col items-center sm:h-screen md:flex-row text-gray-900">
         <div className="container mx-auto">
           <div className="flex justify-center px-2 py-6 ">
             <div className="flex w-full rounded-lg xl:w-3/4 lg:w-11/12 shadow-2xl">

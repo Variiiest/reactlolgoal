@@ -4,7 +4,7 @@ export class Auth8 extends Component {
     render() {
         return (
             <div>
-                  <section className="flex flex-col items-center text-gray-900 h-screen bg-gray-100 md:flex-row ">
+                  <section className="flex flex-col items-center text-gray-900 sm:h-screen bg-gray-100 md:flex-row ">
       
         <div className="flex w-full h-screen px-6 bg-white md:max-w-md lg:max-w-full md:mx-auto md:w-1/2 xl:w-1/3 lg:px-16 xl:px-12 items-left justify-left">
           <div className="w-full py-32 lg:py-6 lg:h-100">

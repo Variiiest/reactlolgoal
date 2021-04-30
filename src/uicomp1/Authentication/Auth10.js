@@ -4,7 +4,7 @@ export class Auth10 extends Component {
     render() {
         return (
             <div>
-                  <section className="w-full">
+                  <section className="w-full text-gray-900">
         <div className="mx-auto max-w-7xl">
           <div className="flex flex-col lg:flex-row">
             <div className="relative w-full bg-cover lg:w-6/12 xl:w-7/12">

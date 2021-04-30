@@ -4,7 +4,7 @@ export class Auth6 extends Component {
     render() {
         return (
             <div>
-                   <div className="min-w-screen min-h-screen flex items-center justify-center px-5 py-5">
+                   <div className="min-w-screen sm:min-h-screen flex items-center justify-center px-5 py-5">
         <div className="text-gray-900 rounded  shadow-2xl w-full overflow-hidden" style={{maxWidth: '1000px'}}>
           <div className="md:flex w-full">
             <div className="hidden md:block w-1/2 bg-blue-700 py-10 px-10">

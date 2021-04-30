@@ -3,7 +3,6 @@ import Blog1 from '../uicomp1/Blog/Blog1'
 import Blog2 from '../uicomp1/Blog/Blog2'
 import Blog3 from '../uicomp1/Blog/Blog3'
 import Blog4 from '../uicomp1/Blog/Blog4'
-import Blog5 from '../uicomp1/Blog/Blog5'
 import Blog6 from '../uicomp1/Blog/Blog6'
 import Blog7 from '../uicomp1/Blog/Blog7'
 import Blog8 from '../uicomp1/Blog/Blog8'
@@ -25,10 +24,7 @@ export class BlogComp extends Component {
                     <Blog6/>
 
                 </CodeCard>
-<CodeCard>
-                    <Blog5/>
 
-                </CodeCard>
 
 <CodeCard>
                     <Blog4/>

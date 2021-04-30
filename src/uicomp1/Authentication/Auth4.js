@@ -4,7 +4,7 @@ export class Auth4 extends Component {
     render() {
         return (
             <div>
-                 <div className="flex min-h-screen bg-white">
+                 <div className="flex sm:min-h-screen bg-white">
                  <div className="md:w-1/2 max-w-lg mx-auto my-24 px-4 py-5 shadow-none">
           <div className="text-left p-0 font-sans">
             <h1 className=" text-gray-800 text-3xl font-medium">Create an account for free</h1>
