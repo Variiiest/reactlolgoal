@@ -15,7 +15,7 @@ export default function BlogPage() {
   <div className="container px-5 mx-auto">
 
     <div className="flex flex-wrap -mx-4 -mb-10">
-      <div className="md:w-2/3 sm:mb-0 mb-6">
+      <div className="md:w-2/3 sm:mb-0 mb-6 bg-gray-800">
                   
                    <article className="py-12 px-4">
         <h1 className="sm:text-4xl text-2xl text-white mb-4 sm:mx-2 mx-2 font-semibold font-heading font-semibold">{post.title}</h1>

@@ -1,6 +1,32 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+const Nav =[
+  {
+    name:"Tailwind Designs",
+    url:"/tailwind",
+  },
+  {
+    name:"DRF Tutorial",
+    url:"/django",
+  },
+  {
+    name:"FreeTemplates",
+    url:"/freetemp",
+  },
+  {
+    name:"Premium",
+    url:"/premium",
+  },
+  {
+    name:"Custom",
+    url:"/contact",
+  },
+ 
+ 
+]
+
+
 
 
 export class Navbar extends Component {
@@ -42,26 +68,14 @@ export class Navbar extends Component {
               <nav className="hidden lg:flex space-x-10">
               
                 <div className="relative">
-                  <Link to="/tailcomp" className="group inline-flex items-center text-base font-bold focus:outline-none" >
-                     Tailwind Resources
-                  </Link>
-                </div>
 
-                <div className="relative">
-                  <Link to="/django" className="group inline-flex items-center text-base font-bold focus:outline-none">
-                  Django Resources
+                {Nav.map((data,key)=>
+                  <Link to={data.url} className="group ml-4 px-2 py-2 rounded shadow-2xl hover:bg-gray-900 inline-flex items-center text-base font-bold focus:outline-none" >
+                    {data.name}
                   </Link>
+                    )}
                 </div>
-                <div className="relative">
-                  <Link to="/templates" className="group  inline-flex items-center text-base font-bold focus:outline-none">
-                      Templates Store
-                  </Link>
-                </div>
-                <div className="relative">
-                  <Link to="/blog" className="group inline-flex items-center text-base font-bold focus:outline-none">
-                  Blog
-                  </Link>
-                </div>
+              
               </nav>
             </div>
           </div>

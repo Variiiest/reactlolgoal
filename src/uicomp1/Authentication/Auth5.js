@@ -4,7 +4,7 @@ export class Auth5 extends Component {
     render() {
         return (
             <div>
-                 <section className="flex flex-col md:flex-row h-screen items-center">
+                 <section className="flex flex-col md:flex-row text-gray-900 items-center">
         <div className="bg-indigo-600 hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
           <img src="https://source.unsplash.com/random" alt="" className="w-full h-full object-cover" />
         </div>

@@ -7,7 +7,7 @@ export class Hero extends Component {
   render() {
     return (
       <div>
-              <section className="px-2 py-24 btnupcoming md:px-0" >
+              <section className="px-2 py-24 bg-gray-800 md:px-0" >
         <div className="container sm:items-center max-w-6xl px-5 mx-auto space-y-6 text-center">
           <h1 className="text-3xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 font-extrabold tracking-tight text-left sm:text-5xl md:text-6xl text-center uppercase">
             <span className="block">React | Tailwind<span className="block mt-1 bg-clip-text text-transparent bg-gradient-to-r from-green-200 to-pink-500 lg:inline lg:mt-0"> | Django</span></span>
