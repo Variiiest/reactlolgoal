@@ -24,7 +24,7 @@ export class Services extends Component {
 
           <div className="flex flex-wrap -m-4">
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="bg-gray-800 p-6 rounded-md">
+              <div className="secondcolr p-6 rounded-md">
               
                 <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">Web Development</h2>
                 <p className="leading-relaxed text-base text-gray-200">We develop web applications that engaging, and are developed with the latest technologies.And If you are programming person use our code snippets for free.</p>
@@ -50,7 +50,7 @@ export class Services extends Component {
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="fifthcolr p-6 rounded-md">
+              <div className="secondcolr p-6 rounded-md">
                 <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">Frontend Templates Premium </h2>
                 <p className="leading-relaxed text-base">We have  developed some landing pages with latest technologies . If you are starting a startup,Landing pages are important.We also matched the color with industry.</p>
                 <Link to="/premium" className="text-blue-300 inline-flex items-center mt-4">Learn More
@@ -62,7 +62,7 @@ export class Services extends Component {
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="bg-gray-900 p-6 rounded-md">
+              <div className="secondcolr p-6 rounded-md">
                 
                 <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">Free FullStack Projects</h2>
                 <p className="leading-relaxed text-base">Our free fullstack projects help you to start business with less cost.Also Get assistant for hosting and choosing right domain.</p>
@@ -75,7 +75,7 @@ export class Services extends Component {
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="fifthcolr p-6 rounded-md">
+              <div className="secondcolr p-6 rounded-md">
                
                 <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">Full-Stack Premium</h2>
                 <p className="leading-relaxed text-base text-gray-200">Our free fullstack projects help you to start business with less cost.Also Get assistant for hosting and choosing right domain.</p>
@@ -88,7 +88,7 @@ export class Services extends Component {
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="sixcolr p-6 rounded-md">
+              <div className="secondcolr p-6 rounded-md">
                 <h2 className="text-2xl text-gray-100 font-bold title-font mb-2">Custom Development</h2>
                 <p className="leading-relaxed text-base text-gray-200">Try our free resources , If not working for your project just contact us. We will work with you and help you to start your business.
 </p>

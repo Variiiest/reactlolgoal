@@ -47,7 +47,7 @@ export class Navbar extends Component {
   }
   render() {
     return (
-      <div className="text-white bg-black font-bold">
+      <div className="text-white bg-gray-900 font-bold">
         <div className="relative">
           <div className="max-w-7xl mx-auto px-4 py-2 sm:px-6">
             <div className="flex justify-between items-center pt-2 pb-2 md:justify-start md:space-x-10 ">
@@ -70,7 +70,7 @@ export class Navbar extends Component {
                 <div className="relative">
 
                 {Nav.map((data,key)=>
-                  <Link to={data.url} className="group ml-4 px-2 py-2 rounded shadow-2xl hover:bg-gray-900 inline-flex items-center text-base font-bold focus:outline-none" >
+                  <Link to={data.url} className="group ml-4 px-2 py-2 rounded shadow-2xl hover:bg-gray-700 inline-flex items-center text-base font-bold focus:outline-none" >
                     {data.name}
                   </Link>
                     )}
