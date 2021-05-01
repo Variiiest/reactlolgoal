@@ -24,10 +24,10 @@ export class Auth3 extends Component {
      </div>
      <div className="mt-6 block p-5 text-sm md: text-xs text-gray-800">
        <input type="checkbox" className="inline-block border-0  " />
-       <span display="inline" className>By creating an account you are agreeing to our 
-         <a className href="/s/terms" target="_blank" data-test="Link">
+       <span display="inline">By creating an account you are agreeing to our 
+         <a href="/s/terms" target="_blank" data-test="Link">
            <span className="underline ">Terms and Conditions</span> </a> and
-         <a className href="/s/privacy" target="_blank" data-test="Link">
+         <a href="/s/privacy" target="_blank" data-test="Link">
            <span className="underline">Privacy Policy</span> </a>
        </span>
      </div>
@@ -35,7 +35,7 @@ export class Auth3 extends Component {
        <input type="submit" defaultValue="Sign up with email" className="py-3 bg-blue-500 text-white w-full rounded hover:bg-blue-600" />
      </div>
    </form>
-   <a className href="/login" data-test="Link"><span className="block  p-5 text-center text-gray-800  text-xs ">Already have an account?</span></a>
+   <a href="/login" data-test="Link"><span className="block  p-5 text-center text-gray-800  text-xs ">Already have an account?</span></a>
  </div>
 </div>
      </div>

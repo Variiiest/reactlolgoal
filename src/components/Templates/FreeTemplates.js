@@ -1,13 +1,24 @@
 import React, { Component } from 'react'
+import Web1 from './images/Web1.JPG'
+import Web2 from './images/Web2.JPG'
 
 const FreeTemp=[
     {
-        name:"",
+        name:"Landing Page SAAS",
         gumroad_link:"",
-        about:"",
+        about:"A data management company landing page using React JS and TailwindCSS.",
         preview_link:"",
+        image:Web1,
 
-    }
+    },
+    {
+      name:"Fitness Blog",
+      gumroad_link:"",
+      about:"A blog Website using HTML,CSS,Alpine.js and TailwindCSS.",
+      preview_link:"",
+      image:Web2,
+
+  }
 ]
 
 
@@ -31,18 +42,16 @@ export class FreeTemplates extends Component {
 
 
       <section className="px-2 body-font md:px-5 lg:px-12">
-      {FreeTemp.map((data,key)=><div className="container bgcard flex flex-col items-center py-2 mx-auto md:px-5  lg:px-10 md:flex-row rounded">
+      {FreeTemp.map((data,key)=><div className="container bgcard flex flex-col items-center py-2 mx-auto md:px-5  lg:px-10 md:flex-row rounded mt-10" key={data.name}>
           <div className="flex flex-col w-full pt-0 text-left pl-5 lg:flex-grow lg:w-1/2 md:items-start md:mb-0 text-blue-10 md:pr-16">
-            <a href={data.preview_link} className="mb-4 text-base font-semibold tracking-widest text-white title-font px-4 py-2 rounded-full bg-gray-900">
+            <a href={data.preview_link} className="mb-4 text-base font-semibold tracking-widest text-white title-font px-4 py-2 rounded-full bg-gray-800">
               Preview
             </a>
             <h1 className="mb-4 text-4xl font-bold leading-snug text-white lg:text-5xl">
-              A fresh and modern blog.
+              {data.name}
             </h1>
             <p className="mb-6 text-xl font-light text-white text-opacity-60">
-              Made with Tailwind CSS and Alpine.js.Includes: 5 responsive pages, landing page, about, blog,
-              blog post, work and Dark
-              mode.
+            {data.about}
             </p>
             <div className="flex flex-col justify-center md:justify-left md:flex-row">
               <a href="#_">
@@ -52,7 +61,7 @@ export class FreeTemplates extends Component {
               </a>
             </div>
           </div>
-          <img alt="img" className="order-first object-cover object-center w-full h-56 mb-4 ml-auto rounded-lg md:order-last lg:mb-0 lg:w-1/2 lg:h-auto" name="App, extension or SAAS" title="App, extension  SAAS" loading="lazy" src="" />
+          <img alt="img" className="order-first object-cover object-center w-full h-56 mb-4 ml-auto rounded-lg md:order-last lg:mb-0 lg:w-1/2 lg:h-auto shadow-2xl" name="SAAS" title="SAAS" loading="lazy" src={data.image} />
         </div>)}
 
 

@@ -70,7 +70,7 @@ export class Navbar extends Component {
                 <div className="relative">
 
                 {Nav.map((data,key)=>
-                  <Link to={data.url} className="group ml-4 px-2 py-2 rounded shadow-2xl hover:bg-gray-700 inline-flex items-center text-base font-bold focus:outline-none" >
+                  <Link to={data.url} key={data.name} className="group ml-4 px-2 py-2 rounded shadow-2xl hover:bg-gray-700 inline-flex items-center text-base font-bold focus:outline-none" >
                     {data.name}
                   </Link>
                     )}
@@ -91,7 +91,7 @@ export class Navbar extends Component {
         
                   
                 {Nav.map((data,key)=>
-                  <Link to={data.url} className="text-base font-medium text-gray-100 ">
+                  <Link to={data.url}  key={data.name} className="text-base font-medium text-gray-100 ">
                  {data.name}
                 </Link>
                 )}

@@ -24,7 +24,7 @@ export class Auth4 extends Component {
               <input type="submit" defaultValue="Sign up with email" className="py-3 bg-blue-500 text-white w-full rounded hover:bg-blue-600" />
             </div>
           </form>
-          <a className href="/login" data-test="Link"><span className="block  p-5 text-center text-gray-800  text-xs ">Already have an account?</span></a>
+          <a href="/login" data-test="Link"><span className="block  p-5 text-center text-gray-800  text-xs ">Already have an account?</span></a>
         </div>
         <div className="w-1/2 bg-cover md:block hidden" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1618300425826-3c308db6d71c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max)'}} />
 
