@@ -14,6 +14,8 @@ import Auth from './Uipages/Auth';
 import BlogComp from './Uipages/BlogComp';
 import Hero from './Uipages/Hero';
 import FreeTemplates from './components/Templates/FreeTemplates';
+import Premium from './components/Templates/Premium';
+import CardComp from './Uipages/CardComp';
 
 
 
@@ -29,6 +31,7 @@ function App() {
         
         <Route path='/freetemp' component={FreeTemplates}></Route>
         <Route path='/tailwind' component={AllComp}></Route>
+        <Route path='/premium' component={Premium}></Route>
 
         <Route path='/django' component={DjangoBlocks}></Route>
         <Route path='/blogdet/:slug' component={BlogPage}></Route>
@@ -42,6 +45,10 @@ function App() {
 
         <Route path='/hero'>
          <Hero/>
+        </Route>
+
+        <Route path='/card'>
+         <CardComp/>
         </Route>
         
         <Footer />
