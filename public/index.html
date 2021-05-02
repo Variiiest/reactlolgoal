@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="LolGoal helps to design, develop software products that delight your customers and empower your business "
+    />
+
+    <link rel="shortcut icon" href="%PUBLIC_URL%/logo.jpg" type="image/x-icon">
+ 
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow.min.css">
+
+    <title>Lolgoal: Develop your projects easily.</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+
+
+<script>
+
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+</script>
+  </body>
+</html>
