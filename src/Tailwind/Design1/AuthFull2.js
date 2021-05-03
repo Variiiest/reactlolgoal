@@ -1,15 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class Auth1 extends Component {
-  render() {
+export default function AuthFull2() {
     return (
-      <div className="flex flex-col sm:h-screen text-gray-900">
+        <div>
+
+<div className="flex flex-col sm:h-screen text-gray-900 bg-green-400">
         <div
-          className="grid place-items-center mx-2 my-20 sm:my-auto">
+          className="grid place-items-center mx-2 my-20 sm:my-auto ">
           <div
-            className="w-11/12 p-12 sm:w-8/12 md:w-6/12 lg:w-5/12 2xl:w-4/12 px-6 py-10 sm:px-10 sm:py-6 bg-white shadow-2xl rounded-lg border">
+            className="w-11/12 p-12 sm:w-8/12 md:w-6/12 lg:w-5/12 2xl:w-4/12 px-6 py-10 sm:px-10 sm:py-6 bg-white shadow-2xl rounded">
             <h2
-              className="text-center font-semibold text-3xl lg:text-4xl text-gray-800">
+              className="text-center font-semibold text-3xl lg:text-4xl text-gray-900">
               LOGIN
           </h2>
             <form className="mt-10" method="POST">
@@ -39,7 +40,7 @@ export class Auth1 extends Component {
                 className="block w-full py-3 px-4 mt-4 text-gray-800 hover:border-blue-700 appearance-none border-2 border-gray-100 rounded-md focus:text-gray-500 focus:outline-none" />
               <button
                 type="submit"
-                className="w-full py-3 mt-10 bg-blue-800 rounded-full font-medium text-white uppercase focus:outline-none hover:bg-blue-800 hover:shadow-none">
+                className="w-full py-3 mt-10 bg-blue-800 rounded-md font-medium text-white uppercase focus:outline-none hover:bg-blue-800 hover:shadow-none">
                 Login
             </button>
               <div
@@ -61,8 +62,7 @@ export class Auth1 extends Component {
           </div>
         </div>
       </div>
+            
+        </div>
     )
-  }
 }
-
-export default Auth1

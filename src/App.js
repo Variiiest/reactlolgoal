@@ -10,12 +10,12 @@ import mainPage from './pages/mainPage';
 import BlogPage from './Django/BlogPage';
 import AllComp from './uicomp1/AllComp';
 import DjangoBlocks from './Django/DjangoBlocks';
-import Auth from './Uipages/Auth';
-import BlogComp from './Uipages/BlogComp';
-import Hero from './Uipages/Hero';
+import Auth from './Uipages/CodePage/Auth';
+import BlogComp from './Uipages/CodePage/BlogComp';
+import Hero from './Uipages/CodePage/Hero';
 import FreeTemplates from './components/Templates/FreeTemplates';
 import Premium from './components/Templates/Premium';
-import CardComp from './Uipages/CardComp';
+import CardComp from './Uipages/CodePage/CardComp';
 
 
 

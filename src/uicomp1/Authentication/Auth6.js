@@ -11,7 +11,7 @@ export class Auth6 extends Component {
             {/*
             Add Any text*/}
             </div>
-            <div className="w-full md:w-1/2 py-10 px-5 md:px-10 bg-gray-50 shadow-2xl">
+            <div className="w-full md:w-1/2 py-10 px-5 md:px-10 bg-white shadow-2xl">
               <div className="text-center mb-10">
                 <h1 className="font-bold text-3xl text-gray-900">REGISTER</h1>
                 
@@ -19,14 +19,14 @@ export class Auth6 extends Component {
               <div>
                 <div className="flex -mx-3">
                   <div className="w-1/2 px-3 mb-5">
-                    <label htmlFor className="text-base font-semibold px-1">First name</label>
+                    <label htmlFor="" className="text-base font-semibold px-1">First name</label>
                     <div className="flex">
                       <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i className="text-gray-700 text-lg" /></div>
                       <input type="text" className="w-full -ml-10 pl-4 pr-3 py-2 rounded border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="Eric" />
                     </div>
                   </div>
                   <div className="w-1/2 px-3 mb-5">
-                    <label htmlFor className="text-base font-semibold px-1">Last name</label>
+                    <label htmlFor="" className="text-base font-semibold px-1">Last name</label>
                     <div className="flex">
                       <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i className="text-gray-700 text-lg" /></div>
                       <input type="text" className="w-full -ml-10 pl-4 pr-3 py-2 rounded border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="Denever" />
@@ -35,7 +35,7 @@ export class Auth6 extends Component {
                 </div>
                 <div className="flex -mx-3">
                   <div className="w-full px-3 mb-5">
-                    <label htmlFor className="text-base font-semibold px-1">Email</label>
+                    <label htmlFor="" className="text-base font-semibold px-1">Email</label>
                     <div className="flex">
                       <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i className="text-gray-700 text-lg" /></div>
                       <input type="email" className="w-full -ml-10 pl-4 pr-3 py-2 rounded border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="EricDenever@example.com" />
@@ -44,7 +44,7 @@ export class Auth6 extends Component {
                 </div>
                 <div className="flex -mx-3">
                   <div className="w-full px-3 mb-12">
-                    <label htmlFor className="text-base font-semibold px-1">Password</label>
+                    <label htmlFor="" className="text-base font-semibold px-1">Password</label>
                     <div className="flex">
                       <div className="w-10 z-10 pl-1 text-center flex items-center justify-center"><i className="text-gray-700 text-lg" /></div>
                       <input type="password" className="w-full -ml-10 pl-4 pr-3 py-2 rounded border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="************" />

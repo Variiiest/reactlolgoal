@@ -16,7 +16,7 @@ export class Auth11 extends Component {
               <p className="text-base text-gray-600 md:pr-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis egestas nunc non scelerisque. Aliquam erat volutpat. Nulla auctor turpis quis mollis vehicula. Aliquam erat volutpat. Nulla posuere ac justo at iaculis. Aliquam vitae quam dolor. Sed quam felis, eleifend et pharetra id, vestibulum in eros. Cras ipsum libero, vestibulum ac viverra vitae, tristique eget est. Sed porttitor leo leo, ac imperdiet diam sagittis id.</p>
             </div>
             <div className="w-full mt-16 md:mt-0 md:w-2/5">
-              <div className="relative z-10 h-auto p-8 py-10 overflow-hidden bg-gray-50 shadow-2xl px-7 rounded">
+              <div className="z-10 h-auto p-8 py-10 overflow-hidden bg-white shadow-2xl px-7 rounded">
                 <h3 className="mb-6 text-2xl font-medium text-center">Sign in to your Account</h3>
                 <input type="text" name="email" className="block w-full px-4 py-3 mb-4 border focus:outline-none rounded" placeholder="Email address" />
                 <input type="password" name="password" className="block w-full px-4 py-3 border mb-4 focus:outline-none rounded" placeholder="Password" />

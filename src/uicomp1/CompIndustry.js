@@ -7,9 +7,9 @@ import card from '../components/Templates/images/card.svg'
 export const CompIndustry=[
     {
         id:1,
-        name:"Authentication",
-        image:auth,
-        about:"",
+        name:"Reusable Components",
+        image:card,
+        about:"All Components are customizable. Customize According to your Design.",
         link:"auth",
     },
     {
@@ -29,7 +29,7 @@ export const CompIndustry=[
     {
         id:4,
         name:"Card",
-        image:card,
+        image:auth,
         about:"",
         link:"card",
     },

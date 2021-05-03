@@ -8,7 +8,7 @@ export class Blog9 extends Component {
          
           <div className="w-full lg:w-2/3">
             <a className="block rounded w-full lg:flex mb-10" href=".">
-              <div className="h-48 lg:w-48 flex-none bg-cover text-center overflow-hidden opacity-75" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80")'}} title="deit is very important">
+              <div className="h-48 lg:w-48 flex-none bg-cover text-center overflow-hidden opacity-75" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80")'}} title="">
               </div>
               <div className="bg-white rounded px-4 flex flex-col justify-between leading-normal">
                 <div>

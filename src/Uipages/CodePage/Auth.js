@@ -1,23 +1,24 @@
 import React, { Component } from 'react'
-import Auth1 from '../uicomp1/Authentication/Auth1'
-import Auth10 from '../uicomp1/Authentication/Auth10'
-import Auth11 from '../uicomp1/Authentication/Auth11'
-import Auth2 from '../uicomp1/Authentication/Auth2'
-import Auth3 from '../uicomp1/Authentication/Auth3'
-import Auth4 from '../uicomp1/Authentication/Auth4'
-import Auth5 from '../uicomp1/Authentication/Auth5'
-import Auth6 from '../uicomp1/Authentication/Auth6'
-import Auth7 from '../uicomp1/Authentication/Auth7'
-import Auth8 from '../uicomp1/Authentication/Auth8'
-import Auth9 from '../uicomp1/Authentication/Auth9'
-import CodeCard from '../uicomp1/CodeCard'
 
+import Auth1 from '../../uicomp1/Authentication/Auth1'
+import Auth10 from '../../uicomp1/Authentication/Auth10'
+import Auth11 from '../../uicomp1/Authentication/Auth11'
+import Auth2 from '../../uicomp1/Authentication/Auth2'
+import Auth3 from '../../uicomp1/Authentication/Auth3'
+import Auth4 from '../../uicomp1/Authentication/Auth4'
+import Auth5 from '../../uicomp1/Authentication/Auth5'
+import Auth6 from '../../uicomp1/Authentication/Auth6'
+import Auth7 from '../../uicomp1/Authentication/Auth7'
+import Auth8 from '../../uicomp1/Authentication/Auth8'
+import Auth9 from '../../uicomp1/Authentication/Auth9'
+import CodeCard from '../../uicomp1/CodeCard'
+import All from '../All'
 export class Auth extends Component {
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-             code1:` <div class="flex flex-col sm:h-screen bg-gray-50 text-gray-900">
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      code1: ` <div class="flex flex-col sm:h-screen bg-gray-50 text-gray-900">
              <div
                class="grid place-items-center mx-2 my-20 sm:my-auto">
                <div
@@ -57,7 +58,7 @@ export class Auth extends Component {
                      Login
                  </button>
                    <div
-                     class="sm:flex sm:flex-wrap mt-8 sm:mb-4 text-sm text-center">
+                     class="sm:flex sm:flex-wrap mt-8 sm:mb-4  text-center">
                      <a
                        href="forgot-password"
                        class="flex-2 text-base hover:underline">
@@ -76,7 +77,7 @@ export class Auth extends Component {
              </div>
            </div>`,
 
-             code2:` <div>
+      code2: ` <div>
                <form className="bg-white shadow-xl mb-4 flex flex-wrap justify-center">
         <div className="w-full md:w-1/3 bg-blue-600 p-6 text-white">
           <p className="mb-8 text-3xl flex items-center">
@@ -86,20 +87,20 @@ export class Auth extends Component {
             Login Now
           </p>
           <div className="mb-4">
-            <input className="appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" placeholder="Email" />
+            <input className="appearance-none border w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" type="email" placeholder="Email" />
           </div>
           <div className="mb-6">
-            <input className="appearance-none border w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="password" placeholder="Password" />
+            <input className="appearance-none border w-full py-2 px-3 text-white mb-3 leading-tight focus:outline-none focus:shadow-outline" type="password" placeholder="Password" />
           </div>
           <button className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline" type="submit">Login</button>
-          <label className="block text-sm mb-4">
+          <label className="block  mb-4">
             <input type="checkbox" /> Remember me
           </label>
-          <a className="block w-full text-sm text-right text-white hover:text-gray-300" href="/">Forgot Password?</a>
+          <a className="block w-full  text-right text-white hover:text-gray-300" href="/">Forgot Password?</a>
         </div>
         <div className="w-full md:w-2/3 p-6 flex flex-col justify-between">
-          <p className="text-gray-700 mb-8">Login to access your files, communicate with colleagues and view project content.</p>
-          <a className="block w-full mb-8 text-sm text-center text-blue-600 hover:text-blue-700" href="/">Don't have an account? Register Now!</a>
+          <p className="text-white mb-8">Login to access your files, communicate with colleagues and view project content.</p>
+          <a className="block w-full mb-8  text-center text-blue-600 hover:text-blue-700" href="/">Don't have an account? Register Now!</a>
           <p className="mb-4 text-center">OR</p>
           <hr className="block w-full mb-4 border-0 border-t border-gray-300" />
           <div className="flex flex-wrap justify-center">
@@ -114,57 +115,59 @@ export class Auth extends Component {
       </form> 
             </div>`,
 
-             code3:``,
-             code4:``,
-             code5:``,
-        }
+      code3: ``,
+      code4: ``,
+      code5: ``,
     }
-    
+  }
 
 
 
 
-    render() {
-        return (
-            <div>
-                                                    <CodeCard code={this.state.code1}>
-<Auth1/>
-                </CodeCard> 
-                <CodeCard>
-<Auth2/>
-                </CodeCard> 
-                <CodeCard>
-<Auth3/>
-                </CodeCard> 
-                <CodeCard>
-<Auth4/>
-                </CodeCard> 
-                <CodeCard>
-<Auth5/>
-                </CodeCard> 
-                <CodeCard>
-<Auth6/>
-                </CodeCard> 
-                <CodeCard>
-<Auth7/>
-                </CodeCard> 
-                <CodeCard>
-<Auth8/>
-                </CodeCard> 
 
-                <CodeCard>
-<Auth9/>
-                </CodeCard> 
-                <CodeCard>
-<Auth10/>
-                </CodeCard> 
+  render() {
+    return (
+      <div>
 
-                <CodeCard>
-<Auth11/>
-                </CodeCard> 
-            </div>
-        )
-    }
+        <All />
+        <CodeCard code={this.state.code1}>
+          <Auth1 />
+        </CodeCard>
+        <CodeCard>
+          <Auth2 />
+        </CodeCard>
+        <CodeCard>
+          <Auth3 />
+        </CodeCard>
+        <CodeCard>
+          <Auth4 />
+        </CodeCard>
+        <CodeCard>
+          <Auth5 />
+        </CodeCard>
+        <CodeCard>
+          <Auth6 />
+        </CodeCard>
+        <CodeCard>
+          <Auth7 />
+        </CodeCard>
+        <CodeCard>
+          <Auth8 />
+        </CodeCard>
+
+        <CodeCard>
+          <Auth9 />
+        </CodeCard>
+        <CodeCard>
+          <Auth10 />
+        </CodeCard>
+
+        <CodeCard>
+          <Auth11 />
+        </CodeCard>
+      </div>
+    )
+  }
 }
 
 export default Auth

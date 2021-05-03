@@ -1,31 +1,32 @@
 import React, { Component } from 'react'
-import CodeCard from '../uicomp1/CodeCard'
-import HeroC1 from '../uicomp1/HeroCenter/HeroC1'
-import HeroC2 from '../uicomp1/HeroCenter/HeroC2'
-import HeroC3 from '../uicomp1/HeroCenter/HeroC3'
-import HeroC4 from '../uicomp1/HeroCenter/HeroC4'
-import HeroL1 from '../uicomp1/HeroLeft/HeroL1'
-import HeroL10 from '../uicomp1/HeroLeft/HeroL10'
-import HeroL2 from '../uicomp1/HeroLeft/HeroL2'
-import HeroL3 from '../uicomp1/HeroLeft/HeroL3'
-import HeroL4 from '../uicomp1/HeroLeft/HeroL4'
-import HeroL5 from '../uicomp1/HeroLeft/HeroL5'
-import HeroL6 from '../uicomp1/HeroLeft/HeroL6'
-import HeroL7 from '../uicomp1/HeroLeft/HeroL7'
-import HeroL8 from '../uicomp1/HeroLeft/HeroL8'
-import HeroL9 from '../uicomp1/HeroLeft/HeroL9'
-import HeroR1 from '../uicomp1/HeroRight/HeroR1'
-import HeroS1 from '../uicomp1/HeroSpecial/HeroS1'
-import HeroS2 from '../uicomp1/HeroSpecial/HeroS2'
+import CodeCard from '../../uicomp1/CodeCard'
+import HeroC1 from '../../uicomp1/HeroCenter/HeroC1'
+import HeroC2 from '../../uicomp1/HeroCenter/HeroC2'
+import HeroC3 from '../../uicomp1/HeroCenter/HeroC3'
+import HeroC4 from '../../uicomp1/HeroCenter/HeroC4'
+import HeroL1 from '../../uicomp1/HeroLeft/HeroL1'
+import HeroL10 from '../../uicomp1/HeroLeft/HeroL10'
+import HeroL2 from '../../uicomp1/HeroLeft/HeroL2'
+import HeroL3 from '../../uicomp1/HeroLeft/HeroL3'
+import HeroL4 from '../../uicomp1/HeroLeft/HeroL4'
+import HeroL5 from '../../uicomp1/HeroLeft/HeroL5'
+import HeroL6 from '../../uicomp1/HeroLeft/HeroL6'
+import HeroL7 from '../../uicomp1/HeroLeft/HeroL7'
+import HeroL8 from '../../uicomp1/HeroLeft/HeroL8'
+import HeroL9 from '../../uicomp1/HeroLeft/HeroL9'
+import HeroR1 from '../../uicomp1/HeroRight/HeroR1'
+import HeroS1 from '../../uicomp1/HeroSpecial/HeroS1'
+import HeroS2 from '../../uicomp1/HeroSpecial/HeroS2'
+import All from '../All'
 
 
 
 export class Hero extends Component {
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-          code10: `<section className="text-gray-800 body-font">
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      code10: `<section className="text-gray-800 body-font">
              <div className="container px-8 py-24 mx-auto flex flex-wrap">
                <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                  <div className="w-full sm:p-4 px-4 mb-6">
@@ -50,9 +51,9 @@ export class Hero extends Component {
                </div>
              </div>
            </section>`,
-    
-    
-          code9: `<section className="text-gray-700 body-font">
+
+
+      code9: `<section className="text-gray-700 body-font">
              <div className="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28">
                <div className="flex flex-col items-start w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:mb-0 ">
                  <h1 className="mb-8 text-2xl font-bold tracking-tighter text-left text-black lg:text-2xl title-font">
@@ -93,9 +94,9 @@ export class Hero extends Component {
                </div>
              </div>
            </section>`,
-    
-    
-          code8:`<section className="text-gray-700 body-font">
+
+
+      code8: `<section className="text-gray-700 body-font">
              <div className="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28">
                <div className="flex flex-col items-start w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-10 md:pr-12 md:mb-0 ">
                  <h1 className="mb-8 text-3xl font-bold tracking-tighter text-left text-black lg:text-3xl title-font">
@@ -133,9 +134,9 @@ export class Hero extends Component {
                </div>
              </div>
            </section>`,
-    
-    
-          code7: `<section className="flex flex-col items-center md:flex-row">
+
+
+      code7: `<section className="flex flex-col items-center md:flex-row">
              <div className="hidden w-full bg-gray-200 bg-left-bottom bg-cover lg:block md:w-1/3 xl:w-1/3">
               
                <img src="https://dummyimage.com/600x1024/F3F4F7/8693ac" alt="" className="object-cover w-full h-full " />
@@ -163,9 +164,9 @@ export class Hero extends Component {
                </div>
              </div>
            </section>`,
-    
-    
-          code6: `<section className="flex flex-wrap items-center">
+
+
+      code6: `<section className="flex flex-wrap items-center">
              <div className="container w-full bg-gray-50 md:w-1/2">
                <div className="mx-5 lg:mx-20">
                  <Link href="#_" className="flex items-center w-48 mt-32 mb-4 font-bold text-gray-700 title-font md:mb-0 lg:mt-16">
@@ -196,9 +197,9 @@ export class Hero extends Component {
                <img src="https://dummyimage.com/1000x1000/F3F4F7/8693ac" className="object-fill w-full h-screen" alt="" />
              </div>
            </section>`,
-    
-    
-          code5: ` <section className="px-2 py-32 bg-gray-50 md:px-0">
+
+
+      code5: ` <section className="px-2 py-32 bg-gray-50 md:px-0">
              <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
                <div className="flex flex-wrap items-center sm:-mx-3">
                  <div className="w-full md:w-1/2 md:px-3">
@@ -227,9 +228,9 @@ export class Hero extends Component {
                </div>
              </div>
            </section>`,
-    
-    
-          code4: `                        <section className="text-gray-800 body-font px-2 font-bold">
+
+
+      code4: `                        <section className="text-gray-800 body-font px-2 font-bold">
              <div className="container flex flex-col items-center px-5 py-8 mx-auto md:flex-row lg:px-8 rounded-md">
                <div className="flex flex-col w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:items-start md:mb-0 ">
              
@@ -311,9 +312,9 @@ export class Hero extends Component {
                </div>
              </div>
            </section>`,
-    
-    
-          code3: ` <section>
+
+
+      code3: ` <section>
              <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
       <div className="w-full md:w-1/2">
         <div className="max-w-lg">
@@ -364,9 +365,9 @@ export class Hero extends Component {
       </div>
     </div>
                  </section> `,
-    
-    
-          code2: `  <section>
+
+
+      code2: `  <section>
              <div className="container px-6 py-16 mx-auto">
        <div className="items-center md:flex">
          <div className="w-full md:w-1/2">
@@ -400,10 +401,10 @@ export class Hero extends Component {
        </div>
      </div>
              </section>`,
-    
-    
-    
-          code1: `  <section className="text-gray-800 body-font">
+
+
+
+      code1: `  <section className="text-gray-800 body-font">
              <div className="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-8">
                <div className="flex flex-col w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:items-start md:mb-0 ">
                  <h2 className="mb-2 text-xs font-bold text-gray-100 title-font">
@@ -456,30 +457,30 @@ export class Hero extends Component {
                </div>
              </div>
            </section> `,
-    
-    
-        }
+
+
     }
-    
+  }
 
 
 
-    render() {
-        return (
-            <div>
 
-<CodeCard>
-                    <HeroS2/>
-                </CodeCard>
-                <CodeCard>
-                    <HeroS1/>
-                </CodeCard>
+  render() {
+    return (
+      <div>
+<All />
+        <CodeCard>
+          <HeroS2 />
+        </CodeCard>
+        <CodeCard>
+          <HeroS1 />
+        </CodeCard>
 
-<CodeCard>
-                    <HeroR1/>
-                    </CodeCard>
+        <CodeCard>
+          <HeroR1 />
+        </CodeCard>
 
-<CodeCard code={this.state.code10}>
+        <CodeCard code={this.state.code10}>
           <HeroL10 />
         </CodeCard>
 
@@ -511,22 +512,22 @@ export class Hero extends Component {
         <CodeCard code={this.state.code1}>
           <HeroL1 />
         </CodeCard>
-                
-                <CodeCard>
-<HeroC4/>
-                </CodeCard>        
-                     <CodeCard>
-<HeroC3/>
-                </CodeCard>           <CodeCard>
-<HeroC2/>
-                </CodeCard>
-                <CodeCard>
-<HeroC1/>
-                </CodeCard>
-                
-            </div>
-        )
-    }
+
+        <CodeCard>
+          <HeroC4 />
+        </CodeCard>
+        <CodeCard>
+          <HeroC3 />
+        </CodeCard>           <CodeCard>
+          <HeroC2 />
+        </CodeCard>
+        <CodeCard>
+          <HeroC1 />
+        </CodeCard>
+
+      </div>
+    )
+  }
 }
 
 export default Hero

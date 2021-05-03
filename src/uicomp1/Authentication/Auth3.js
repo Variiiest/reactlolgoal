@@ -7,7 +7,7 @@ export class Auth3 extends Component {
           <div className="flex min-h-screen bg-white">
  <div className="w-1/2 bg-cover md:block hidden" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1618300425826-3c308db6d71c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max)'}} />
 
- <div className="md:w-1/2 max-w-lg mx-auto my-24 px-4 py-5 shadow-2xl bg-gray-50">
+ <div className="md:w-1/2 max-w-lg mx-auto my-24 px-4 py-5 shadow-2xl bg-white">
    <div className="text-left p-0">
      <h1 className=" text-gray-800 text-3xl font-medium">Create an account for free</h1>
      <h3 className="p-1 text-gray-700">Free resources avaliable up to 12 month.</h3>

@@ -18,10 +18,6 @@ const Nav =[
     name:"Premium",
     url:"/premium",
   },
-  {
-    name:"Custom",
-    url:"/contact",
-  },
  
  
 ]

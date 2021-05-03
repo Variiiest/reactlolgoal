@@ -9,12 +9,12 @@ const CodeCard = props => {
   return (
 
     <div className="text-gray-600 font-bold mt-4 mb-2 p-2">
-      <div className="container mx-auto rounded-xl shadow-2xl  bg-white">
-        <div className="shadwo-2xl">
-        <div id="header-buttons" class="pt-3 pb-1 px-4 flex">
-                <div class="rounded-full w-3 h-3 bg-red-500 mr-2"></div>
-                <div class="rounded-full w-3 h-3 bg-yellow-500 mr-2"></div>
-                <div class="rounded-full w-3 h-3 bg-green-500"></div>
+      <div className="container mx-auto rounded-xl shadow-2xl bg-white border">
+        <div className="">
+        <div id="header-buttons" className="pt-3 pb-1 px-4 flex">
+                <div className="rounded-full w-3 h-3 bg-red-500 mr-2"></div>
+                <div className="rounded-full w-3 h-3 bg-yellow-500 mr-2"></div>
+                <div className="rounded-full w-3 h-3 bg-green-500"></div>
             </div>
           <div className="flex w-full bg-white rounded">
             <button className={
