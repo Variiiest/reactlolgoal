@@ -16,6 +16,11 @@ import Hero from './Uipages/CodePage/Hero';
 import FreeTemplates from './components/Templates/FreeTemplates';
 import Premium from './components/Templates/Premium';
 import CardComp from './Uipages/CodePage/CardComp';
+import Contact from './Uipages/CodePage/Contact';
+import Content from './Uipages/CodePage/Content';
+import CTA from './Uipages/CodePage/CTA';
+import FAQ from './Uipages/CodePage/FAQ';
+import Feature from './Uipages/CodePage/Feature';
 
 
 
@@ -51,6 +56,23 @@ function App() {
          <CardComp/>
         </Route>
         
+        <Route path='/contactdes'>
+         <Contact/>
+        </Route>
+        <Route path='/contentdes'>
+         <Content/>
+        </Route>
+
+        <Route path='/ctacomp'>
+         <CTA/>
+        </Route>
+        <Route path='/faqcomp'>
+         <FAQ/>
+        </Route>
+        <Route path='/features'>
+         <Feature/>
+        </Route>
+
         <Footer />
 
       </div>

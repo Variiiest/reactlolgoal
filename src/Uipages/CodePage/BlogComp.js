@@ -7,11 +7,15 @@ import Blog6 from '../../uicomp1/Blog/Blog6'
 import Blog7 from '../../uicomp1/Blog/Blog7'
 import Blog8 from '../../uicomp1/Blog/Blog8'
 import CodeCard from '../../uicomp1/CodeCard'
+import All from '../All'
 
 export class BlogComp extends Component {
     render() {
         return (
             <div>
+
+<All />
+
                 <CodeCard>
                     <Blog8 />
 

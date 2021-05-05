@@ -4,7 +4,7 @@ export class HeroL5 extends Component {
     render() {
         return (
             <div>
-                          <section className="px-2 py-32 bg-gray-50 md:px-0">
+                          <section className="px-2 py-32 md:px-0">
         <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
           <div className="flex flex-wrap items-center sm:-mx-3">
             <div className="w-full md:w-1/2 md:px-3">

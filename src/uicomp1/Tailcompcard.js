@@ -11,7 +11,7 @@ export class Tailcompcard extends Component {
           <div className="flex flex-wrap -m-4">
           {CompIndustry.map((data,key)=>
             <div className="p-4 md:w-1/3" key={data.id}>
-              <div className="h-full bg-white items-left rounded shadow-xl overflow-hidden">
+              <div className="h-full bg-white items-left rounded shadow-md hover:shadow-xl overflow-hidden">
                 <img className="lg:h-48 md:h-36 w-full object-cover object-center bg-green-200" src={data.image} alt="blog" />
                 <div className="p-6">
                   

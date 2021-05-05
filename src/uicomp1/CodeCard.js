@@ -9,7 +9,7 @@ const CodeCard = props => {
   return (
 
     <div className="text-gray-600 font-bold mt-4 mb-2 p-2">
-      <div className="container mx-auto rounded-xl shadow-2xl bg-white border">
+      <div className="container mx-auto rounded-xl shadow-2xl bg-gray-200 border">
         <div className="">
         <div id="header-buttons" className="pt-3 pb-1 px-4 flex">
                 <div className="rounded-full w-3 h-3 bg-red-500 mr-2"></div>
@@ -50,7 +50,7 @@ const CodeCard = props => {
         </CopyToClipboard>
 
           </div>
-          <div className="bg-white rounded-2xl">
+          <div className="bg-white">
             <div className={openTab === 1 ? "block" : "hidden"}>
 
 

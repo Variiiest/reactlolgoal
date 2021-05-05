@@ -6,7 +6,7 @@ export class HeroL6 extends Component {
         return (
             <div>
                        <section className="flex flex-wrap items-center">
-          <div className="container w-full bg-gray-50 md:w-1/2">
+          <div className="container w-full md:w-1/2">
             <div className="mx-5 lg:mx-20">
               <Link href="#_" className="flex items-center w-48 mt-32 mb-4 font-bold text-gray-700 title-font md:mb-0 lg:mt-16">
                 <div className="px-4 rounded-full bg-blue-100">

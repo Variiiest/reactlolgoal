@@ -5,7 +5,7 @@ export class HeroL7 extends Component {
         return (
             <div>
                           <section className="flex flex-col items-center md:flex-row">
-        <div className="hidden w-full bg-gray-200 bg-left-bottom bg-cover lg:block md:w-1/3 xl:w-1/3">
+        <div className="hidden w-full bg-gray-200 bg-cover lg:block md:w-1/3 xl:w-1/3">
          
           <img src="https://dummyimage.com/600x1024/F3F4F7/8693ac" alt="" className="object-cover w-full h-full " />
         </div>

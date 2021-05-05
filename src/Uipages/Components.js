@@ -20,5 +20,31 @@ export const Components=[
         name:"Card",
         link:"card",
     },
+    {
+        id:5,
+        name:"Contact",
+        link:"contactdes",
+    },
+    {
+        id:6,
+        name:"Content",
+        link:"contentdes",
+    },
+    {
+        id:7,
+        name:"CTA",
+        link:"ctacomp",
+    },
+
+    {
+        id:8,
+        name:"FAQ",
+        link:"faqcomp",
+    },
+    {
+        id:9,
+        name:"Features",
+        link:"features",
+    },
 
 ]

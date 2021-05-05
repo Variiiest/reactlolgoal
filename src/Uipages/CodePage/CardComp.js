@@ -7,12 +7,14 @@ import Card4 from '../../uicomp1/Cards/Card4'
 import Card5 from '../../uicomp1/Cards/Card5'
 import Card6 from '../../uicomp1/Cards/Card6'
 import CodeCard from '../../uicomp1/CodeCard'
+import All from '../All'
 
 export class CardComp extends Component {
   render() {
     return (
       <div>
 
+<All />
         <CodeCard>
           <Card16 />
         </CodeCard>
