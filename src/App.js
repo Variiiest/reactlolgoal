@@ -21,6 +21,8 @@ import Content from './Uipages/CodePage/Content';
 import CTA from './Uipages/CodePage/CTA';
 import FAQ from './Uipages/CodePage/FAQ';
 import Feature from './Uipages/CodePage/Feature';
+import Footers from './Uipages/CodePage/Footers';
+import Index from './components/DesignSystem/DesignOne';
 
 
 
@@ -72,6 +74,13 @@ function App() {
         <Route path='/features'>
          <Feature/>
         </Route>
+        <Route path='/footers'>
+         <Footers/>
+        </Route>
+        <Route path='/design'>
+         <Index/>
+        </Route>
+
 
         <Footer />
 

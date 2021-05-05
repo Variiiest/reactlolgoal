@@ -46,5 +46,9 @@ export const Components=[
         name:"Features",
         link:"features",
     },
-
+    {
+        id:10,
+        name:"Footer",
+        link:"footers",
+    },
 ]
