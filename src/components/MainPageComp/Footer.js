@@ -14,8 +14,7 @@ export class Footer extends Component {
         return (
             <div>
               <Subscribe/>
-           <footer className="-mt-32 font-medium body-font bg-gray-900 text-gray-200">
-             
+           <footer className="-mt-32 font-medium body-font bg-gray-900 text-gray-200"> 
         <div className="container px-5 pt-32 pb-12 mt-8 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto  md:text-left">
           <Link to="/" className="text-3xl font-bold text-blue-100 border-green-300 border-b-2">

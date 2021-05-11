@@ -14,7 +14,6 @@ import Auth from './Uipages/CodePage/Auth';
 import BlogComp from './Uipages/CodePage/BlogComp';
 import Hero from './Uipages/CodePage/Hero';
 import FreeTemplates from './components/Templates/FreeTemplates';
-import Premium from './components/Templates/Premium';
 import CardComp from './Uipages/CodePage/CardComp';
 import Contact from './Uipages/CodePage/Contact';
 import Content from './Uipages/CodePage/Content';
@@ -22,9 +21,7 @@ import CTA from './Uipages/CodePage/CTA';
 import FAQ from './Uipages/CodePage/FAQ';
 import Feature from './Uipages/CodePage/Feature';
 import Footers from './Uipages/CodePage/Footers';
-import Index from './components/DesignSystem/DesignOne';
-
-
+import GeneratePage from './Django/Codegenerator/GeneratePage';
 
 
 
@@ -38,8 +35,7 @@ function App() {
         
         <Route path='/freetemp' component={FreeTemplates}></Route>
         <Route path='/tailwind' component={AllComp}></Route>
-        <Route path='/premium' component={Premium}></Route>
-
+        
         <Route path='/django' component={DjangoBlocks}></Route>
         <Route path='/blogdet/:slug' component={BlogPage}></Route>
 
@@ -77,12 +73,13 @@ function App() {
         <Route path='/footers'>
          <Footers/>
         </Route>
-        <Route path='/design'>
-         <Index/>
+        <Route path="/generate">
+          <GeneratePage/>
         </Route>
 
-
+        
         <Footer />
+
 
       </div>
     </Router>

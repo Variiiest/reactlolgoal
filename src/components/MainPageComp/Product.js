@@ -1,50 +1,35 @@
-import React, { Component } from 'react'
-import CodeCard from '../../uicomp1/CodeCard'
-import HeroS1 from '../../uicomp1/HeroSpecial/HeroS1'
+import React from 'react'
+import Highlight from 'react-highlight';
 
-export class Product extends Component {
-constructor(props) {
-    super(props)
+const CodeProduct = props => {
+ 
+  return (
 
-    this.state = {
-         code:`             <div className="pt-4 mx-auto bg-gradient-to-r from-purple-200 via-pink-200 to-red-500">
-         <div className="flex flex-col md:flex-row">
-           <div className="md:w-1/2 max-w-full px-8 flex flex-col justify-center">
-             <div className="md:text-7xl text-4xl">Awesome tool for your future team</div>
-             <div className="md:text-2xl text-xl mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-             <div className="my-5 h-16">
-               <div className="shadow-md font-bold py-2 px-4 hover:text-blue-100
-              cursor-pointer text-gray-900 bg-gradient-to-r hover:from-green-400 hover:to-blue-500 from-pink-500 to-yellow-50 rounded text-lg text-center w-48">Join us now</div>
-             </div>
-           </div>
-           <div className="flex md:justify-end  w-full md:w-1/2 -mt-4">
-             <div className="">
-               <div className="shadow-2xl max-w-md z-10">
-                 <img alt="card img" className="" src="https://dummyimage.com/720x600/F3F4F7/8693ac"/> 
-                 <div className="text-2xl p-10 text-gray-100 bg-gradient-to-r from-purple-500 to-red-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>`
-    }
-}
-
-
-    render() {
-        return (
-            <div>
-              <section className="text-gray-800 body-font font-bold bg3 bghero -mt-32 sm:px-12">
-       <div className="mx-auto p-4">
-      <CodeCard code={this.state.code}>
-                     <HeroS1/>
-                    </CodeCard>
-                    </div>
-                    </section>
-                
+    <div className="text-gray-600 font-bold mt-4 mb-2 p-2 opacity-30">
+      <div className="container mx-auto shadow-2xl bg-gray-700 rounded-t">
+      <div id="header-buttons" className="pt-3 pb-1 px-4 flex">
+                <div className="rounded-full w-3 h-3 bg-red-500 mr-2"></div>
+                <div className="rounded-full w-3 h-3 bg-yellow-500 mr-2"></div>
+                <div className="rounded-full w-3 h-3 bg-green-500"></div>
             </div>
-        )
-    }
+          <div className="bg-black">
+     <Highlight language="html" className="overflow-y-scroll scroll-hidden overflow-auto bg-gradient-to-r from-black to-gray-900">
+      {props.code}
+      </Highlight>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+  )
 }
 
-export default Product
+
+export default CodeProduct

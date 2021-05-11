@@ -7,30 +7,30 @@ import card from '../components/Templates/images/card.svg'
 export const CompIndustry=[
     {
         id:1,
-        name:"Reusable Components",
+        name:"Design: Achrome",
         image:card,
         about:"All Components are customizable. Customize According to your Design.",
         link:"auth",
     },
     {
         id:2,
-        name:"Hero",
+        name:"Design: Deeva",
         image:header,
-        about:"",
+        about:"All Components are customizable. Customize According to your Design.",
         link:"hero",
     },
     {
         id:3,
-        name:"Blog",
+        name:"Design: Affinity",
         image:blog,
-        about:"",
+        about:"All Components are customizable. Customize According to your Design.",
         link:"blog",
     },
     {
         id:4,
-        name:"Card",
+        name:"Design : Denim",
         image:auth,
-        about:"",
+        about:"All Components are customizable. Customize According to your Design.",
         link:"card",
     },
 

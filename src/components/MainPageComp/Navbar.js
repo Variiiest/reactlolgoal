@@ -14,11 +14,7 @@ const Nav =[
     name:"FreeTemplates",
     url:"/freetemp",
   },
-  {
-    name:"Premium",
-    url:"/premium",
-  },
- 
+
  
 ]
 
@@ -45,12 +41,12 @@ export class Navbar extends Component {
     return (
 <>
       <section>
-      <div className="text-gray-700 bg-white bg-opacity-20 font-bold">
+      <div className="text-gray-100 font-bold bg-opacity-5 bg-white">
         <div className="relative">
           <div className="max-w-7xl mx-auto px-4 py-2 sm:px-6">
             <div className="flex justify-between items-center pt-2 pb-2 md:justify-start md:space-x-10">
               <div className="flex justify-start lg:w-0 lg:flex-1">
-                <Link to="/" className="text-3xl font-bold text-blue-500 border-green-300 border-b-2">
+                <Link to="/" className="text-3xl font-bold text-blue-600">
                   <span className="text-blue-500 font-bold">lol</span>goal.com
               </Link>
               </div>

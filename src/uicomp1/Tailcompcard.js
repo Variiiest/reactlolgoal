@@ -11,14 +11,14 @@ export class Tailcompcard extends Component {
           <div className="flex flex-wrap -m-4">
           {CompIndustry.map((data,key)=>
             <div className="p-4 md:w-1/3" key={data.id}>
-              <div className="h-full bg-white items-left rounded shadow-md hover:shadow-xl overflow-hidden">
-                <img className="lg:h-48 md:h-36 w-full object-cover object-center bg-green-200" src={data.image} alt="blog" />
+              <div className="h-full bg-opacity-5 bg-white items-left rounded shadow-md hover:shadow-xl overflow-hidden">
+                <img className="lg:h-48 md:h-36 w-full object-cover object-center bg-opacity-5 bg-white" src={data.image} alt="blog" />
                 <div className="p-6">
                   
-                  <h1 className="title-font text-xl font-bold  mb-3 text-gray-800">{data.name}</h1>
-                  <p className="leading-relaxed mb-3 text-gray-700">{data.about}</p>
+                  <h1 className="title-font text-xl font-bold  mb-3 text-white">{data.name}</h1>
+                  <p className="leading-relaxed mb-3 text-gray-300">{data.about}</p>
                   <div className="flex items-center flex-wrap ">
-                    <Link to={data.link} className="text-blue-800 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                    <Link to={data.link} className="text-blue-300 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                       <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M5 12h14" />
                         <path d="M12 5l7 7-7 7" />
@@ -32,6 +32,9 @@ export class Tailcompcard extends Component {
           </div>
         </div>
       </section>
+
+
+
 
             </div>
         )
