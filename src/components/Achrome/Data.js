@@ -1672,12 +1672,6 @@ export const Blogtemp=[
          <a href="#_" class="flex items-center transition-colors duration-200 transform border border-blue-500 text-blue-500 rounded-md font-bold py-4 px-6 mr-2 flex hover:bg-blue-800 hover:text-white">
            1
          </a>
-         <a href="#_" class="flex items-center transition-colors duration-200 transform border border-blue-500 text-blue-500 rounded-md font-bold py-4 px-6 mr-2 hover:bg-blue-800 hover:text-white">
-           2
-         </a>
-         <a href="#_" class="flex items-center transition-colors duration-200 transform border border-blue-500 text-blue-500 rounded-md font-bold py-4 px-6 mr-2 hover:bg-blue-800 hover:text-white">
-           3
-         </a>
          <a href="#_" class="flex items-center transition-colors duration-200 transform border border-blue-500 bg-blue-700 text-white block rounded-md font-bold py-4 px-6 ml-2">
            Next
          </a>

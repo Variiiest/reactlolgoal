@@ -22,6 +22,7 @@ import FAQ from './Uipages/CodePage/FAQ';
 import Feature from './Uipages/CodePage/Feature';
 import Footers from './Uipages/CodePage/Footers';
 import GeneratePage from './Django/Codegenerator/GeneratePage';
+import Deeva from './components/Deeva/Deeva';
 
 
 
@@ -75,6 +76,10 @@ function App() {
         </Route>
         <Route path="/generate">
           <GeneratePage/>
+        </Route>
+
+        <Route path="/deeva">
+          <Deeva/>
         </Route>
 
         

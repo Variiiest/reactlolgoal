@@ -8,7 +8,7 @@ const CodeCard = props => {
   
   return (
 
-  <div className="text-gray-300 font-bold m-4 sm:m-8 border-2  border-gray-700 rounded-md">
+  <div className="text-gray-300 m-4 sm:m-8 border-2  border-gray-700 rounded-md">
       <div className="shadow-2xl">
         <div className="bg-gray-900 bg-opacity-10">
      
