@@ -28,10 +28,10 @@ export class FreeTemplates extends Component {
     render() {
         return (
             <div>
-                  <section className="text-gray-100 bghero4 body-font font-bold">
+                  <section className="text-gray-300  body-font font-bold">
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-col w-full text-center">
-            <h1 className="mb-4 text-4xl font-bold leading-none lg:text-5xl text-gray-900">
+            <h1 className="mb-4 text-4xl font-bold leading-none lg:text-5xl">
              Launch Your Website
               <br className="hidden lg:block" />
              The Quickest Possible Way

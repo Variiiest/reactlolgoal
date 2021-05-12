@@ -46,8 +46,8 @@ export class Navbar extends Component {
           <div className="max-w-7xl mx-auto px-4 py-2 sm:px-6">
             <div className="flex justify-between items-center pt-2 pb-2 md:justify-start md:space-x-10">
               <div className="flex justify-start lg:w-0 lg:flex-1">
-                <Link to="/" className="text-3xl font-bold text-blue-600">
-                  <span className="text-blue-500 font-bold">lol</span>goal.com
+                <Link to="/" className="text-3xl font-bold text-pink-300">
+                  <span className="text-green-200 font-bold">lol</span>goal.com
               </Link>
               </div>
               <div className="-mr-2 -my-2 lg:hidden">

@@ -1,18 +1,22 @@
 import React, { Component } from 'react'
 import CodeCard from '../../uicomp1/CodeCard'
-import CTA1 from '../../uicomp1/CTA/CTA1'
 import All from '../All'
+import {CtaTemp} from '../../components/Achrome/Data'
+import '../../components/Achrome/Achrome.css'
 
 export class CTA extends Component {
     render() {
         return (
-            <div>
-                <All/>
-                <CodeCard>
-                    <CTA1/>
-                </CodeCard>
-                
-            </div>
+            <div className="font-opensans">
+
+<All />
+
+{CtaTemp.map((data,key)=>
+      <CodeCard code={data.code} id={data.id}/>
+)}
+
+  
+      </div>
         )
     }
 }

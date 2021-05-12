@@ -1,17 +1,22 @@
 import React, { Component } from 'react'
 import CodeCard from '../../uicomp1/CodeCard'
-import FAQ1 from '../../uicomp1/FAQ/FAQ1'
 import All from '../All'
+import {FaqTemp} from '../../components/Achrome/Data'
+import '../../components/Achrome/Achrome.css'
 
 export class FAQ extends Component {
     render() {
         return (
-            <div>
-                <All/>
-                <CodeCard>
-                    <FAQ1/>
-                </CodeCard>
-            </div>
+            <div className="font-opensans">
+
+            <All />
+            
+            {FaqTemp.map((data,key)=>
+                  <CodeCard code={data.code} id={data.id}/>
+            )}
+            
+              
+                  </div>
         )
     }
 }

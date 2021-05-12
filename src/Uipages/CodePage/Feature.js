@@ -1,18 +1,19 @@
 import React, { Component } from 'react'
 import CodeCard from '../../uicomp1/CodeCard'
-import Features1 from '../../uicomp1/Features/Features1'
 import All from '../All'
+import {FeatureComp} from '../../components/Achrome/Data'
+import '../../components/Achrome/Achrome.css'
 
 export class Feature extends Component {
     render() {
         return (
             <div>
                 <All/>
-                <CodeCard>
-                    <Features1/>
-                    </CodeCard>
+             
+{FeatureComp.map((data,key)=>
+      <CodeCard code={data.code} id={data.id}/>
+)}
 
-                
             </div>
         )
     }

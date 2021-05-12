@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import CodeCard from '../../uicomp1/CodeCard'
-import Contact1 from '../../uicomp1/Contact/Contact1'
-import Contact2 from '../../uicomp1/Contact/Contact2'
 import All from '../All'
+import {Contacttemp} from '../../components/Achrome/Data'
+import '../../components/Achrome/Achrome.css'
+
 
 export class Contact extends Component {
 
@@ -13,15 +14,16 @@ export class Contact extends Component {
 
 
         return (
-            <div>
-                <All />
-                <CodeCard>
-                    <Contact2/>
-                </CodeCard>
-                <CodeCard>
-                    <Contact1/>
-                </CodeCard>
-            </div>
+            <div className="font-opensans">
+
+            <All />
+            
+            {Contacttemp.map((data,key)=>
+                  <CodeCard code={data.code} id={data.id}/>
+            )}
+            
+              
+                  </div>
         )
     }
 }
