@@ -23,6 +23,7 @@ import Feature from './Uipages/CodePage/Feature';
 import Footers from './Uipages/CodePage/Footers';
 import GeneratePage from './Django/Codegenerator/GeneratePage';
 import Deeva from './components/Deeva/Deeva';
+import DenimComp from './components/Denim/DenimComp';
 
 
 
@@ -80,6 +81,9 @@ function App() {
 
         <Route path="/deeva">
           <Deeva/>
+        </Route>
+        <Route path="/denim">
+          <DenimComp/>
         </Route>
 
         

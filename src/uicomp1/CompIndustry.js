@@ -31,7 +31,7 @@ export const CompIndustry=[
         name:"Design : Denim",
         image:auth,
         about:"All Components are customizable. Customize According to your Design.",
-        link:"card",
+        link:"denim",
     },
 
 ]
