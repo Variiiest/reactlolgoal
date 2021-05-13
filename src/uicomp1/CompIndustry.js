@@ -21,10 +21,10 @@ export const CompIndustry=[
     },
     {
         id:3,
-        name:"Design: Affinity",
+        name:"Design: Merit",
         image:blog,
         about:"All Components are customizable. Customize According to your Design.",
-        link:"blog",
+        link:"merit",
     },
     {
         id:4,

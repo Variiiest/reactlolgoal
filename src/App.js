@@ -22,8 +22,9 @@ import FAQ from './Uipages/CodePage/FAQ';
 import Feature from './Uipages/CodePage/Feature';
 import Footers from './Uipages/CodePage/Footers';
 import GeneratePage from './Django/Codegenerator/GeneratePage';
-import Deeva from './components/Deeva/Deeva';
-import DenimComp from './components/Denim/DenimComp';
+import Deeva from './components/Templates/Deeva/Deeva';
+import DenimComp from './components/Templates/Denim/DenimComp';
+import Merit from './components/Templates/Merit/Merit';
 
 
 
@@ -85,7 +86,11 @@ function App() {
         <Route path="/denim">
           <DenimComp/>
         </Route>
+        <Route path="/merit">
+          <Merit/>
+        </Route>
 
+        
         
         <Footer />
 

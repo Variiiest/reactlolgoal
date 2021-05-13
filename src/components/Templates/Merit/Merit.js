@@ -1,21 +1,23 @@
 import React, { Component } from 'react'
-import {DeevaData} from './DeevaData'
-import CodeCard from '../../uicomp1/CodeCard'
+import {MeritData} from './MeritData'
+import CodeCard from '../../../uicomp1/CodeCard'
+import '../Denim/Denim.css'
 
-export class Deeva extends Component {
+export class Merit extends Component {
     render() {
         return (
             <div>
 
                 
-{DeevaData.map((data,key)=>
+{MeritData.map((data,key)=>
       <CodeCard code={data.code} id={data.id}/>
 )}
 
+      
                 
             </div>
         )
     }
 }
 
-export default Deeva
+export default Merit

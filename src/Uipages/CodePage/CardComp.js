@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import CodeCard from '../../uicomp1/CodeCard'
 import All from '../All'
-import {CardTemp} from '../../components/Achrome/Data'
-import '../../components/Achrome/Achrome.css'
+import {CardTemp} from '../../components/Templates/Achrome/Data'
+import '../../components/Templates/Achrome/Achrome.css'
 
 export class CardComp extends Component {
   render() {

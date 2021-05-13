@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import CodeCard from '../../uicomp1/CodeCard'
 import All from '../All'
-import {HeroTemp} from '../../components/Achrome/Data'
+import {HeroTemp} from '../../components/Templates/Achrome/Data'
 
 
-import '../../components/Achrome/Achrome.css'
+import '../../components/Templates/Achrome/Achrome.css'
 
 export class Hero extends Component {
   
