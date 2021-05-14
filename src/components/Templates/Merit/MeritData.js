@@ -345,8 +345,8 @@ export const MeritData=[
 
    
 
-    <section class="bg-yellow-400 text-gray-100" style="background-image:url('https://cdn.pixabay.com/photo/2016/09/10/11/42/quadrocopter-1658967_960_720.png');background-repeat: no-repeat;">
-    <div class="container px-5 pb-12 mx-auto">
+    <section class="bg-yellow-400 text-gray-100">
+    <div class="container px-5 pb-12 mx-auto" style="background-image:url('https://cdn.pixabay.com/photo/2016/09/10/11/42/quadrocopter-1658967_960_720.png');background-repeat: no-repeat;">
     <div class="flex flex-wrap w-full mb-10 sm:mt-0 mt-10 flex-col items-center text-center">
       <h1 class="sm:text-xl text-lg title-font mb-2 text-red-600">
           Work Better,Work Smarter
