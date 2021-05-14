@@ -9,7 +9,7 @@ export const CompIndustry=[
         id:1,
         name:"Design: Achrome",
         image:card,
-        about:"All Components are customizable. Customize According to your Design.",
+        about:"HTML Tailwind components , All components are customizable.",
         link:"auth",
     },
     {
@@ -24,7 +24,7 @@ export const CompIndustry=[
         name:"Design: Merit",
         image:blog,
         about:"All Components are customizable. Customize According to your Design.",
-        link:"merit",
+        link:"merit/First",
     },
     {
         id:4,

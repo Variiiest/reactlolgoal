@@ -1,23 +1,26 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {MeritData} from './MeritData'
 import CodeCard from '../../../uicomp1/CodeCard'
 import '../Denim/Denim.css'
+import Menubar from './MenuBar'
+import { useParams } from "react-router";
+function findtempByname(name) {
+  return MeritData.find(o => o.name === name);
+}
 
-export class Merit extends Component {
-    render() {
+
+
+export default function Merit() {
+
+    var { name } = useParams(),
+    post = findtempByname(name);
         return (
             <div>
 
-                
-{MeritData.map((data,key)=>
-      <CodeCard code={data.code} id={data.id}/>
-)}
+                <Menubar/>
 
-      
+      <CodeCard code={post.code} id={post.id}/>
                 
             </div>
         )
     }
-}
-
-export default Merit

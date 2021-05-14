@@ -86,9 +86,9 @@ function App() {
         <Route path="/denim">
           <DenimComp/>
         </Route>
-        <Route path="/merit">
-          <Merit/>
-        </Route>
+
+
+        <Route path='/merit/:name' component={Merit}></Route>
 
         
         
