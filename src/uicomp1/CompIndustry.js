@@ -17,7 +17,7 @@ export const CompIndustry=[
         name:"Design: Deeva",
         image:header,
         about:"All Components are customizable. Customize According to your Design.",
-        link:"deeva",
+        link:"deeva/First",
     },
     {
         id:3,

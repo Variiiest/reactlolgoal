@@ -80,9 +80,9 @@ function App() {
           <GeneratePage/>
         </Route>
 
-        <Route path="/deeva">
-          <Deeva/>
-        </Route>
+        <Route path='/deeva/:name' component={Deeva}></Route>
+
+        
         <Route path="/denim">
           <DenimComp/>
         </Route>

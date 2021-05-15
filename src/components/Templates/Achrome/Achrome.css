@@ -3,25 +3,3 @@
 .font-opensans{
     font-family: 'Open Sans', sans-serif;
 }
-
-.heading1{
-    @apply sm:text-6xl text-4xl;
-}
-
-.heading2{
-    @apply sm:text-4xl text-2xl;
-}
-
-
-.para1{
-    @apply sm:text-xl text-base;
-}
-
-.primarybg{
-    @apply bg-gray-800;
-}
-
-.secondarybg{
-    @apply bg-green-400;
-}
-

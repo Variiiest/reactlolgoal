@@ -1,21 +1,25 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {DeevaData} from './DeevaData'
 import CodeCard from '../../../uicomp1/CodeCard'
+import Menubar from './MenuBar'
+import { useParams } from "react-router";
+function findtempByname(name) {
+  return DeevaData.find(o => o.name === name);
+}
 
-export class Deeva extends Component {
-    render() {
+
+
+export default function Deeva() {
+
+    var { name } = useParams(),
+    post = findtempByname(name);
         return (
-            <div>
+            <div className="font-opensans">
 
-                
-{DeevaData.map((data,key)=>
-      <CodeCard code={data.code} id={data.id}/>
-)}
+                <Menubar/>
+      <CodeCard code={post.code} id={post.id}/>
 
                 
             </div>
         )
     }
-}
-
-export default Deeva
