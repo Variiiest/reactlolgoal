@@ -1,19 +1,55 @@
+
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import {CompIndustry} from './CompIndustry'
+import agriculture from '../../assets/images/agriculture.svg'
+import electric from '../../assets/images/electric.svg'
+import medical from '../../assets/images/medical.svg'
+import saas from '../../assets/images/saas.svg'
 
-export class Tailcompcard extends Component {
+
+
+
+export const Allroute= [
+    {
+        name:'Agriculture',
+        link:'',
+        about:'',
+        image:agriculture,
+    },
+    {
+        name:'SAAS',
+        link:'',
+        about:'',
+        image:saas,
+    },
+    {
+        name:'Medical',
+        link:'',
+        about:'',
+        image:medical,
+    },
+    {
+        name:'Electric',
+        link:'',
+        about:'',
+        image:electric,
+    }
+]
+
+
+
+export class Industries extends Component {
     render() {
         return (
             <div>
-            <section className="text-gray-900 body-font">
+                  <section className="text-gray-900 body-font">
         <div className="container px-5 mx-auto">
           <div className="flex flex-wrap -m-4">
 
-              {CompIndustry.map((data, index) =>
+              {Allroute.map((data, index) =>
             <div className="p-4 md:w-1/4" key={index}>
               <div className="h-full bg-white rounded-md overflow-hidden shadow-2xl">
-                <img className="md:h-36 w-full object-contain relative transition duration-500 ease-in-out transform hover:scale-110 object-center bg-gray-100" src={data.image} alt="category" />
+                <img className="md:h-36 w-full object-contain relative transition duration-500 ease-in-out transform hover:scale-110 object-center border-b-2 bg-gray-100" src={data.image} alt="blog" />
                 <div className="p-4">
                   <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
                     {data.name}
@@ -34,13 +70,10 @@ export class Tailcompcard extends Component {
           </div>
         </div>
       </section>
-
-
-
-
             </div>
         )
     }
 }
 
-export default Tailcompcard
+export default Industries
+

@@ -1,35 +1,40 @@
 import './App.css';
-import Navbar from './components/MainPageComp/Navbar';
-import {
-  BrowserRouter as Router,
-  Route,
 
-} from 'react-router-dom';
-import Footer from './components/MainPageComp/Footer';
-import mainPage from './pages/mainPage';
-import BlogPage from './Django/BlogPage';
-import AllComp from './uicomp1/AllComp';
-import DjangoBlocks from './Django/DjangoBlocks';
-import Auth from './Uipages/CodePage/Auth';
-import BlogComp from './Uipages/CodePage/BlogComp';
-import Hero from './Uipages/CodePage/Hero';
-import FreeTemplates from './components/Templates/FreeTemplates';
-import CardComp from './Uipages/CodePage/CardComp';
-import Contact from './Uipages/CodePage/Contact';
-import Content from './Uipages/CodePage/Content';
-import CTA from './Uipages/CodePage/CTA';
-import FAQ from './Uipages/CodePage/FAQ';
-import Feature from './Uipages/CodePage/Feature';
-import Footers from './Uipages/CodePage/Footers';
-import GeneratePage from './Django/Codegenerator/GeneratePage';
-import Deeva from './components/Templates/Deeva/Deeva';
-import DenimComp from './components/Templates/Denim/DenimComp';
-import Merit from './components/Templates/Merit/Merit';
+import {lazy,Suspense} from 'react';
 
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+
+import SuspenseTheme from './components/MainPageComp/SuspenseTheme';
+
+
+const Navbar = lazy(() => import('./components/MainPageComp/Navbar'));
+
+
+const Footer = lazy(() => import('./components/MainPageComp/Footer'))
+const mainPage = lazy(() => import('./pages/mainPage'))
+const BlogPage = lazy(() => import('./Django/BlogPage'))
+const AllComp = lazy(() => import('./uicomp1/AllComp'))
+const DjangoBlocks = lazy(() => import('./Django/DjangoBlocks'))
+const Auth = lazy(() => import('./Uipages/CodePage/Auth'))
+const BlogComp = lazy(() => import('./Uipages/CodePage/BlogComp'))
+const Hero = lazy(() => import('./Uipages/CodePage/Hero'))
+const FreeTemplates = lazy(() => import('./components/Templates/FreeTemplates'))
+const CardComp = lazy(() => import('./Uipages/CodePage/CardComp'))
+const Contact = lazy(() => import('./Uipages/CodePage/Contact'))
+const Content = lazy(() => import('./Uipages/CodePage/Content'))
+const CTA = lazy(() => import('./Uipages/CodePage/CTA'))
+const FAQ = lazy(() => import('./Uipages/CodePage/FAQ'))
+const Feature = lazy(() => import('./Uipages/CodePage/Feature'))
+const Footers = lazy(() => import('./Uipages/CodePage/Footers'))
+const GeneratePage = lazy(() => import('./Django/Codegenerator/GeneratePage'))
+const Deeva = lazy(() => import('./components/Templates/Deeva/Deeva'))
+const DenimComp = lazy(() => import('./components/Templates/Denim/DenimComp'))
+const Merit = lazy(() => import('./components/Templates/Merit/Merit'))
 
 
 function App() {
   return (
+    <Suspense fallback={<SuspenseTheme/>}>
     <Router>
       <Navbar />
       <div className="App">
@@ -97,6 +102,7 @@ function App() {
 
       </div>
     </Router>
+    </Suspense>
   );
 }
 

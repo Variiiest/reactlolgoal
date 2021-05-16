@@ -9,7 +9,7 @@ export class All extends Component {
     render() {
         return (
         
-                <div className="py-3 overflow-y-auto whitespace-nowrap scroll-hidden bg-white bg-opacity-20 font-opensans">
+                <div className="py-3 overflow-y-auto whitespace-nowrap scroll-hidden color1 font-opensans">
 
                     {Components.map((data, key) =>
                         <Link key={key} className="mx-4 leading-5 text-white hover:text-green-200  md:my-0" to={data.link}>{data.name}</Link>
