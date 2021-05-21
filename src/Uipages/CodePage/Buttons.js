@@ -1,25 +1,23 @@
 import React, { Component } from 'react'
 import CodeCard from '../../uicomp1/CodeCard'
-import {CardTemp} from '../../components/Templates/Achrome/Data'
+import {Button} from '../../components/Templates/Achrome/Buttons'
 import '../../components/Templates/Achrome/Achrome.css'
 
-export class CardComp extends Component {
+
+export class Buttons extends Component {
+
   render() {
     return (
-      <div>
- <div className="font-opensans">
+      <div className="font-opensans bg-gradient-to-b from gray-200 to-white">
 
-
-{CardTemp.map((data,key)=>
+{Button.map((data,key)=>
       <CodeCard code={data.code} id={data.id}/>
 )}
 
   
       </div>
-       
-      </div>
     )
   }
 }
 
-export default CardComp
+export default Buttons

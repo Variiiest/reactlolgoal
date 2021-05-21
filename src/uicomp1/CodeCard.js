@@ -8,12 +8,11 @@ const CodeCard = props => {
   
   return (
 
-  <div className="text-gray-300 m-4 sm:m-8 border-2  border-gray-700 rounded-md">
-      <div className="shadow-2xl">
-        <div className="bg-gray-900 bg-opacity-10">
+  <div className="text-gray-300 mx-auto w-full px-5 py-6">
+      <div className="shadow-lg rounded-xl border">
+        <div className="bg-gray-800 rounded">
      
           <div className="flex w-full">
-             <p className="px-2 py-2 bg-blue-600">{props.id}</p>
             <button className={
               "py-2 px-6 focus:outline-none font-bold" +
               (openTab === 1
@@ -47,7 +46,7 @@ const CodeCard = props => {
         </CopyToClipboard>
 
           </div>
-          <div className="bg-gray-200">
+          <div className="bg-gray-100">
             <div className={openTab === 1 ? "block" : "hidden"}>
 
 
@@ -60,9 +59,9 @@ const CodeCard = props => {
 
             </div>
             <div className={openTab === 2 ? "block" : "hidden"}>
-              <div className="rounded">
+              <div>
   
-                <Highlight language="html" className="overflow-y-scroll scroll-hidden overflow-auto bg-black bg-opacity-90 font-medium">
+                <Highlight language="html" className="overflow-y-scroll scroll-hidden overflow-auto bg-white bg-opacity-90 font-medium h-screen">
       {props.code}
       </Highlight>
 

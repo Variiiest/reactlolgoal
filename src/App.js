@@ -5,6 +5,7 @@ import {lazy,Suspense} from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 import SuspenseTheme from './components/MainPageComp/SuspenseTheme';
+import LandingPage from './landingpages/LandingPage';
 
 
 const Navbar = lazy(() => import('./components/MainPageComp/Navbar'));
@@ -30,7 +31,9 @@ const GeneratePage = lazy(() => import('./Django/Codegenerator/GeneratePage'))
 const Deeva = lazy(() => import('./components/Templates/Deeva/Deeva'))
 const DenimComp = lazy(() => import('./components/Templates/Denim/DenimComp'))
 const Merit = lazy(() => import('./components/Templates/Merit/Merit'))
-
+const Alerts = lazy(() => import('./Uipages/CodePage/Alerts'))
+const Addresses = lazy(() => import('./Uipages/CodePage/Addresses'))
+const Buttons = lazy(() => import('./Uipages/CodePage/Buttons'))
 
 function App() {
   return (
@@ -50,6 +53,19 @@ function App() {
         <Route path='/auth'>
          <Auth/>
         </Route>
+        <Route path='/alert'>
+        <Alerts/>
+        </Route>
+        <Route path='/address'>
+        
+         <Addresses/>
+        </Route>
+        <Route path='/button'>
+        
+        <Buttons/>
+       </Route>
+
+
         <Route path='/blog'>
          <BlogComp/>
         </Route>
@@ -94,6 +110,19 @@ function App() {
 
 
         <Route path='/merit/:name' component={Merit}></Route>
+
+
+{/* LandingPages */}
+       
+        <Route path="/landingpages">
+          <LandingPage/>
+        </Route>
+
+
+
+
+
+
 
         
         

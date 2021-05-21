@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import CodeCard from '../../uicomp1/CodeCard'
-import All from '../All'
 import {FooterTemp} from '../../components/Templates/Achrome/Data'
 import '../../components/Templates/Achrome/Achrome.css'
 
@@ -8,7 +7,7 @@ export class Footers extends Component {
     render() {
         return (
             <div>
-                <All/>
+             
              
 {FooterTemp.map((data,key)=>
       <CodeCard code={data.code} id={data.id}/>

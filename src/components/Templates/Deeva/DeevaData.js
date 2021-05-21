@@ -222,7 +222,7 @@ export const DeevaData =[
     <!--- Product --->
     <section class="text-gray-800 body-font font-bold bg-gray-50">
       <div class="container mx-auto flex px-5 py-6 items-center justify-center flex-col">
-        <img class="lg:w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/1720x800" />
+        <img class="lg:w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://images.unsplash.com/photo-1620837953336-8274c0623a3c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=8" />
       </div>
     </section>
     <!-- Benifits --->
