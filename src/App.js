@@ -19,7 +19,7 @@ const DjangoBlocks = lazy(() => import('./Django/DjangoBlocks'))
 const Auth = lazy(() => import('./Uipages/CodePage/Auth'))
 const BlogComp = lazy(() => import('./Uipages/CodePage/BlogComp'))
 const Hero = lazy(() => import('./Uipages/CodePage/Hero'))
-const FreeTemplates = lazy(() => import('./components/Templates/FreeTemplates'))
+const Freetools = lazy(() => import('./Uipages/Freetools'))
 const CardComp = lazy(() => import('./Uipages/CodePage/CardComp'))
 const Contact = lazy(() => import('./Uipages/CodePage/Contact'))
 const Content = lazy(() => import('./Uipages/CodePage/Content'))
@@ -44,7 +44,7 @@ function App() {
         <Route exact path='/' component={mainPage}></Route>
 
         
-        <Route path='/freetemp' component={FreeTemplates}></Route>
+        <Route path='/tools' component={Freetools}></Route>
         <Route path='/tailwind' component={AllComp}></Route>
         
         <Route path='/django' component={DjangoBlocks}></Route>

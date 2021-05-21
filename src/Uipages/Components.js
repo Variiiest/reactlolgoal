@@ -2,17 +2,17 @@
 export const Components=[
     {
         id:1,
-        name:"Authentication",
-        link:"auth",
+        name:"Images",
+        link:"",
     },
     {
         id:2,
-        name:"Hero",
-        link:"hero",
+        name:"Fonts",
+        link:"",
     },
     {
         id:3,
-        name:"Blog",
+        name:"Figma",
         link:"blog",
     },
     {

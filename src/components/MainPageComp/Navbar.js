@@ -11,8 +11,8 @@ const Nav =[
     url:"/django",
   },
   {
-    name:"Free Resources",
-    url:"/freetemp",
+    name:"Tools",
+    url:"/tools",
   },
 
  
