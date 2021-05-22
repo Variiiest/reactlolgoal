@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 import SuspenseTheme from './components/MainPageComp/SuspenseTheme';
 import LandingPage from './landingpages/LandingPage';
+import LandingCode from './landingpages/Landingcode';
 
 
 const Navbar = lazy(() => import('./components/MainPageComp/Navbar'));
@@ -28,7 +29,6 @@ const FAQ = lazy(() => import('./Uipages/CodePage/FAQ'))
 const Feature = lazy(() => import('./Uipages/CodePage/Feature'))
 const Footers = lazy(() => import('./Uipages/CodePage/Footers'))
 const GeneratePage = lazy(() => import('./Django/Codegenerator/GeneratePage'))
-const Deeva = lazy(() => import('./components/Templates/Deeva/Deeva'))
 const DenimComp = lazy(() => import('./components/Templates/Denim/DenimComp'))
 const Merit = lazy(() => import('./components/Templates/Merit/Merit'))
 const Alerts = lazy(() => import('./Uipages/CodePage/Alerts'))
@@ -101,7 +101,7 @@ function App() {
           <GeneratePage/>
         </Route>
 
-        <Route path='/deeva/:name' component={Deeva}></Route>
+        <Route path='/temp/:slug' component={LandingCode}></Route>
 
         
         <Route path="/denim">

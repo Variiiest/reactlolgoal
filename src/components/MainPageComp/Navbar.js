@@ -7,6 +7,10 @@ const Nav =[
     url:"/tailwind",
   },
   {
+    name:"Landing Pages",
+    url:"/landingpages",
+  },
+  {
     name:"Django Blocks",
     url:"/django",
   },

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
-import {LandingData} from './LandigData'
+import {LandingData} from './LandingData'
 
 export class LandingPage extends Component {
     render() {
@@ -10,9 +11,9 @@ export class LandingPage extends Component {
 {LandingData.map((data,key)=><section className="px-2 body-font md:px-5 lg:px-12 py-6">
      <div className="container bg-gradient-to-b from-gray-200 flex flex-col items-center py-12 mx-auto md:px-5  lg:px-10 md:flex-row rounded mt-10" key={data.name}>
           <div className="flex flex-col w-full pt-0 text-left pl-5 lg:flex-grow lg:w-1/2 md:items-start md:mb-0 text-blue-10 md:pr-16">
-            <a href={data.preview_link} className="mb-4 text-base tracking-tighter text-gray-900 title-font px-4 py-1 rounded-full bg-green-200">
+            <Link to={"/temp/"+ data.slug} className="mb-4 text-base tracking-tighter text-gray-900 title-font px-4 py-1 rounded-full bg-green-200">
               Preview
-            </a>
+            </Link>
             <h1 className="mb-4 text-4xl leading-snug text-gray-900 lg:text-5xl">
               {data.name}
             </h1>
