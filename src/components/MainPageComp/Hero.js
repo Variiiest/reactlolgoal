@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import All from './All'
 
 export class Hero extends Component {
@@ -7,7 +8,7 @@ export class Hero extends Component {
         return (
             <div>
                 
-      <section className="w-full px-3 antialiased lg:px-6 bg-indigo-700">
+      <section className="w-full px-3 antialiased lg:px-6 bg-gradient-to-tr from-blue-700 to-blue-500">
     <div className="mx-auto max-w-7xl">
       <div className="container pt-32 pb-64 mx-auto text-center sm:px-4">
         <h1 className="text-3xl font-extrabold leading-10 tracking-tight text-white sm:text-5xl sm:leading-none">
@@ -35,7 +36,7 @@ export class Hero extends Component {
               <h1 className="text-3xl lg:text-5xl md:leading-snug tracking-tighter text-gray-900 font-bold">Web Development
               <span className="text-blue-600"> Industry Wise</span></h1>
               <h2 className="text-lg lg:text-2xl lg:leading-7 md:leading-10 py-4 md:py-8 text-gray-600">We develop web applications that engaging, and are developed with the latest technologies.And If you are programming person use our code snippets for free.</h2>
-              <button className="btn-primary">See Industries</button>
+              <Link to="/industries" className="btn-primary">See Industries</Link>
             </div>
           </div>
           <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
@@ -57,7 +58,6 @@ export class Hero extends Component {
       </div>
      
     </section>
-
 
 
  

@@ -30,27 +30,7 @@ export class Footer extends Component {
                 <li>
                   <a href="." className=""> Heroes</a>
                 </li>
-                <li>
-                  <a href="." className="">Authentication</a>
-                </li>
-                <li>
-                  <a href="." className="">Pricing</a>
-                </li>
-                <li>
-                  <a href="." className="">Content</a>
-                </li>
-                <li>
-                  <a href="." className="">Footers</a>
-                </li>
-                <li>
-                  <a href="." className="">Faq</a>
-                </li>
-                <li>
-                  <a href="." className="">Grid</a>
-                </li>
-                <li>
-                  <a href="." className="">All</a>
-                </li>
+               
               </nav>
             </div>
             <div className="lg:w-1/3 w-1/2">
@@ -59,28 +39,7 @@ export class Footer extends Component {
                 <li>
                   <a href="." className="">Basics Installation</a>
                 </li>
-                <li>
-                  <a href="." className="">Models</a>
-                </li>
-                <li>
-                  <a href="." className="">Views</a>
-                </li>
-                <li>
-                  <a href="." className="">Authentication</a>
-                </li>
-               
-                <li>
-                  <a href="." className="">Authorization</a>
-                </li>
-                <li>
-                  <a href="." className="">Admin</a>
-                </li>
-                <li>
-                  <a href="." className="">Packages</a>
-                </li>
-                <li>
-                  <a href="." className="">Projects</a>
-                </li>
+                
               </nav>
             </div>
   
@@ -90,24 +49,7 @@ export class Footer extends Component {
                 <li>
                   <a href="." className="">Basic Installation</a>
                 </li>
-                <li>
-                  <a href="." className="">Styles and Images</a>
-                </li>
-                <li>
-                  <a href="." className="">Dependencies</a>
-                </li>
-                <li>
-                  <a href="." className="">React-router</a>
-                </li>
-                <li>
-                  <a href="." className="">Enviornment</a>
-                </li>
-                <li>
-                  <a href="." className="">PWA</a>
-                </li>
-                <li>
-                  <a href="." className="">Projects</a>
-                </li>
+               
               </nav>
             </div>
           </div>

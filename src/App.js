@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 import SuspenseTheme from './components/MainPageComp/SuspenseTheme';
 import LandingPage from './landingpages/LandingPage';
 import LandingCode from './landingpages/Landingcode';
+import Industries from './components/MainPageComp/Industries';
 
 
 const Navbar = lazy(() => import('./components/MainPageComp/Navbar'));
@@ -29,8 +30,6 @@ const FAQ = lazy(() => import('./Uipages/CodePage/FAQ'))
 const Feature = lazy(() => import('./Uipages/CodePage/Feature'))
 const Footers = lazy(() => import('./Uipages/CodePage/Footers'))
 const GeneratePage = lazy(() => import('./Django/Codegenerator/GeneratePage'))
-const DenimComp = lazy(() => import('./components/Templates/Denim/DenimComp'))
-const Merit = lazy(() => import('./components/Templates/Merit/Merit'))
 const Alerts = lazy(() => import('./Uipages/CodePage/Alerts'))
 const Addresses = lazy(() => import('./Uipages/CodePage/Addresses'))
 const Buttons = lazy(() => import('./Uipages/CodePage/Buttons'))
@@ -104,12 +103,6 @@ function App() {
         <Route path='/temp/:slug' component={LandingCode}></Route>
 
         
-        <Route path="/denim">
-          <DenimComp/>
-        </Route>
-
-
-        <Route path='/merit/:name' component={Merit}></Route>
 
 
 {/* LandingPages */}
@@ -118,7 +111,9 @@ function App() {
           <LandingPage/>
         </Route>
 
-
+        <Route path="/industries">
+          <Industries/>
+        </Route>
 
 
 

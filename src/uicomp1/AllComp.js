@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import Tailcompcard from './Tailcompcard'
 import { Link } from 'react-router-dom'
-import bgcode from '../assets/images/code.svg'
 
 export class AllComp extends Component {
   render() {
     return (
       <div>
-<section className="text-gray-700 body-font">
+<section className="text-gray-700 body-font bg-indigo-200">
 
              <div className="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-8">
                <div className="flex flex-col items-start w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:mb-0 ">
@@ -43,7 +42,7 @@ export class AllComp extends Component {
                  </p>
                </div>
                <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
-                 <img className="object-cover object-center rounded-lg " alt="hero" src={bgcode}/>
+                 {/* <img className="object-cover object-center rounded-lg " alt="hero"/> */}
                </div>
              </div>
             

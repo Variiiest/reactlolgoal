@@ -6,14 +6,14 @@ export class Tailcompcard extends Component {
     render() {
         return (
             <div>
-            <section className="text-gray-900 body-font">
+            <section className="text-gray-900 body-font bg-gradient-to-b from-indigo-200 to-white ">
         <div className="container px-5 mx-auto">
           <div className="flex flex-wrap -m-4">
 
               {CompIndustry.map((data, index) =>
            <div className="p-4 md:w-1/4" key={index}>
-           <div className="h-full bg-white rounded-2xl overflow-hidden shadow-lg border">
-             <img className={"md:h-36 w-full object-contain relative transition duration-500 ease-in-out transform hover:scale-110 object-center bg-indigo-100"}  src={data.image} alt="blog" />
+           <div className="h-full bg-white rounded-lg overflow-hidden shadow-md">
+             <img className={"md:h-36 w-full object-contain relative transition duration-500 ease-in-out transform hover:scale-110 object-center bg-red-100"}  src={data.image} alt={data.image} />
              <div className="p-4">
                <h1 className="title-font text-xl font-extrabold hover:text-indigo-700 text-gray-900 mb-3">
                  {data.name}

@@ -1,12 +1,6 @@
 
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import agriculture from '../../assets/images/agriculture.svg'
-import electric from '../../assets/images/electric.svg'
-import medical from '../../assets/images/medical.svg'
-import saas from '../../assets/images/saas.svg'
-
-
 
 
 export const Allroute= [
@@ -14,25 +8,25 @@ export const Allroute= [
         name:'Agriculture',
         link:'',
         about:'',
-        image:agriculture,
+        image:'https://ik.imagekit.io/vpa3fwqdnd/Components/landing.09fa1de1_jirxji2h9.svg',
     },
     {
         name:'SAAS',
         link:'',
         about:'',
-        image:saas,
+        image:'https://ik.imagekit.io/vpa3fwqdnd/Components/landing.09fa1de1_uj2aOTRStb.svg',
     },
     {
         name:'Medical',
         link:'',
         about:'',
-        image:medical,
+        image:'https://ik.imagekit.io/vpa3fwqdnd/Components/landing.09fa1de1_zsHw3Ah70.svg',
     },
     {
         name:'Electric',
         link:'',
         about:'',
-        image:electric,
+        image:'https://ik.imagekit.io/vpa3fwqdnd/Components/landing.09fa1de1_m_zKg2N4Dz.svg',
     }
 ]
 

@@ -18,6 +18,10 @@ const Nav =[
     name:"Tools",
     url:"/tools",
   },
+  {
+    name:"Blog",
+    url:"/blog",
+  },
 
  
 ]
@@ -26,6 +30,8 @@ const Nav =[
 
 
 export class Navbar extends Component {
+
+
 
 
   constructor(props) {
@@ -67,7 +73,7 @@ export class Navbar extends Component {
             <nav className="hidden md:flex space-x-10">
               <div className="relative">
               {Nav.map((data,key)=>
-                  <Link to={data.url} key={data.name} className="text-gray-800 group inline-flex items-center text-base hover:text-black focus:outline-none font-bold pl-4">
+                  <Link to={data.url} key={data.name} className="text-gray-800  group inline-flex items-center text-base hover:text-black focus:outline-none font-extrabold px-4 py-2 hover:bg-red-50">
                   <span>{data.name}</span>
                 </Link> )}
               </div>

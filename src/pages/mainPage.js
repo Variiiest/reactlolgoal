@@ -6,6 +6,7 @@ export class mainPage extends Component {
         return (
             <div>
                 <Hero/>
+               
             </div>
         )
     }

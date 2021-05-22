@@ -1,11 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import web from '../../assets/images/web.svg'
-import code from '../../assets/images/code.svg'
-import landing from '../../assets/images/landing.svg'
-import backend from '../../assets/images/backend.svg'
-
-
 
 
 export const Allroute= [
@@ -13,25 +7,25 @@ export const Allroute= [
         name:'Tailwind Blocks',
         link:'tailwind',
         about:'400 + Components Already.',
-        image:code,
+        image:'https://ik.imagekit.io/vpa3fwqdnd/Components/breadcrumb_EbEbafdbb.svg',
     },
     {
         name:'Landing Pages',
         link:'landingpages',
         about:'30+ Landing Pages ',
-        image:landing,
+        image:'https://ik.imagekit.io/vpa3fwqdnd/Components/landing.09fa1de1_OtMQk3TRg.svg',
     },
     {
         name:'Django Blocks',
         link:'django',
         about:'Code for views and models',
-        image:backend,
+        image:'https://ik.imagekit.io/vpa3fwqdnd/Components/landing.09fa1de1_GowNEU2t2.svg',
     },
     {
         name:'Changelog',
         link:'changelog',
         about:'Revision of Web components.',
-        image:web,
+        image:'https://ik.imagekit.io/vpa3fwqdnd/Components/landing.09fa1de1_JwS8tMD5N.svg',
     }
 ]
 
