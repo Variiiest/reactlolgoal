@@ -1,20 +1,20 @@
 export const HeroTemp=[
   {
    id:1,
-   code:`<section class="px-2 py-24 md:px-0">
+   code:`<section class="px-2 py-24 md:px-0 bg-yellow-100">
    <div class="container items-center max-w-6xl px-5 mx-auto space-y-6 text-center">
      <h1 class="text-4xl font-extrabold tracking-tight text-left text-gray-900 sm:text-5xl md:text-6xl md:text-center">
        <span class="block">
          Lorem Ipsum
          <span
-           class="block mt-1 text-blue-700 lg:inline lg:mt-0"
+           class="block mt-1 text-yellow-500 lg:inline lg:mt-0"
          >
            Create New
          </span>
        </span>
      </h1>
-     <p class="w-full mx-auto text-base text-left text-gray-800 md:max-w-md sm:text-lg lg:text-2xl md:max-w-3xl md:text-center">Lorem Ipsum is simply dummy text of the printing</p>
-     <div class="relative flex flex-col justify-center md:flex-row md:space-x-4"> <a href="#_" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-blue-700 md:mb-0 hover:bg-blue-600 md:w-auto rounded-full">
+     <p class="w-full mx-auto text-base text-left text-gray-800 md:max-w-md sm:text-lg lg:text-2xl md:text-center">Lorem Ipsum is simply dummy text of the printing</p>
+     <div class="relative flex flex-col justify-center md:flex-row md:space-x-4 text-center"> <a href="#_" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-yellow-500 md:mb-0 hover:bg-yellow-600 md:w-auto rounded-full">
          Try It Free
          <svg
            xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ export const HeroTemp=[
            <polyline points="12 5 19 12 12 19"></polyline>
          </svg>
        </a>
-       <a href="#_" class="flex items-center px-6 py-3 text-gray-500 bg-gray-100 hover:bg-gray-200 hover:text-gray-600 rounded-full">
+       <a href="#_" class="flex items-center px-6 py-3 text-gray-800 bg-white border border-yellow-400 hover:bg-gray-50 hover:text-gray-900 rounded-full">
          Learn More
        </a>
      </div>
@@ -38,27 +38,45 @@ export const HeroTemp=[
  </section>`,  
   
   },
+
   {
     id:2,
-    code:`<section class="w-full px-6 pb-12 antialiased">
+    code:`
+
+<style>
+
+  .bg-img{
+    background-image:url('https://images.unsplash.com/photo-1605106715994-18d3fecffb98?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1513&q=80');
+    
+  }
+  .shadow-g:hover{
+    
+  box-shadow:5px 5px 50px 5px pink;
+
+  }
+
+
+  </style>
+
+<section class="w-full px-6 pb-12 antialiased bg-img">
     <div class="mx-auto max-w-7xl">
       <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center">
-        <h1 class="text-4xl font-extrabold leading-10 tracking-tight text-left text-gray-900 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
+        <h1 class="text-4xl font-extrabold leading-10 tracking-tight text-left text-white md:text-center sm:leading-none md:text-6xl lg:text-7xl">
           <span class="inline md:block">
             Lorem Ipsum is simply
           </span>
           <span
-            class="relative mt-2 mb-2 text-blue-700 md:inline-block"
+            class="relative mt-2 mb-2 text-pink-500 md:inline-block"
           >
             dummy text of the printing
           </span>
         </h1>
-        <div class="mx-auto mt-5 text-gray-800 md:mt-12 md:max-w-lg md:text-center lg:text-lg">Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing</div>
+        <div class="mx-auto mt-5 text-gray-200 md:mt-12 md:max-w-2xl md:text-center lg:text-2xl">Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing</div>
         <div class="flex flex-col items-center mt-12 text-center"> <span class="relative inline-flex w-full md:w-auto">
             <a
               href="#_"
               type="button"
-              class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-blue-700 border border-transparent md:w-auto hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 rounded-full"
+              class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-blue-700 shadow-g border border-transparent md:w-auto hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 rounded-full"
             >
               Purchase Now
             </a>
@@ -71,22 +89,29 @@ export const HeroTemp=[
   },
   {
     id:3,
-    code:`<section class="text-gray-800 body-font font-bold">
-    <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-      <img class="lg:w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/1720x600" />
-      <div class="text-center lg:w-2/3 w-full">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900">
-          Lorem Ipsum is simply dummy text of the printing
-          Lorem Ipsum is simply dummy text
-        </h1>
-        <p class="leading-relaxed mb-8 text-lg">Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing</p>
-        <div class="flex justify-center">
-          <button class="inline-flex text-gray-100 bg-blue-700 border-0 py-3 px-8 focus:outline-none hover:bg-blue-600 rounded-full text-lg">Button</button>
-          <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-3 px-8 focus:outline-none hover:bg-gray-700 rounded-full text-lg">Button</button>
+    code:`
+
+    <section class="text-gray-100 body-font font-bold bg-gradient-to-tr from-black to-gray-900">
+    
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+           <div class="text-center lg:w-2/3 w-full">
+            <h1 class="title-font sm:text-4xl text-3xl mb-8 font-bold text-blue-700 uppercase">
+              Product Demo
+            </h1>
+            </div>
+          
+          <img class="lg:max-w-full mb-10 object-cover object-center rounded lg:min-h-screen" alt="hero" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=702&q=80" />
+       
+          <div class="text-center lg:w-2/3 w-full">
+           
+            <div class="flex justify-center">
+              <button class="inline-flex text-gray-100 bg-blue-700 border-0 py-3 px-8 focus:outline-none hover:bg-blue-600 rounded-full text-lg">Button</button>
+              <button class="ml-4 inline-flex text-gray-900 bg-white border-0 py-3 px-8 focus:outline-none hover:bg-gray-50 rounded-full text-lg">Button</button>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>`,
+    
+      </section>`,
 
   },
 
@@ -125,8 +150,8 @@ export const HeroTemp=[
 
   {
     id:5,
-    code:`<section class="text-gray-800 body-font">
-    <div class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-8">
+    code:`<section class="text-gray-800 body-font py-4 px-2">
+    <div class="container flex flex-col items-center px-5 py-12 mx-auto md:flex-row lg:px-8 bg-gradient-to-b from-blue-300 to-white shadow-xl rounded-2xl">
       <div class="flex flex-col w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:items-start md:mb-0">
         <h2 class="mb-2 text-xs font-bold text-gray-100 title-font">
           <span class="px-4 py-2 bg-gray-800 rounded-full">
@@ -138,14 +163,10 @@ export const HeroTemp=[
         </h1>
         <div class="flex flex-wrap -mx-4 -mt-4 -mb-10 sm:-m-4">
           <div class="flex flex-col items-start p-4 mb-6 text-left md:w-1/2 md:mb-0">
-            <div class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-gray-900 bg-white shadow rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="
-                  fill: rgba(237, 60, 60, 1);
-                  transform: ;
-                  -ms-filter: ;
-                ">
-                <path d="M10 3H4C3.447 3 3 3.447 3 4v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1V4C11 3.447 10.553 3 10 3zM20 13h-6c-.553 0-1 .447-1 1v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1v-6C21 13.447 20.553 13 20 13zM17 3c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S19.206 3 17 3zM7 13c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S9.206 13 7 13z"></path>
-              </svg>
+            <div class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-white bg-gradient-to-b from-blue-600 to-red-300 shadow rounded-full p-2">
+             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+</svg>
             </div>
             <div class="flex-grow">
               <h2 class="mb-3 text-lg font-medium tracking-tighter text-gray-700 title-font">
@@ -170,14 +191,10 @@ export const HeroTemp=[
             </div>
           </div>
           <div class="flex flex-col items-start p-4 mb-6 text-left md:w-1/2 md:mb-0">
-            <div class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-gray-900 bg-white shadow rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="
-                  fill: rgba(237, 60, 60, 1);
-                  transform: ;
-                  -ms-filter: ;
-                ">
-                <path d="M10 3H4C3.447 3 3 3.447 3 4v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1V4C11 3.447 10.553 3 10 3zM20 13h-6c-.553 0-1 .447-1 1v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1v-6C21 13.447 20.553 13 20 13zM17 3c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S19.206 3 17 3zM7 13c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S9.206 13 7 13z"></path>
-              </svg>
+            <div class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-white bg-gradient-to-b from-blue-600 to-red-300 shadow rounded-full p-2">
+         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 13v-1m4 1v-3m4 3V8M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+</svg>
             </div>
             <div class="flex-grow">
               <h2 class="mb-3 text-lg font-medium tracking-tighter text-gray-700 title-font">
@@ -204,7 +221,7 @@ export const HeroTemp=[
         </div>
       </div>
       <div class="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
-        <img class="object-cover object-center rounded-lg" alt="hero" src="https://dummyimage.com/720x600/F3F4F7/8693ac" />
+        <img class="object-cover object-center rounded-lg" alt="hero" src="https://ik.imagekit.io/vpa3fwqdnd/landing_M8HwGW8CO.svg" />
       </div>
     </div>
   </section>`,
@@ -516,20 +533,20 @@ export const HeroTemp=[
   },
   {
     id:11,
-    code:`<section class="flex flex-col items-center md:flex-row">
+    code:`<section class="flex flex-col items-center md:flex-row bg-gradient-to-r from-green-100 to-yellow-100">
     <div class="hidden w-full bg-gray-200 bg-cover lg:block md:w-1/3 xl:w-1/3">
-      <img src="https://dummyimage.com/600x1024/F3F4F7/8693ac" alt="" class="object-cover w-full h-full" />
+      <img src="https://cdn.pixabay.com/photo/2015/10/09/14/04/birds-979262_960_720.jpg" alt="" class="object-cover w-full h-screen" />
     </div>
-    <div class="flex w-full px-6 md:max-w-md lg:max-w-full md:w-1/2 xl:w-1/2 lg:px-16 xl:px-12 items-left justify-left">
+    <div class="flex w-full px-6 md:max-w-full py-12 md:ml-0 lg:max-w-full xl:w-2/3 lg:px-16 xl:px-12 items-left justify-left xl:-ml-32 bg-green-200 xl:rounded-2xl shadow-lg">
       <div class="w-full">
         <a class="inline-flex items-center mt-12 font-medium text-gray-900 title-font" href="/">
-          <div class="px-4 rounded-full bg-blue-100">Launching Too soon</div>
+          <div class="px-4 rounded-full bg-white py-1 text-green-500 shadow-lg">Launching Too soon</div>
         </a>
         <h1 class="mt-4 mb-4 font-bold tracking-tighter text-black sm:text-5xl text-4xl title-font">
           Lorem Ipsum is simply text service
         </h1>
         <p class="mb-8 text-base leading-relaxed text-left text-gray-800 lg:text-1xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s.</p>
-        <div class="flex"> <a href="#_" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-blue-800 rounded-md sm:mb-0 hover:bg-blue-700 sm:w-auto">
+        <div class="flex"> <a href="#_" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-blue-800 rounded-full sm:mb-0 hover:bg-blue-700 sm:w-auto">
             Try It Free
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -552,62 +569,39 @@ export const HeroTemp=[
   },
   {
     id:12,
-    code:`<section class="text-gray-700 body-font">
-    <div class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28">
-      <div class="flex flex-col items-start w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-10 md:pr-12 md:mb-0">
-        <h1 class="mb-8 text-3xl font-bold tracking-tighter text-left text-black lg:text-3xl title-font">
+    code:` <section class="body-font bg-white">
+    <div class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-14">
+     
+      <div class="flex flex-col items-start w-full pt-0 sm:ml-12 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-10 md:pr-12 md:mb-0">
+        <h1 class="mb-8 text-3xl font-bold tracking-tight text-left text-gray-900 lg:text-3xl title-font">
           Lorem Ipsum is simply dummy text of the printing.
         </h1>
-        <p class="mb-8 text-base leading-relaxed text-left text-gray-700">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s.</p>
+        <p class="text-xl leading-relaxed  tracking-tight text-left text-gray-700">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s.</p>
         <div class="flex flex-wrap w-full mt-2 -mx-4 text-left">
           <div class="w-1/4 p-4 mt-4 sm:w-1/4">
-            <div class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-gray-900 bg-white shadow rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="
-                  fill: rgba(237, 60, 260, 1);
-                  transform: ;
-                  -ms-filter: ;
-                ">
-                <path d="M10 3H4C3.447 3 3 3.447 3 4v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1V4C11 3.447 10.553 3 10 3zM20 13h-6c-.553 0-1 .447-1 1v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1v-6C21 13.447 20.553 13 20 13zM17 3c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S19.206 3 17 3zM7 13c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S9.206 13 7 13z"></path>
-              </svg>
+            <div class="inline-flex items-center justify-center flex-shrink-0 h-12 mb-5 text-gray-900 rounded-full">
+                     <img class="object-cover object-center rounded-lg" alt="hero" src="https://www.logo.wine/a/logo/Google/Google-Logo.wine.svg">
             </div>
           </div>
           <div class="w-1/4 p-4 mt-4 sm:w-1/4">
-            <div class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-gray-900 bg-white shadow rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="
-                  fill: rgba(237, 160, 60, 1);
-                  transform: ;
-                  -ms-filter: ;
-                ">
-                <path d="M10 3H4C3.447 3 3 3.447 3 4v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1V4C11 3.447 10.553 3 10 3zM20 13h-6c-.553 0-1 .447-1 1v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1v-6C21 13.447 20.553 13 20 13zM17 3c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S19.206 3 17 3zM7 13c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S9.206 13 7 13z"></path>
-              </svg>
+            <div class="inline-flex items-center justify-center flex-shrink-0 h-12 mb-5 text-gray-900 rounded-full">
+             <img class="object-cover object-center rounded-lg" alt="hero" src="https://www.hike.in/images/tild3639-6464-4162-b835-393464623138__hike_wordmark.png">
             </div>
           </div>
           <div class="w-1/4 p-4 mt-4 sm:w-1/4">
-            <div class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-gray-900 bg-white shadow rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="
-                  fill: rgba(37, 60, 160, 1);
-                  transform: ;
-                  -ms-filter: ;
-                ">
-                <path d="M10 3H4C3.447 3 3 3.447 3 4v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1V4C11 3.447 10.553 3 10 3zM20 13h-6c-.553 0-1 .447-1 1v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1v-6C21 13.447 20.553 13 20 13zM17 3c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S19.206 3 17 3zM7 13c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S9.206 13 7 13z"></path>
-              </svg>
+           <div class="inline-flex items-center justify-center flex-shrink-0 h-12 mb-5 text-gray-900 rounded-full">
+             <img class="object-cover object-center rounded-lg" alt="hero" src="https://akm-img-a-in.tosshub.com/aajtak/resource/img/bemisaal-20-saal/aajtak-logo-153X116.png?imbypass=true">
             </div>
           </div>
           <div class="w-1/4 p-4 mt-4 sm:w-1/4">
-            <div class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-gray-900 bg-white shadow rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="
-                  fill: rgba(27, 60, 220, 1);
-                  transform: ;
-                  -ms-filter: ;
-                ">
-                <path d="M10 3H4C3.447 3 3 3.447 3 4v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1V4C11 3.447 10.553 3 10 3zM20 13h-6c-.553 0-1 .447-1 1v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1v-6C21 13.447 20.553 13 20 13zM17 3c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S19.206 3 17 3zM7 13c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S9.206 13 7 13z"></path>
-              </svg>
+            <div class="inline-flex items-center justify-center flex-shrink-0 h-12 mb-5 text-gray-900 rounded-full">
+             <img class="object-cover object-center rounded-lg" alt="hero" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png">
             </div>
           </div>
         </div>
       </div>
-      <div class="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
-        <img class="object-cover object-center rounded-lg" alt="hero" src="https://dummyimage.com/720x600/F3F4F7/8693ac" />
+       <div class="w-full md:w-1/2">
+        <img class="object-cover object-center rounded-lg" alt="hero" src="https://ik.imagekit.io/vpa3fwqdnd/Components/photo-1606857521015-7f9fcf423740_8UZOBTPSb.jpg" />
       </div>
     </div>
   </section>`,
@@ -932,6 +926,44 @@ export const HeroTemp=[
         </div>
       </section>
     `,
+  },
+  {
+    id:18,
+    code:`
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap');
+    .font-lex{
+      font-family: 'Lexend', sans-serif;
+    }
+    </style>
+    
+    
+    <section class="w-full text-gray-800 bg-indigo-500 font-lex">
+    <div class="mx-auto max-w-full">
+      <div class="flex flex-col lg:flex-row">
+        <div class="w-full bg-cover lg:w-6/12 xl:w-7/12 py-20">
+          <div class="flex flex-col items-center justify-center w-full h-full px-10 my-20 lg:px-16 lg:my-0">
+            <div class="flex flex-col items-start space-y-8 tracking-tight lg:max-w-3xl">
+              <div class="">
+                <h2 class="text-5xl font-extrabold text-white xl:text-6xl tracking-tighter leading-relaxed">
+                Shape how the world’s leading brands deliver customer experiences at scale
+                </h2>
+              </div>
+        
+              
+               <a href="#_" class="inline-block text-center border border-white-700 hover:bg-white focus:bg-white hover:text-black text-white font-semibold rounded px-4 py-3 text-base">
+                Get Started Today
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-6/12 xl:w-5/12">
+          
+    <img class="object-cover object-center w-full h-full" src="https://ik.imagekit.io/vpa3fwqdnd/Group_31_5RYR6q0B3.png" alt="stats">
+        </div>
+      </div>
+    </div>
+  </section>`,
   }
 
 ]
@@ -941,7 +973,8 @@ export const HeroTemp=[
 export const Blogtemp=[
    {
      id:1,
-     code:`<section class="container px-5 py-24 mx-auto text-gray-900">
+     code:`
+     <section class="container px-5 py-24 mx-auto text-gray-900">
      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
        <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto">
          <div class="bg-gray-200 shadow-2xl h-56 w-full rounded-lg shadow-md bg-cover bg-center" style="
