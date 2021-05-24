@@ -614,14 +614,16 @@ export const HeroTemp=[
   },
   {
     id:13,
-    code:`<section class="text-gray-700 body-font">
-    <div class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28">
+    code:`<section class="text-white body-font bg-black bg-opacity-90">
+    <div class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-14">
       <div class="flex flex-col items-start w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:mb-0">
-        <h1 class="mb-8 text-2xl font-bold tracking-tighter text-left text-black lg:text-2xl title-font">
+        <h1 class="mb-8 text-3xl  tracking-tighter text-left text-green-400 sm:text-4xl title-font">
           Lorem Ipsum is simply dummy text of the printing.
         </h1>
-        <p class="mb-8 text-base leading-relaxed text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s.</p>
-        <p class="flex items-center mb-2 text-blue-700"> <span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+        <p class="mb-8 text-xl leading-relaxed text-left tracking-tight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s.</p>
+        
+        
+        <p class="flex items-center mb-6 hover:opacity-80"> <span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6  bg-green-400 mr-2 rounded-full">
             <svg
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
@@ -636,7 +638,7 @@ export const HeroTemp=[
             </svg>
           </span>
           Lorem Ipsum is simply dummy text of the printing</p>
-        <p class="flex items-center mb-2 text-blue-700"> <span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+        <p class="flex items-center mb-6 hover:opacity-80"> <span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-green-400 rounded-full">
             <svg
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
@@ -651,7 +653,7 @@ export const HeroTemp=[
             </svg>
           </span>
           Lorem Ipsum is simply dummy text of the printing</p>
-        <p class="flex items-center mb-6 text-blue-700"> <span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+        <p class="flex items-center mb-6 hover:opacity-80"> <span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full bg-green-400">
             <svg
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
@@ -668,102 +670,79 @@ export const HeroTemp=[
           Lorem Ipsum is simply dummy text of the printing</p>
       </div>
       <div class="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
-        <img class="object-cover object-center rounded-lg" alt="hero" src="https://dummyimage.com/720x600/F3F4F7/8693ac" />
+        <img class="object-cover object-center rounded-lg bg-gradient-to-b from-green-200 to-blue-400" alt="hero" src="https://ik.imagekit.io/vpa3fwqdnd/Components/landing.09fa1de1_zsHw3Ah70.svg" />
       </div>
     </div>
   </section>`,
   },
   {
     id:14,
-    code:`<section class="text-gray-800 body-font">
-    <div class="container px-8 py-24 mx-auto flex flex-wrap">
-      <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
-        <div class="w-full sm:p-4 px-4 mb-6">
-          <h1 class="title-font font-bold text-2xl mb-2 text-gray-900">
-            Lorem Ipsum is simply dummy text of the printing
-          </h1>
-          <div class="leading-relaxed">Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing</div>
+    code:`
+    <section class="body-font bg-gray-900 text-gray-300">
+        <div class="container px-8 py-12 mx-auto flex flex-wrap">
+          <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+            <div class="w-full sm:p-4 px-4 mb-6">
+              <h1 class="title-font text-4xl mb-4 text-white tracking-tight">
+                Lorem Ipsum is simply dummy text of the printing
+              </h1>
+              <div class="leading-relaxed tracking-tight">Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing</div>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/3 w-1/2">
+              <h2 class="title-font font-bold text-3xl text-green-400">
+                2.7K +
+              </h2>
+              <p class="leading-relaxed">Users</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/3 w-1/2">
+              <h2 class="title-font font-bold text-3xl text-red-500">
+                1.8K +
+              </h2>
+              <p class="leading-relaxed">Subscribes</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/3 w-1/2">
+              <h2 class="title-font font-bold text-3xl text-blue-600">
+                35+ 
+              </h2>
+              <p class="leading-relaxed">Downloads</p>
+            </div>
+          </div>
+          <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+            <img class="object-cover object-center w-full h-full" src="https://images.unsplash.com/photo-1611095973362-88e8e2557e58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="stats" />
+          </div>
         </div>
-        <div class="p-4 sm:w-1/2 lg:w-1/3 w-1/2">
-          <h2 class="title-font font-bold text-3xl text-gray-900">
-            2.7K
-          </h2>
-          <p class="leading-relaxed">Users</p>
-        </div>
-        <div class="p-4 sm:w-1/2 lg:w-1/3 w-1/2">
-          <h2 class="title-font font-bold text-3xl text-gray-900">
-            1.8K
-          </h2>
-          <p class="leading-relaxed">Subscribes</p>
-        </div>
-        <div class="p-4 sm:w-1/2 lg:w-1/3 w-1/2">
-          <h2 class="title-font font-bold text-3xl text-gray-900">
-            35
-          </h2>
-          <p class="leading-relaxed">Downloads</p>
-        </div>
-      </div>
-      <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-        <img class="object-cover object-center w-full h-full" src="https://dummyimage.com/600x300" alt="stats" />
-      </div>
-    </div>
-  </section>`,
+      </section>`,
   },
   {
     id:15,
-    code:`<section class="text-gray-700 body-font">
-    <div class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28">
+    code:` <section class="body-font bg-gray-900">
+    <div class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-14">
       <div class="w-full md:w-1/2">
-        <img class="object-cover object-center rounded-lg" alt="hero" src="https://dummyimage.com/720x600/F3F4F7/8693ac" />
+        <img class="object-cover object-center rounded-lg" alt="hero" src="https://ik.imagekit.io/vpa3fwqdnd/Components/photo-1606857521015-7f9fcf423740_8UZOBTPSb.jpg" />
       </div>
       <div class="flex flex-col items-start w-full pt-0 sm:ml-12 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-10 md:pr-12 md:mb-0">
-        <h1 class="mb-8 text-3xl font-bold tracking-tighter text-left text-black lg:text-3xl title-font">
+        <h1 class="mb-8 text-3xl font-bold tracking-tight text-left text-white lg:text-3xl title-font">
           Lorem Ipsum is simply dummy text of the printing.
         </h1>
-        <p class="mb-8 text-base leading-relaxed text-left text-gray-700">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s.</p>
+        <p class="text-xl leading-relaxed  tracking-tight text-left text-gray-300">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s.</p>
         <div class="flex flex-wrap w-full mt-2 -mx-4 text-left">
           <div class="w-1/4 p-4 mt-4 sm:w-1/4">
-            <div class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-gray-900 bg-white shadow rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="
-                  fill: rgba(237, 60, 260, 1);
-                  transform: ;
-                  -ms-filter: ;
-                ">
-                <path d="M10 3H4C3.447 3 3 3.447 3 4v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1V4C11 3.447 10.553 3 10 3zM20 13h-6c-.553 0-1 .447-1 1v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1v-6C21 13.447 20.553 13 20 13zM17 3c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S19.206 3 17 3zM7 13c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S9.206 13 7 13z"></path>
-              </svg>
+            <div class="inline-flex items-center justify-center flex-shrink-0 h-12 mb-5 text-gray-900 rounded-full">
+                     <img class="object-cover object-center rounded-lg" alt="hero" src="https://www.logo.wine/a/logo/Google/Google-Logo.wine.svg">
             </div>
           </div>
           <div class="w-1/4 p-4 mt-4 sm:w-1/4">
-            <div class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-gray-900 bg-white shadow rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="
-                  fill: rgba(237, 160, 60, 1);
-                  transform: ;
-                  -ms-filter: ;
-                ">
-                <path d="M10 3H4C3.447 3 3 3.447 3 4v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1V4C11 3.447 10.553 3 10 3zM20 13h-6c-.553 0-1 .447-1 1v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1v-6C21 13.447 20.553 13 20 13zM17 3c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S19.206 3 17 3zM7 13c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S9.206 13 7 13z"></path>
-              </svg>
+            <div class="inline-flex items-center justify-center flex-shrink-0 h-12 mb-5 text-gray-900 rounded-full">
+             <img class="object-cover object-center rounded-lg" alt="hero" src="https://www.hike.in/images/tild3639-6464-4162-b835-393464623138__hike_wordmark.png">
             </div>
           </div>
           <div class="w-1/4 p-4 mt-4 sm:w-1/4">
-            <div class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-gray-900 bg-white shadow rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="
-                  fill: rgba(37, 60, 160, 1);
-                  transform: ;
-                  -ms-filter: ;
-                ">
-                <path d="M10 3H4C3.447 3 3 3.447 3 4v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1V4C11 3.447 10.553 3 10 3zM20 13h-6c-.553 0-1 .447-1 1v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1v-6C21 13.447 20.553 13 20 13zM17 3c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S19.206 3 17 3zM7 13c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S9.206 13 7 13z"></path>
-              </svg>
+           <div class="inline-flex items-center justify-center flex-shrink-0 h-12 mb-5 text-gray-900 rounded-full">
+             <img class="object-cover object-center rounded-lg" alt="hero" src="https://akm-img-a-in.tosshub.com/aajtak/resource/img/bemisaal-20-saal/aajtak-logo-153X116.png?imbypass=true">
             </div>
           </div>
           <div class="w-1/4 p-4 mt-4 sm:w-1/4">
-            <div class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-gray-900 bg-white shadow rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="
-                  fill: rgba(27, 60, 220, 1);
-                  transform: ;
-                  -ms-filter: ;
-                ">
-                <path d="M10 3H4C3.447 3 3 3.447 3 4v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1V4C11 3.447 10.553 3 10 3zM20 13h-6c-.553 0-1 .447-1 1v6c0 .553.447 1 1 1h6c.553 0 1-.447 1-1v-6C21 13.447 20.553 13 20 13zM17 3c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S19.206 3 17 3zM7 13c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4S9.206 13 7 13z"></path>
-              </svg>
+            <div class="inline-flex items-center justify-center flex-shrink-0 h-12 mb-5 text-gray-900 rounded-full">
+             <img class="object-cover object-center rounded-lg" alt="hero" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png">
             </div>
           </div>
         </div>
@@ -917,6 +896,42 @@ export const HeroTemp=[
   </div>
   `,
 
+  },
+  {
+    id:17,
+    code:`<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+    .font-lex{
+    font-family: 'Montserrat', sans-serif;
+    }
+    </style>
+    
+      
+      <section class="text-green-600 body-font bg-black bg-opacity-90 font-lex">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div
+            class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-green-400">
+              We are building the <span class="text-white">products</span>
+              which can solve your project-based
+              learning problems
+            </h1>
+            <p class="leading-relaxed  text-gray-200">Don't feel confident to get started with your project ,</p>
+            <p class="mb-8 leading-relaxed  text-gray-200"> we are here to solve this problem .Get a mentor and
+              project and complete within a time and collaborate with other users.</p>
+            <div class="flex justify-center">
+              <button
+                class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">PROJECTS</button>
+              <button
+                class="ml-4 inline-flex text-green-600 bg-gray-200 border-2 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg border-green-800">SERVICES</button>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center" alt="hero" src="https://ik.imagekit.io/vpa3fwqdnd/Components/landing.09fa1de1_jirxji2h9.svg">
+          </div>
+        </div>
+      </section>
+    `,
   }
 
 ]
