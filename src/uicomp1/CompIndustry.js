@@ -85,7 +85,7 @@ export const CompIndustry=[
         name:"Feature",
         image:'https://ik.imagekit.io/vpa3fwqdnd/Components/featues_C30H8Ge1X.svg',
         about:"All Components are customizable. Customize According to your Design.",
-        link:"#",
+        link:"/features",
     },
     {
         id:8,
