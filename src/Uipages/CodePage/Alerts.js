@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CodeCard from '../../uicomp1/CodeCard'
+import CodeCard from '../../tailblocks/CodeCard'
 import {AlertData} from '../../components/Templates/Achrome/Alerts'
 import '../../components/Templates/Achrome/Achrome.css'
 

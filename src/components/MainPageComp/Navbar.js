@@ -14,14 +14,14 @@ const Nav =[
     name:"Django Blocks",
     url:"/django",
   },
-  {
-    name:"Tools",
-    url:"/tools",
-  },
-  {
-    name:"Blog",
-    url:"/blog",
-  },
+  // {
+  //   name:"Tools",
+  //   url:"/tools",
+  // },
+  // {
+  //   name:"Blog",
+  //   url:"/blog",
+  // },
 
  
 ]

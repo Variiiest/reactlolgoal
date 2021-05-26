@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CodeCard from '../../uicomp1/CodeCard'
+import CodeCard from '../../tailblocks/CodeCard'
 import {AuthTemp} from '../../components/Templates/Achrome/Authentication'
 import '../../components/Templates/Achrome/Achrome.css'
 

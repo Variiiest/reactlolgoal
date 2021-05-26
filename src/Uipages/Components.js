@@ -3,52 +3,41 @@ export const Components=[
     {
         id:1,
         name:"Images",
-        link:"",
+       
     },
     {
         id:2,
         name:"Fonts",
-        link:"",
+        
     },
     {
         id:3,
-        name:"Figma",
-        link:"blog",
+        name:"Designs",
+     
     },
     {
         id:4,
-        name:"Card",
-        link:"card",
+        name:"CMS",
     },
     {
         id:5,
-        name:"Contact",
-        link:"contactdes",
+        name:"CDN",
     },
     {
         id:6,
-        name:"Content",
-        link:"contentdes",
+        name:"Website Builder",
     },
     {
         id:7,
-        name:"CTA",
-        link:"ctacomp",
+        name:"Nocode",
     },
 
     {
         id:8,
-        name:"FAQ",
-        link:"faqcomp",
+        name:"SVG",
     },
     {
         id:9,
-        name:"Features",
-        link:"features",
-    },
-    {
-        id:10,
-        name:"Footer",
-        link:"footers",
+        name:"Icons",
     },
 ]

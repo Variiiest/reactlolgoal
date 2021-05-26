@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import Tailcompcard from './Tailcompcard'
 import { Link } from 'react-router-dom'
 
-export class AllComp extends Component {
+export class Header extends Component {
   render() {
     return (
       <div>
-<section className="text-gray-700 body-font bg-indigo-200">
+<section className="text-gray-700 body-font">
 
              <div className="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-8">
                <div className="flex flex-col items-start w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:mb-0 ">
@@ -57,18 +56,9 @@ export class AllComp extends Component {
 
 
 
-
-
-
-        <Tailcompcard />
-
-
-
-
-
       </div>
     )
   }
 }
 
-export default AllComp
+export default Header

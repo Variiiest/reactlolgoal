@@ -2,7 +2,7 @@ import React from 'react'
 import {LandingData} from './LandingData'
 
 import { useParams } from "react-router";
-import CodeCard from '../uicomp1/CodeCard';
+import AccessAlert from '../components/MainPageComp/AccessAlert';
 function findtempByname(slug) {
   return LandingData.find(o => o.slug === slug);
 }
@@ -15,9 +15,8 @@ export default function LandingCode() {
     post = findtempByname(slug);
         return (
             <div className="font-opensans">
-
-      <CodeCard code={post.code} id={post.id}/>
-
+                <AccessAlert/>
+               <post.component/>
                 
             </div>
         )

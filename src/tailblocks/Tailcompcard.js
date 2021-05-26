@@ -6,7 +6,7 @@ export class Tailcompcard extends Component {
     render() {
         return (
             <div>
-            <section className="text-gray-900 body-font bg-gradient-to-b from-indigo-200 to-white ">
+            <section className="text-gray-900 body-font ">
         <div className="container px-5 mx-auto">
           <div className="flex flex-wrap -m-4">
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import Navbar from '../components/MainPageComp/Navbar'
 
 
 export class DjangoBlocks extends Component {
@@ -7,8 +8,8 @@ export class DjangoBlocks extends Component {
         return (
             <div>
 
-
-<section className="text-gray-700 body-font bg-gradient-to-b from-indigo-200 to-white">
+<Navbar/>
+<section className="text-gray-700 body-font">
 
              <div className="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-8">
                <div className="flex flex-col items-start w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:mb-0 ">
@@ -44,7 +45,7 @@ export class DjangoBlocks extends Component {
                  </p>
                </div>
                <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
-                 <img className="object-cover object-center rounded-lg  opacity-20" alt="hero" src="https://ik.imagekit.io/vpa3fwqdnd/Components/Group_31_UJa4yjqwA.png"/>
+                 <img className="object-cover object-center rounded-lg  opacity-80" alt="hero" src="https://ik.imagekit.io/vpa3fwqdnd/Components/Group_31_UJa4yjqwA.png"/>
                </div>
              </div>
             
