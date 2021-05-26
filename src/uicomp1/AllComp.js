@@ -42,7 +42,9 @@ export class AllComp extends Component {
                  </p>
                </div>
                <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
-                 {/* <img className="object-cover object-center rounded-lg " alt="hero"/> */}
+               <a href="https://kinsta.com?kaid=OPVBTGVTUKMW">
+                 <img className="object-cover object-center" alt="hero" src="https://kinsta.com/assets/banners/affiliate/en/600x300%20-%20devkinsta%20-%20dark.png"/>
+               </a>
                </div>
              </div>
             

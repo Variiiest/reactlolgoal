@@ -43,8 +43,12 @@ export class Tailcompcard extends Component {
         </div>
       </section>
 
-
-
+      <div className="lg:max-w-4xl items-center justify-center mx-auto mt-12">
+        <a href="https://kinsta.com?kaid=OPVBTGVTUKMW">
+                 <img className="object-cover object-center" alt="hero" src="https://kinsta.com/assets/banners/affiliate/en/728x90%20-%20optimized%20-%20dark.jpg"/>
+              
+               </a>
+               </div>
 
             </div>
         )
