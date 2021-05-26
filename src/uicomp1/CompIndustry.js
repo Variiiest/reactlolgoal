@@ -57,7 +57,7 @@ export const CompIndustry=[
         name:"Call to Action",
         image:'https://ik.imagekit.io/vpa3fwqdnd/Components/calltoaction_51Ndsn2YW.svg',
         about:"All Components are customizable. Customize According to your Design.",
-        link:"#",
+        link:"/ctacomp",
     },
     {
         id:8,
