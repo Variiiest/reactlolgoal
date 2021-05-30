@@ -1,5 +1,7 @@
 import PageOne from "./AllPage"
 import Page10 from "./Page10"
+import Page11 from "./Page11"
+import Page12 from "./Page12"
 import PageEight from "./PageEight"
 import PageFive from "./PageFive"
 import PageFour from "./PageFour"
@@ -121,5 +123,30 @@ export const LandingData =[
   component:Page10,
 
 },
+
+
+{
+  id:3,
+  name:"Landing Page SAAS",
+  slug:"port11",
+  gumroad_link:"",
+  img:"https://ik.imagekit.io/vpa3fwqdnd/eight_hX0wC5j3K.JPG",
+  about:"A data management company landing page using React JS and TailwindCSS.",
+  preview_link:"third",
+  component:Page11,
+
+},
+{
+  id:3,
+  name:"Landing Page SAAS",
+  slug:"port12",
+  gumroad_link:"",
+  img:"https://ik.imagekit.io/vpa3fwqdnd/eight__YA2tL0gr.JPG",
+  about:"A data management company landing page using React JS and TailwindCSS.",
+  preview_link:"third",
+  component:Page12,
+
+},
+
 
 ]

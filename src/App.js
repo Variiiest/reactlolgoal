@@ -74,6 +74,7 @@ function App() {
         </Route>
 
         <Route path='/hero'>
+        <Navbar/>
          <Hero/>
         </Route>
 
