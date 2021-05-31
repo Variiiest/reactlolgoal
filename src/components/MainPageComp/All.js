@@ -35,20 +35,20 @@ export class All extends Component {
     render() {
         return (
             <div>
-                  <section className="text-gray-900 body-font -mt-48">
+                  <section className="text-gray-900 dark:text-white body-font -mt-48">
         <div className="container px-5 mx-auto">
           <div className="flex flex-wrap -m-4">
 
               {Allroute.map((data, index) =>
             <div className="p-4 md:w-1/4" key={index}>
-              <div className="h-full bg-white rounded-2xl overflow-hidden shadow-lg border">
+              <div className="h-full bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-lg border dark:border-black">
                 <img className={"md:h-36 w-full object-contain relative transition duration-500 ease-in-out transform hover:scale-110 object-center bg-red-100"}  src={data.image} alt="blog" />
                 <div className="p-4">
-                  <h1 className="title-font text-xl font-extrabold hover:text-indigo-700 text-gray-900 mb-3">
+                  <h1 className="title-font text-xl font-extrabold hover:text-blue-700 text-gray-900 dark:hover:text-blue-300 dark:text-gray-200 mb-3">
                     {data.name}
                   </h1>
                   <p className="leading-relaxed mb-4 text-base">{data.about}</p>
-                  <div className="flex items-center flex-wrap"> <Link to={data.link} className="text-blue-600 inline-flex items-center md:mb-2 lg:mb-2">
+                  <div className="flex items-center flex-wrap"> <Link to={data.link} className="text-blue-600 dark:text-blue-300 inline-flex items-center md:mb-2 lg:mb-2">
                       Learn More
                       <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M5 12h14" />

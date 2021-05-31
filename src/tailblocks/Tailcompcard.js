@@ -1,54 +1,105 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import {CompIndustry} from './CompIndustry'
 
 export class Tailcompcard extends Component {
     render() {
         return (
             <div>
-            <section className="text-gray-900 body-font ">
-        <div className="container px-5 mx-auto">
-          <div className="flex flex-wrap -m-4">
-
-              {CompIndustry.map((data, index) =>
-           <div className="p-4 md:w-1/4" key={index}>
-           <div className="h-full bg-white rounded-lg overflow-hidden shadow-md">
-             <img className={"md:h-36 w-full object-contain relative transition duration-500 ease-in-out transform hover:scale-110 object-center bg-red-100"}  src={data.image} alt={data.image} />
-             <div className="p-4">
-               <h1 className="title-font text-xl font-extrabold hover:text-indigo-700 text-gray-900 mb-3">
-                 {data.name}
-               </h1>
-               <div className="flex items-center flex-wrap"> 
-               {data.link !=="#" &&
-               <Link to={data.link} className="text-blue-600 inline-flex items-center md:mb-2 lg:mb-2">
-                   Learn More
-                   <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round">
-                     <path d="M5 12h14" />
-                     <path d="M12 5l7 7-7 7" />
-                   </svg>
-                 </Link>
-    }
-  {data.link ==="#" &&
-               <Link to={data.link} className="text-blue-600 inline-flex items-center md:mb-2 lg:mb-2 px-2 py-1 bg-gradient-to-r from-green-100 to-red-200 rounded">
-                  Upcoming
-                 </Link>
-    }
-
-               </div>
-             </div>
-           </div>
-         </div>
-              )}
-          </div>
+       <section className="text-gray-600 body-font overflow-hidden">
+          <div className="container px-5 py-24 mx-auto max-w-3xl">
+            <div className="flex flex-col text-center w-full mb-10">
+              <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-black">Pricing</h1>
+            </div>
+            <div className="flex flex-wrap -m-4">
+              <div className="p-4 md:w-1/2 w-full">
+                <div className="h-full p-6 flex flex-col relative overflow-hidden hover:border-blue-100 border-0 hover:border hover:shadow-xl rounded transition transform hover:translate-y-4 ease-linear duration-300">
+                  <h2 className="text-sm tracking-widest title-font mb-1 font-bold text-blue-600">Small</h2>
+                  <h1 className="text-3xl text-black leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                    Free
+                  </h1>
+                  <p className="flex items-center text-gray-600 mb-2">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5" />
+                      </svg>
+                    </span>Vexillologist pitchfork
+                  </p>
+                  <p className="flex items-center text-gray-600 mb-2">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5" />
+                      </svg>
+                    </span>Tumeric plaid portland
+                  </p>
+                  <p className="flex items-center text-gray-600 mb-2">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5" />
+                      </svg>
+                    </span>Hexagon neutra unicorn
+                  </p>
+                  <p className="flex items-center text-gray-600 mb-2">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5" />
+                      </svg>
+                    </span>Vexillologist pitchfork
+                  </p>
+                  <p className="flex items-center text-gray-600 mb-6">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5" />
+                      </svg>
+                    </span>Mixtape chillwave tumeric
+                  </p>
+                </div>
+              </div>
+              <div className="p-4 md:w-1/2 w-full  mx-auto">
+                <div className="h-full mt-4 p-4 bg-gradient-to-b from-blue-50 hover:border-blue-100 border hover:border hover:shadow-xl rounded transition transform hover:translate-y-4 ease-linear duration-300 sm:scale-110 flex flex-col relative overflow-hidden">
+                  <h2 className="text-sm tracking-widest title-font mb-1 font-bold text-blue-600">Pro</h2>
+                  <h1 className="text-3xl text-blue-600 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                    <span>$56</span>
+                    <span className="text-lg ml-1 font-normal">/mo</span>
+                  </h1>
+                  <p className="flex items-center text-gray-600 mb-2">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5" />
+                      </svg>
+                    </span>Vexillologist pitchfork
+                  </p>
+                  <p className="flex items-center text-gray-600 mb-2">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5" />
+                      </svg>
+                    </span>Tumeric plaid portland
+                  </p>
+                  <p className="flex items-center text-gray-600 mb-2">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5" />
+                      </svg>
+                    </span>Hexagon neutra unicorn
+                  </p>
+                  <p className="flex items-center text-gray-600 mb-2">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5" />
+                      </svg>
+                    </span>Vexillologist pitchfork
+                  </p>
+                  <p className="flex items-center text-gray-600">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5" />
+                      </svg>
+                    </span>Mixtape chillwave tumeric
+                  </p>
+                </div>
+              </div>
+            </div>
         </div>
-      </section>
-
-      <div className="lg:max-w-4xl items-center justify-center mx-auto mt-12">
-        <a href="https://kinsta.com?kaid=OPVBTGVTUKMW">
-                 <img className="object-cover object-center" alt="hero" src="https://kinsta.com/assets/banners/affiliate/en/728x90%20-%20optimized%20-%20dark.jpg"/>
-              
-               </a>
-               </div>
+        </section>
 
             </div>
         )

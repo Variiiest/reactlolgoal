@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Footer from '../components/MainPageComp/Footer'
 import Hero from '../components/MainPageComp/Hero'
 import Navbar from '../components/MainPageComp/Navbar'
+import Product from '../components/MainPageComp/Product'
 
 export class mainPage extends Component {
     render() {
@@ -9,7 +10,7 @@ export class mainPage extends Component {
             <div>
                   <Navbar />
                 <Hero/>
-
+               <Product/>
                 
         
         

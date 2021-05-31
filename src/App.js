@@ -10,6 +10,7 @@ import LandingCode from './landingpages/Landingcode';
 import Industries from './components/MainPageComp/Industries';
 import Navbar from './components/MainPageComp/Navbar';
 import Footer from './components/MainPageComp/Footer';
+import { ThemeProvider } from './themes/themeContext';
 
 const mainPage = lazy(() => import('./pages/mainPage'))
 const BlogPage = lazy(() => import('./Django/BlogPage'))
@@ -34,6 +35,7 @@ const Buttons = lazy(() => import('./Uipages/CodePage/Buttons'))
 function App() {
   return (
     <Suspense fallback={<SuspenseTheme/>}>
+       <ThemeProvider>
     <Router>
     
       <div className="App">
@@ -144,6 +146,7 @@ function App() {
 
       </div>
     </Router>
+    </ThemeProvider>
     </Suspense>
   );
 }

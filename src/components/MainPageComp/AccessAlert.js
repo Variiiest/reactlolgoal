@@ -4,7 +4,7 @@ export class AccessAlert extends Component {
     render() {
         return (
             <div>
-                <div className="bg-gradient-to-r from-indigo-700 to-red-300 font-bold">
+                <div className="bg-blue-700 font-bold">
         <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between flex-wrap">
             <div className="w-0 flex-1 flex items-center">
@@ -24,7 +24,7 @@ export class AccessAlert extends Component {
               </p>
             </div>
             <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
-              <a href="#_" className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-bold text-white bg-red-400">
+              <a href="#_" className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-bold text-white bg-gray-700">
                Free Version
               </a>
             </div>
