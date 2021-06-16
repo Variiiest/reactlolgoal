@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import Navbar from '../components/MainPageComp/Navbar'
+import Navbar from '../MainPageComp/Navbar'
 
 
 export class DjangoBlocks extends Component {

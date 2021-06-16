@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import SecondNav from './SecondNav'
 
 export class Header extends Component {
   render() {
     return (
       <div>
-        <SecondNav/>
         <section class="text-gray-700 dark:text-gray-200 body-font dark:bg-black px-5 py-12">
     <div class="container flex flex-col items-center mx-auto md:flex-row lg:px-8 rounded-2xl">
       <div class="flex flex-col w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:items-start md:mb-0">

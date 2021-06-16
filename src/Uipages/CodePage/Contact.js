@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import CodeCard from '../../tailblocks/CodeCard'
 
-import {Contacttemp} from '../../components/Templates/Achrome/Data'
-import '../../components/Templates/Achrome/Achrome.css'
-
+import {Contacttemp} from '../../Boiled/Data'
 
 export class Contact extends Component {
 

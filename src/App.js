@@ -4,12 +4,12 @@ import {lazy,Suspense} from 'react';
 
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 
-import SuspenseTheme from './components/MainPageComp/SuspenseTheme';
+import SuspenseTheme from './MainPageComp/SuspenseTheme';
 import LandingPage from './landingpages/LandingPage';
 import LandingCode from './landingpages/Landingcode';
-import Industries from './components/MainPageComp/Industries';
-import Navbar from './components/MainPageComp/Navbar';
-import Footer from './components/MainPageComp/Footer';
+import Industries from './MainPageComp/Industries';
+import Navbar from './MainPageComp/Navbar';
+import Footer from './MainPageComp/Footer';
 import { ThemeProvider } from './themes/themeContext';
 
 const LightCompPage = lazy(() => import('./pages/LightCompPage'))

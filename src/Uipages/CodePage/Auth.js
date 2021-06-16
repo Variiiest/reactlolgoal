@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import CodeCard from '../../tailblocks/CodeCard'
-import {AuthTemp} from '../../components/Templates/Achrome/Authentication'
-import '../../components/Templates/Achrome/Achrome.css'
+import {AuthTemp} from '../../Boiled/Authentication'
 
 
 export class Auth extends Component {

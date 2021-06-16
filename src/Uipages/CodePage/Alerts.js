@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import CodeCard from '../../tailblocks/CodeCard'
-import {AlertData} from '../../components/Templates/Achrome/Alerts'
-import '../../components/Templates/Achrome/Achrome.css'
+import {AlertData} from '../../Boiled/Alerts'
 
 
 export class Alerts extends Component {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Footer from '../components/MainPageComp/Footer'
-import Navbar from '../components/MainPageComp/Navbar'
+import Footer from '../MainPageComp/Footer'
+import Navbar from '../MainPageComp/Navbar'
 import Header from '../tailblocks/Header'
 import Tailcompcard from '../tailblocks/Tailcompcard'
 

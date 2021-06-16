@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import CodeCard from '../../tailblocks/CodeCard'
-import {ContentTemp} from '../../components/Templates/Achrome/Data'
-import '../../components/Templates/Achrome/Achrome.css'
+import {ContentTemp} from '../../Boiled/Data'
 
 
 export class Content extends Component {

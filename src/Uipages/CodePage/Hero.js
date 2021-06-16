@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import CodeCard from '../../tailblocks/CodeCard'
-import {HeroTemp} from '../../components/Templates/Achrome/Data'
+import {HeroTemp} from '../../Boiled/Data'
 
-
-import '../../components/Templates/Achrome/Achrome.css'
 
 export class Hero extends Component {
   

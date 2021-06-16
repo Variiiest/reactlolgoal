@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import CodeCard from '../../tailblocks/CodeCard'
 
-import {CTAComp} from '../../components/Templates/Achrome/CTAComp'
-import '../../components/Templates/Achrome/Achrome.css'
-
+import {CTAComp} from '../../Boiled/CTAComp'
 export default class CTA extends Component {
     render() {
         return (

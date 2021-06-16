@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import CodeCard from '../../tailblocks/CodeCard'
 
-import {FaqTemp} from '../../components/Templates/Achrome/Data'
-import '../../components/Templates/Achrome/Achrome.css'
+import {FaqTemp} from '../../Boiled/Data'
 
 export class FAQ extends Component {
     render() {

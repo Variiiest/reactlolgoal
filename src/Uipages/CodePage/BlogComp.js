@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 
 import CodeCard from '../../tailblocks/CodeCard'
 
-import {Blogtemp} from '../../components/Templates/Achrome/Data'
-import '../../components/Templates/Achrome/Achrome.css'
+import {Blogtemp} from '../../Boiled/Data'
+
 
 export class BlogComp extends Component {
     render() {

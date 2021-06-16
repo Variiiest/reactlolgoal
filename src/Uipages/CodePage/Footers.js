@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import CodeCard from '../../tailblocks/CodeCard'
-import {FooterTemp} from '../../components/Templates/Achrome/Data'
-import '../../components/Templates/Achrome/Achrome.css'
-
+import {FooterTemp} from '../../Boiled/Data'
 export class Footers extends Component {
     render() {
         return (

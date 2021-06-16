@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import CodeCard from '../../tailblocks/CodeCard'
 
-import {FeatureComp} from '../../components/Templates/Achrome/FeaturesComp'
-import '../../components/Templates/Achrome/Achrome.css'
+import {FeatureComp} from '../../Boiled/FeaturesComp'
 
 export class Feature extends Component {
     render() {
