@@ -6,7 +6,7 @@ const Toggle = () => {
     <div className="transition duration-500 ease-in-out">
       {theme === "dark" ? (
       <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="text-gray-500 dark:text-gray-400 btn-primary cursor-pointer"> 
+      className="text-gray-100 dark:text-gray-200 btn-primary cursor-pointer"> 
      Light</button>
       ) : (
         <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}

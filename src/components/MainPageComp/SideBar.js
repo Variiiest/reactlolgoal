@@ -97,7 +97,7 @@ export default function SideBar() {
                     </div>
 
                     {/*Mobile responsive sidebar*/}
-                    <div className={show ? "w-full h-full absolute z-40  transform  translate-x-0 " : "   w-full h-full absolute z-40  transform -translate-x-full"}>
+                    <div className={show ? "w-full h-full absolute z-40  transform translate-x-0 " : "   w-full h-full absolute z-40  transform -translate-x-full"}>
                         <div className="bg-gray-800 opacity-50 w-full h-full absolute" onClick={() => setShow(!show)}></div>
                         <div className="w-64 md:w-96 absolute z-40 bg-white shadow h-full flex-col justify-between lg:hidden pb-4 transition duration-150 ease-in-out">
                             <div className="flex flex-col justify-between h-full">
@@ -111,7 +111,7 @@ export default function SideBar() {
                         {/* Navigation starts */}
                         <nav className="h-16 flex items-center lg:items-stretch justify-start lg:justify-between bg-white shadow relative z-0">
                          
-                            <div className="text-gray-600 mr-8 relative" onClick={() => setShow(!show)} id="menu">
+                            <div className="text-gray-600 mr-8 relative lg:hidden" onClick={() => setShow(!show)} id="menu">
                                 {show ? (
                                     ""
                                 ) : (

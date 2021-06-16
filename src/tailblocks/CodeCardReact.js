@@ -48,14 +48,8 @@ const CodeCard = props => {
           </div>
           <div className="bg-gray-100">
             <div className={openTab === 1 ? "block" : "hidden"}>
-
-
-
-
-            <div dangerouslySetInnerHTML={{ __html: props.code }}></div>
-
-
-
+              
+              {props.children}
 
             </div>
             <div className={openTab === 2 ? "block" : "hidden"}>

@@ -17,7 +17,7 @@ const Nav =[
   },
   // {
   //   name:"Tools",
-  //   url:"/tools",
+  //   url:"/tools", 
   // },
   // {
   //   name:"Blog",

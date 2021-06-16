@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
-export class Tailcompcard extends Component {
+
+export class LightCompPage extends Component {
     render() {
         return (
             <div>
-
+                
             </div>
         )
     }
 }
 
-export default Tailcompcard
+export default LightCompPage

@@ -64,20 +64,8 @@ export class Hero extends Component {
         <div className="flex flex-wrap items-center pb-12 bg-gradient-to-b from-gray-200 dark:from-gray-900 rounded-2xl sm:px-8 py-12 px-2">
         <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
             <img className="absolute w-full h-full inset-0 object-cover object-center rounded-2xl" src="https://ik.imagekit.io/vpa3fwqdnd/Components/Inn_KqZYwSf5u.svg" alt="" />
-            <div className="relative z-10 bg-white dark:bg-gray-900 rounded-2xl shadow-lg border dark:border-black p-6 w-10/12 -mb-20">
-              <div className="flex items-center justify-between w-full sm:w-full">
-                <div className="rounded-lg">
-                  <div className="w-12 h-12 inline-flex items-center justify-center rounded-md color1 text-white mb-4">
-                   400+
-                  </div>
-                  <h2 className="text-lg font-bold title-font mb-2">All Components</h2>
-                  <p className="leading-relaxed text-base">We have developed some components with latest technologies.</p>
-                </div>
-                <div></div>
-              </div>
-            </div>
           </div>
-          <div className="md:w-1/2 lg:w-2/3 w-full xl:pl-20 md:pr-6">
+          <div className="md:w-1/2 lg:w-2/3 w-full md:pl-20 md:pr-6">
             <div className="py-2">
               <h1 className="text-3xl lg:text-5xl md:leading-snug tracking-tighter font-bold">DarkMode Enabled Templates
     </h1>

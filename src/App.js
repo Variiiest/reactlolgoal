@@ -12,6 +12,7 @@ import Navbar from './components/MainPageComp/Navbar';
 import Footer from './components/MainPageComp/Footer';
 import { ThemeProvider } from './themes/themeContext';
 
+const LightCompPage = lazy(() => import('./pages/LightCompPage'))
 const mainPage = lazy(() => import('./pages/mainPage'))
 const BlogPage = lazy(() => import('./Django/BlogPage'))
 const TailwindBlocks = lazy(() => import('./pages/TailwindBlocks'))
@@ -138,6 +139,11 @@ function App() {
           <Industries/>
         </Route>
 
+
+        <Route path="/lightcomp">
+        <Navbar/>
+          <LightCompPage/>
+        </Route>
 
 
 
