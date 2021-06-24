@@ -11,7 +11,7 @@ export class Product extends Component {
             </div>
             <div className="flex flex-wrap -m-4">
               <div className="p-4 md:w-1/3 w-full">
-                <div className="h-full p-6 flex flex-col relative overflow-hidden bg-gradient-to-b from-blue-50 dark:from-gray-900 hover:border-blue-100 dark:border-black hover:border rounded transition transform hover:translate-y-4 ease-linear duration-300">
+                <div className="h-full p-6 flex flex-col relative overflow-hidden bg-gradient-to-b from-blue-50 dark:from-gray-900 hover:border-blue-100 dark:border-gray-700 hover:border rounded transition transform hover:translate-y-4 ease-linear duration-300">
                   <h2 className="text-sm tracking-widest title-font mb-1 font-bold text-blue-600 dark:text-blue-400">Small</h2>
                   <h1 className="text-3xl text-gray-900 dark:text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
                     Free
@@ -21,40 +21,54 @@ export class Product extends Component {
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Vexillologist pitchfork
+                    </span>Landing Pages
                   </p>
                   <p className="flex items-center  mb-2">
                     <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Tumeric plaid portland
+                    </span>Unlimited use of Blocks
                   </p>
                   <p className="flex items-center  mb-2">
                     <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Hexagon neutra unicorn
+                    </span>Blog Tutorials Access
                   </p>
                   <p className="flex items-center  mb-2">
-                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-200 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Vexillologist pitchfork
+                    </span>All UI themes
                   </p>
-                  <p className="flex items-center  mb-6">
-                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                  <p className="flex items-center  mb-2">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-200 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Mixtape chillwave tumeric
+                    </span>Consult
+                  </p>
+                  <p className="flex items-center  mb-2">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-200 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5" />
+                      </svg>
+                    </span>Video Courses
+                  </p>
+                  <p className="flex items-center  mb-2">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-200 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5" />
+                      </svg>
+                    </span>Full Stack Projects
                   </p>
                 </div>
               </div>
               <div className="p-4 md:w-1/3 w-full">
-                <div className="h-full mt-4 p-6 bg-gradient-to-b from-blue-50 dark:from-gray-900 hover:border-blue-100 border dark:border-black hover:border hover:shadow-xl rounded transition transform hover:translate-y-4 ease-linear duration-300 sm:scale-110 flex flex-col relative overflow-hidden">
+                <div className="h-full mt-4 p-6 bg-gradient-to-b from-blue-50 dark:from-gray-900 hover:border-blue-100 border dark:border-gray-700 hover:border hover:shadow-xl rounded transition transform hover:translate-y-4 ease-linear duration-300 sm:scale-110 flex flex-col relative overflow-hidden">
                   <h2 className="text-sm tracking-widest title-font mb-1 font-bold text-blue-600 dark:text-blue-400">Pro</h2>
                   <h1 className="text-3xl text-blue-600 dark:text-blue-400 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
                     <span>$5</span>
@@ -65,57 +79,57 @@ export class Product extends Component {
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Vexillologist pitchfork
+                    </span>Landing Pages
                   </p>
                   <p className="flex items-center  mb-2">
                     <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Tumeric plaid portland
+                    </span>Unlimited use of Blocks
                   </p>
                   <p className="flex items-center  mb-2">
                     <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Hexagon neutra unicorn
+                    </span>Blog Tutorials Access
                   </p>
                   <p className="flex items-center  mb-2">
-                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-700 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Vexillologist pitchfork
+                    </span>All UI themes
                   </p>
                   <p className="flex items-center  mb-2">
-                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-700 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Hexagon neutra unicorn
+                    </span>Consult 1.5 Hours/month
                   </p>
                   <p className="flex items-center  mb-2">
-                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-200 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Vexillologist pitchfork
+                    </span>Video Courses
                   </p>
-                  <p className="flex items-center ">
-                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                  <p className="flex items-center  mb-2">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-200 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Mixtape chillwave tumeric
+                    </span>Full Stack Projects
                   </p>
                 </div>
               </div>
               <div className="p-4 md:w-1/3 w-full">
-                <div className="h-full mt-4 p-4 md:ml-4 bg-gradient-to-b from-blue-50 dark:from-gray-900 hover:border-blue-100 border dark:border-black hover:border hover:shadow-xl rounded transition transform hover:translate-y-4 ease-linear duration-300 sm:scale-110 flex flex-col relative overflow-hidden">
+                <div className="h-full mt-4 p-4 md:ml-4 bg-gradient-to-b from-blue-50 dark:from-gray-900 hover:border-blue-100 border dark:border-gray-700 hover:border hover:shadow-xl rounded transition transform hover:translate-y-4 ease-linear duration-300 sm:scale-110 flex flex-col relative overflow-hidden">
                   <h2 className="text-sm tracking-widest title-font mb-1 font-bold text-blue-600 dark:text-blue-400">Pro</h2>
                   <h1 className="text-3xl text-blue-600 dark:text-blue-400 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                    <span>$5</span>
+                    <span>$10</span>
                     <span className="text-lg ml-1 font-normal">/mo</span>
                   </h1>
                   <p className="flex items-center  mb-2">
@@ -123,63 +137,49 @@ export class Product extends Component {
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Vexillologist pitchfork
+                    </span>Landing Pages
                   </p>
                   <p className="flex items-center  mb-2">
                     <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Tumeric plaid portland
+                    </span>Unlimited use of Blocks
                   </p>
                   <p className="flex items-center  mb-2">
                     <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Hexagon neutra unicorn
+                    </span>Blog Tutorials Access
                   </p>
                   <p className="flex items-center  mb-2">
-                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-700 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Vexillologist pitchfork
-                  </p>
-                  <p className="flex items-center ">
-                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
-                        <path d="M20 6L9 17l-5-5" />
-                      </svg>
-                    </span>Mixtape chillwave tumeric
+                    </span>All UI themes
                   </p>
                   <p className="flex items-center  mb-2">
-                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-700 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Tumeric plaid portland
+                    </span>Consult 4 Hours/Month
                   </p>
                   <p className="flex items-center  mb-2">
-                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-700 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Hexagon neutra unicorn
+                    </span>Video Courses
                   </p>
                   <p className="flex items-center  mb-2">
-                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
+                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-700 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
-                    </span>Vexillologist pitchfork
-                  </p>
-                  <p className="flex items-center ">
-                    <span className="w-8 h-8 mr-2 inline-flex items-center justify-center bg-blue-600 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-6 h-6" viewBox="0 0 24 24">
-                        <path d="M20 6L9 17l-5-5" />
-                      </svg>
-                    </span>Mixtape chillwave tumeric
+                    </span>Full Stack Projects
                   </p>
                 </div>
               </div>

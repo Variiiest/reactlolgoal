@@ -54,12 +54,12 @@ export class DjangoBlocks extends Component {
 
 
            <section className="px-2 body-font md:px-5 lg:px-12 py-6">
-     <div className="container bg-gradient-to-b from-gray-100 flex flex-col items-center py-12 mx-auto md:px-5  lg:px-10 md:flex-row rounded mt-10 shadow">
+     <div className="container bg-gradient-to-b from-blue-100 dark:from-gray-900 flex flex-col items-center py-12 mx-auto md:px-5  lg:px-10 md:flex-row rounded mt-10 shadow">
           <div className="flex flex-col w-full pt-0 text-left pl-5 lg:flex-grow lg:w-1/2 md:items-start md:mb-0 text-blue-10 md:pr-16">
             <Link to="#" className="mb-4 text-base tracking-tighter text-gray-900 title-font px-4 py-1 rounded-full bg-green-200">
               24/05/2021
             </Link>
-            <h1 className="mb-4 text-4xl leading-snug text-gray-900 lg:text-5xl">
+            <h1 className="mb-4 text-4xl leading-snug text-gray-800 dark:text-gray-100  lg:text-5xl">
              Design Sharing System
             </h1>
             <p className="mb-6 text-xl font-light text-opacity-60">
@@ -79,12 +79,12 @@ export class DjangoBlocks extends Component {
 
 
 
-        <div className="container bg-gradient-to-b from-gray-100 flex flex-col items-center py-12 mx-auto md:px-5  lg:px-10 md:flex-row rounded mt-10 shadow">
+        <div className="container bg-gradient-to-b from-blue-100 dark:from-gray-900 flex flex-col items-center py-12 mx-auto md:px-5  lg:px-10 md:flex-row rounded mt-10 shadow">
           <div className="flex flex-col w-full pt-0 text-left pl-5 lg:flex-grow lg:w-1/2 md:items-start md:mb-0 text-blue-10 md:pr-16">
             <Link to="#" className="mb-4 text-base tracking-tighter text-gray-900 title-font px-4 py-1 rounded-full bg-green-200">
              27/05/2021
             </Link>
-            <h1 className="mb-4 text-4xl leading-snug text-gray-900 lg:text-5xl">
+            <h1 className="mb-4 text-4xl leading-snug text-gray-800 dark:text-gray-100  lg:text-5xl">
              Content Management System
             </h1>
             <p className="mb-6 text-xl font-light text-opacity-60">
@@ -102,12 +102,12 @@ export class DjangoBlocks extends Component {
         </div>
 
 
-        <div className="container bg-gradient-to-b from-gray-100 flex flex-col items-center py-12 mx-auto md:px-5  lg:px-10 md:flex-row rounded mt-10 shadow">
+        <div className="container bg-gradient-to-b from-blue-100 dark:from-gray-900 flex flex-col items-center py-12 mx-auto md:px-5  lg:px-10 md:flex-row rounded mt-10 shadow">
           <div className="flex flex-col w-full pt-0 text-left pl-5 lg:flex-grow lg:w-1/2 md:items-start md:mb-0 text-blue-10 md:pr-16">
             <Link to="#" className="mb-4 text-base tracking-tighter text-gray-900 title-font px-4 py-1 rounded-full bg-green-200">
              07/06/2021
             </Link>
-            <h1 className="mb-4 text-4xl leading-snug text-gray-900 lg:text-5xl">
+            <h1 className="mb-4 text-4xl leading-snug text-gray-800 dark:text-gray-100  lg:text-5xl">
            School Management System
             </h1>
             <p className="mb-6 text-xl font-light text-opacity-60">
@@ -124,12 +124,12 @@ export class DjangoBlocks extends Component {
           <img alt="img" className="order-first object-cover object-center w-full h-56 mb-4 ml-auto rounded-lg md:order-last lg:mb-0 lg:w-1/2 lg:h-auto" name="SAAS" title="SAAS" loading="lazy" src="https://ik.imagekit.io/vpa3fwqdnd/Components/content_Uf5dIyJKT5.svg"/>
         </div>
 
-        <div className="container bg-gradient-to-b from-gray-100 flex flex-col items-center py-12 mx-auto md:px-5  lg:px-10 md:flex-row rounded mt-10 shadow">
+        <div className="container bg-gradient-to-b from-blue-100 dark:from-gray-900 flex flex-col items-center py-12 mx-auto md:px-5  lg:px-10 md:flex-row rounded mt-10 shadow">
           <div className="flex flex-col w-full pt-0 text-left pl-5 lg:flex-grow lg:w-1/2 md:items-start md:mb-0 text-blue-10 md:pr-16">
             <Link to="#" className="mb-4 text-base tracking-tighter text-gray-900 title-font px-4 py-1 rounded-full bg-green-200">
              09/06/2021
             </Link>
-            <h1 className="mb-4 text-4xl leading-snug text-gray-900 lg:text-5xl">
+            <h1 className="mb-4 text-4xl leading-snug text-gray-800 dark:text-gray-100  lg:text-5xl">
               Clinical Management System
             </h1>
             <p className="mb-6 text-xl font-light text-opacity-60">

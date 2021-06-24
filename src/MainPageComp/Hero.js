@@ -8,7 +8,7 @@ export class Hero extends Component {
         return (
             <div>
                 
-      <section className="w-full px-3 antialiased lg:px-6 bg-blue-700 dark:bg-black">
+      <section className="w-full px-3 antialiased lg:px-6 bg-blue-700 dark:bg-gray-800">
     <div className="mx-auto max-w-7xl">
       <div className="container pt-32 pb-64 mx-auto text-center sm:px-4">
         <h1 className="text-3xl font-extrabold leading-10 tracking-tight text-white sm:text-5xl sm:leading-none">

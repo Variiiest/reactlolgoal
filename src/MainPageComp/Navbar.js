@@ -4,25 +4,25 @@ import Toggle from '../themes/themeToggle';
 
 const Nav =[
   {
-    name:"Tailwind Blocks",
-    url:"/tailwind",
+    name:"Tailwind  Themes",
+    url:"/themes",
   },
   {
     name:"Landing Pages",
     url:"/landingpages",
   },
   {
-    name:"Django Blocks",
-    url:"/django",
+    name:"Full Stack",
+    url:"/fullstack",
   },
-  // {
-  //   name:"Tools",
-  //   url:"/tools", 
-  // },
-  // {
-  //   name:"Blog",
-  //   url:"/blog",
-  // },
+  {
+    name:"Blog",
+    url:"/tutorials", 
+  },
+  {
+    name:"Courses",
+    url:"/courses",
+  },
 
  
 ]
@@ -54,7 +54,7 @@ export class Navbar extends Component {
 
      
       <section>
-      <div className="font-bold bg-white shadow dark:bg-white dark:bg-opacity-5 transition-all">
+      <div className="font-bold bg-white shadow dark:bg-gray-900 dark:bg-opacity-90 transition-all">
         <div className="max-w-7xl mx-auto px-4 sm:px-12">
           <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
