@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import {SecondNav} from './SecondNav'
 
 export class Header extends Component {
   render() {
     return (
       <div>
+
+        <SecondNav/>
         <section class="text-gray-700 dark:text-gray-200 body-font px-5 py-12">
-    <div class="container flex flex-col items-center mx-auto md:flex-row lg:px-8 rounded-2xl">
+    <div class="container flex flex-col items-center mx-auto md:flex-row lg:px-8 rounded bg-gradient-to-b from-gray-200 dark:from-gray-900">
       <div class="flex flex-col w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:items-start md:mb-0">
         <h1 class="mb-8 mt-4 text-4xl font-bold tracking-tighter text-left text-gray-700 dark:text-gray-200 lg:text-5xl title-font">
          Light Theme
@@ -77,7 +80,7 @@ export class Header extends Component {
   </section>
 
   <section class="text-gray-700 dark:text-gray-200 body-font px-5 py-12">
-    <div class="container flex flex-col items-center mx-auto md:flex-row lg:px-8 rounded-2xl">
+    <div class="container flex flex-col items-center mx-auto md:flex-row lg:px-8 rounded bg-gradient-to-b from-gray-200 dark:from-gray-900">
       <div class="flex flex-col w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:items-start md:mb-0">
         <h1 class="mb-8 mt-4 text-4xl font-bold tracking-tighter text-left text-gray-700 dark:text-gray-200 lg:text-5xl title-font">
          Dark theme
@@ -149,7 +152,7 @@ export class Header extends Component {
 
 
   <section class="text-gray-700 dark:text-gray-200 body-font px-5 py-12">
-    <div class="container flex flex-col items-center mx-auto md:flex-row lg:px-8 rounded-2xl">
+    <div class="container flex flex-col items-center mx-auto md:flex-row lg:px-8 rounded bg-gradient-to-b from-gray-200 dark:from-gray-900">
       <div class="flex flex-col w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:items-start md:mb-0">
         <h1 class="mb-8 mt-4 text-4xl font-bold tracking-tighter text-left text-gray-700 dark:text-gray-200 lg:text-5xl title-font">
          Light Dark 

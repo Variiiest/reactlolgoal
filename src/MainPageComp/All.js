@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export const Allroute= [
     {
         name:'Tailwind Blocks',
-        link:'tailwind',
+        link:'themes',
         about:'400 + Components Already.',
         image:'https://ik.imagekit.io/vpa3fwqdnd/Components/breadcrumb_EbEbafdbb.svg',
     },
@@ -41,7 +41,7 @@ export class All extends Component {
 
               {Allroute.map((data, index) =>
             <div className="p-4 md:w-1/4" key={index}>
-              <div className="h-full bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-lg border dark:border-black">
+              <div className="h-full bg-white dark:bg-gray-900 rounded overflow-hidden shadow-lg border dark:border-black">
                 <img className={"md:h-36 w-full object-contain relative transition duration-500 ease-in-out transform hover:scale-110 object-center bg-red-100"}  src={data.image} alt="blog" />
                 <div className="p-4">
                   <h1 className="title-font text-xl font-extrabold hover:text-blue-700 text-gray-900 dark:hover:text-blue-300 dark:text-gray-200 mb-3">
