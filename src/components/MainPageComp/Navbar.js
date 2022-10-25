@@ -53,7 +53,7 @@ export class Navbar extends Component {
             <div className="flex justify-between items-center pt-2 pb-2 md:justify-start md:space-x-10 ">
               <div className="flex justify-start lg:w-0 lg:flex-1">
                 <Link to="/" className="text-3xl font-bold text-white border-green-300 border-b-2">
-                  <span className="text-white font-bold">lol</span>goal.com
+                  <span className="text-white font-bold">stay</span>dev.com
               </Link>
               </div>
               <div className="-mr-2 -my-2 lg:hidden">
